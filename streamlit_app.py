@@ -378,15 +378,17 @@ def main():
                             # 현재는 예시 URL을 넣어두거나, Config에서 가져오게 할 수 있음.
                             
                             relative_path = r["path"].relative_to(OUTPUTS_ROOT).as_posix() 
-                            # [UPDATED] Hugging Face Datasets URL (Uploaded via upload_raw_data_batched.py)
+                            
+                            # [UPDATED] Hugging Face Datasets URL (Direct Download)
+                            # User requested direct download link (resolve) instead of viewer (blob).
                             base_url = "https://huggingface.co/datasets/aeoxxian/Datacenter_train/resolve/main/outputs"
                             raw_url = f"{base_url}/{relative_path}/gpu_samples.csv"
                             
-                            st.link_button("☁️ Download Full Raw Data (External)", raw_url)
+                            st.link_button("☁️ Download Raw Data (Direct)", raw_url)
                             
                             st.markdown("""
                             <div style="font-size:0.8rem; color:#64748b; margin-top:5px;">
-                            ℹ️ <b>Full Raw Data</b>: Hosted on Hugging Face Datasets (High-Speed Download).
+                            ℹ️ <b>Full Raw Data</b>: Hosted on Hugging Face Datasets.
                             </div>
                             """, unsafe_allow_html=True)
 
