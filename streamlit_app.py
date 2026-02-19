@@ -29,32 +29,31 @@ LLM_EXP_DIR = OUTPUTS_ROOT / "llm_power_experiment"
 GPU_EXPERIMENTS = {
     "00_baseline_reference": {"title": "기준 실험 (Baseline)", "desc": "전력 제어 없이 표준 조건으로 실행한 기준 실험입니다.", "baseline_key": "nocap"},
     "00_smoke_test": {"title": "파이프라인 검증 (Smoke Test)", "desc": "측정 파이프라인이 정상 작동하는지 확인하는 빠른 테스트입니다.", "baseline_key": None},
-    "01_batch_sweep_resnet50": {"title": "배치 크기 변화 실험", "desc": "배치 크기(16, 64, 128)에 따른 GPU 전력 소비 변화를 관찰합니다.", "baseline_key": "bs64"},
-    "02_operator_control": {"title": "연산 제어 실험 (Conv vs Linear)", "desc": "Conv2d와 Linear 레이어의 전력 소비 특성을 비교합니다.", "baseline_key": "conv"},
-    "03_control_cap_sweep": {"title": "전력 제한(Power Capping) 실험", "desc": "Power Capping(300W~150W)이 학습 속도와 총 에너지에 미치는 영향을 분석합니다.", "baseline_key": "nocap"},
-    "04_control_clock_sweep": {"title": "클럭 고정(Clock Locking) 실험", "desc": "GPU 클럭 주파수 고정이 전력 안정성과 성능에 미치는 영향을 분석합니다.", "baseline_key": "nocap"},
-    "05_pattern_fixed_var_burst": {"title": "부하 패턴(Burst) 실험", "desc": "일정한 부하(Fixed)와 간헐적 부하(Burst)의 전력 패턴 차이를 비교합니다.", "baseline_key": "fixed"},
-    "06_model_scaling_image": {"title": "모델 크기별 실험 (Vision)", "desc": "ResNet18, ResNet50, ConvNeXt Tiny 등 모델 크기에 따른 전력 특성입니다.", "baseline_key": "resnet50"},
-    "07_dataset_cifar10_cifar100_imagenet": {"title": "데이터셋 복잡도 실험", "desc": "CIFAR-10, CIFAR-100 등 데이터셋 복잡도에 따른 전력 차이입니다.", "baseline_key": "cifar10"},
-    "08_optimizer_sgd_adam_rmsprop": {"title": "옵티마이저 비교 실험", "desc": "SGD, Adam, RMSprop 옵티마이저별 전력 소비 특성을 비교합니다.", "baseline_key": "sgd"},
-    "09_precision_fp32_fp16_bf16": {"title": "정밀도(Precision) 실험", "desc": "FP32, FP16, BF16 정밀도에 따른 전력 절감 효과를 분석합니다.", "baseline_key": "fp32"},
-    "10_dataloader_workers_pin_memory": {"title": "데이터로더 최적화 실험", "desc": "Num workers와 Pin memory 설정이 GPU 유휴 시간(Idle)에 미치는 영향입니다.", "baseline_key": "w4_pin"},
-    "11_control_clock_sweep": {"title": "클럭 스윕 (Clock Sweep)", "desc": "클럭 주파수를 세밀하게 조절하여 최적의 동작 점을 찾습니다.", "baseline_key": "nocap"}
+    "01_batch_sweep_resnet50": {"title": "배치 크기 변화 실험", "desc": "배치 크기(16/64/128)에 따른 GPU 전력 소비 변화를 관찰합니다.", "baseline_key": "bs64"},
+    "02_operator_control": {"title": "운영자 제어 시뮬레이션", "desc": "비균일 추론 요청 패턴에서의 전력 프로파일을 관찰합니다.", "baseline_key": None},
+    "03_control_cap_sweep": {"title": "전력 상한 (Power Cap) 실험", "desc": "nvidia-smi 전력 제한(345W/460W/575W)이 성능과 전력에 미치는 영향을 테스트합니다.", "baseline_key": "cap575W"},
+    "04_control_ramp": {"title": "단계적 전력 램프 실험", "desc": "전력 제한을 단계적으로 변화시켜 GPU 적응 동작을 관찰합니다.", "baseline_key": "nocap"},
+    "05_pattern_fixed_var_burst": {"title": "추론 패턴 비교 실험", "desc": "고정/가변/버스트 세 가지 추론 스케줄링 패턴의 전력 영향을 비교합니다.", "baseline_key": "fixed"},
+    "06_model_scaling_image": {"title": "모델 아키텍처별 전력 비교", "desc": "10개 비전 모델 아키텍처가 생성하는 서로 다른 전력 시그니처를 비교합니다.", "baseline_key": "resnet50"},
+    "07_dataset_cifar10_cifar100_imagenet": {"title": "데이터셋별 전력 비교", "desc": "데이터셋(이미지 해상도, 클래스 수)이 전력 프로파일에 미치는 영향을 테스트합니다.", "baseline_key": "cifar10"},
+    "08_train_modes_fixed_automl": {"title": "학습 모드 비교", "desc": "고정 SGD 학습 vs Optuna 기반 자동 하이퍼파라미터 탐색의 전력 비교입니다.", "baseline_key": "fixed"},
+    "10_checkpoint_iteration_observe": {"title": "체크포인트 I/O 관찰", "desc": "주기적 모델 저장이 만드는 전력 스파이크(GPU 연산 중단 → 디스크 I/O)를 관찰합니다.", "baseline_key": None},
+    "11_control_clock_sweep": {"title": "클럭 주파수 고정 실험", "desc": "GPU SM 클럭을 특정 주파수(1005/1500/2100MHz)로 고정했을 때의 전력 변화를 테스트합니다.", "baseline_key": "clk2100MHz"}
 }
 
 LLM_EXPERIMENTS = {
-    "01_model_scaling_initial": {"title": "LLM 모델 크기별 실험 (Initial)", "desc": "GPT2, Qwen 등 LLM 모델 크기에 따른 초기 전력 분석입니다.", "baseline_key": "gpt2"},
-    "02_decode_length_32_128": {"title": "디코딩 길이 변화 실험 (Short)", "desc": "출력 토큰 길이(32 vs 128)에 따른 인퍼런스 전력 소비를 비교합니다.", "baseline_key": "maxtok32"},
-    "03_dataset_alpaca_mmlu_longbench": {"title": "LLM 데이터셋 비교", "desc": "Alpaca(Inst), MMLU(QA), LongBench(Doc) 데이터셋별 특성입니다.", "baseline_key": "alpaca"},
-    "04_decode_length_32_256_512": {"title": "긴 시퀀스 디코딩 실험 (Long)", "desc": "최대 512 토큰까지 디코딩 길이를 늘려가며 전력 패턴을 관찰합니다.", "baseline_key": "maxtok32"},
-    "05_inference_pattern_fixed_var_burst": {"title": "LLM 인퍼런스 패턴 실험", "desc": "지속적 요청(Fixed)과 간헐적 요청(Burst)의 전력 효율을 비교합니다.", "baseline_key": "fixed"},
-    "06_power_cap_200_240_280_320_360": {"title": "LLM 전력 제한 실험", "desc": "LLM 인퍼런스 시 Power Capping의 효과와 성능 저하를 분석합니다.", "baseline_key": "nocap"},
-    "07_clock_lock_1005_1500_2100": {"title": "LLM 클럭 고정 실험", "desc": "GPU 클럭 고정이 LLM 토큰 생성 속도와 전력에 미치는 영향입니다.", "baseline_key": "nocap"},
-    "08_ramp_rate": {"title": "Ramp Rate 실험", "desc": "Ramp-up 속도 조절이 전력 피크에 미치는 영향을 분석합니다.", "baseline_key": None},
-    "09_control_combo_cap_clock_ramp": {"title": "전력/클럭 복합 제어 실험", "desc": "Cap, Clock, Ramp-up 제어를 조합하여 최적의 설정을 탐색합니다.", "baseline_key": "nocap"},
-    "10_precision_bf16_fp16_4bit": {"title": "LLM 정밀도 비교 (FP16/BF16/4bit)", "desc": "FP16과 BF16, 4bit 양자화의 전력 효율 및 메모리 사용량을 비교합니다.", "baseline_key": "fp16"},
-    "11_train_infer_split": {"title": "학습 vs 인퍼런스 분리 실험", "desc": "LLM의 학습(Fine-tuning)과 인퍼런스 단계를 분리하여 측정합니다.", "baseline_key": None},
-    "12_model_scaling_tokenpowerbench": {"title": "토큰당 전력 벤치마크", "desc": "다양한 모델의 Token당 에너지(J/Token) 효율을 벤치마킹합니다.", "baseline_key": "gpt2"}
+    "01_model_scaling_initial": {"title": "LLM 모델 스케일링 (초기)", "desc": "GPT-2, Qwen3-4B, Mistral-7B, Llama3.1-8B 네 종류의 LLM 전력 프로파일을 비교합니다.", "baseline_key": "qwen3-4b"},
+    "02_decode_length_32_128": {"title": "디코드 길이 비교 (32 vs 128)", "desc": "최대 토큰 생성 길이(32/128)에 따른 전력 변화를 관찰합니다.", "baseline_key": "maxtok32"},
+    "03_dataset_alpaca_mmlu_longbench": {"title": "LLM 데이터셋 비교", "desc": "Alpaca, MMLU-Pro, LongBench 데이터셋별 전력 프로파일을 비교합니다.", "baseline_key": "alpaca"},
+    "04_decode_length_32_256_512": {"title": "디코드 길이 확장 비교 (32/256/512)", "desc": "더 넓은 범위의 최대 생성 토큰 수(32/256/512)별 전력 변화를 관찰합니다.", "baseline_key": "maxtok32"},
+    "05_inference_pattern_fixed_var_burst": {"title": "LLM 추론 패턴 비교", "desc": "고정/가변/버스트/동시 버스트 네 가지 추론 패턴이 전력과 처리량에 미치는 영향을 비교합니다.", "baseline_key": "fixed"},
+    "06_power_cap_200_240_280_320_360": {"title": "LLM 전력 상한 (Cap) 실험", "desc": "전력 제한(200~575W)이 LLM 추론 성능(tokens/s)과 효율(J/token)에 미치는 영향을 테스트합니다.", "baseline_key": "cap360W"},
+    "07_clock_lock_1005_1500_2100": {"title": "LLM 클럭 고정 실험", "desc": "GPU 클럭 고정(1005/1500/2100MHz)이 LLM 추론 성능에 미치는 영향을 테스트합니다.", "baseline_key": "clk2100MHz"},
+    "08_ramp_rate": {"title": "LLM 전력 램프 실험", "desc": "단계적 전력 변화가 LLM 추론 중 전력 소비에 미치는 영향을 관찰합니다.", "baseline_key": None},
+    "09_control_combo_cap_clock_ramp": {"title": "복합 제어 실험 (Cap + Clock + Ramp)", "desc": "전력 상한, 클럭 고정, 램프를 조합한 복합 제어의 효과를 테스트합니다.", "baseline_key": None},
+    "10_precision_bf16_fp16_4bit": {"title": "정밀도별 전력 비교 (BF16/FP16/4bit)", "desc": "연산 정밀도(BF16/FP16/4bit 양자화)에 따른 전력 및 성능 변화를 비교합니다.", "baseline_key": "fp16"},
+    "11_train_infer_split": {"title": "학습/추론 분리 실험", "desc": "학습만, 추론만, 전체 사이클의 전력 프로파일 차이를 비교합니다.", "baseline_key": "full_cycle"},
+    "12_model_scaling_tokenpowerbench": {"title": "LLM 모델별 토큰-전력 벤치마크", "desc": "GPT-2, Qwen3-4B, Mistral-7B, Llama3.1-8B의 tokens/s 및 J/token을 벤치마크합니다.", "baseline_key": "qwen3-4b"}
 }
 
 PHASE_COLORS = {
@@ -68,96 +67,178 @@ PHASE_LABELS = { k: k.replace("_", " ").title() for k in PHASE_COLORS.keys() } #
 
 def parse_run_info(run_name, config, run_path, context_exp_id=None):
     """
-    Context-Aware Parsing: Extracts Key Variables based on Experiment ID.
-    Returns: dict with 'Model', 'Condition', 'GroupKey', 'Repeats'
+    실험 ID(context_exp_id)에 따라 가장 중요한 변인(Variable)을 추출하여 라벨링합니다.
+    파일명, config.json 내용을 종합적으로 활용합니다.
     """
-    info = {"Model": "Unknown", "Condition": "Standard", "GroupKey": run_name}
+    info = {
+        "Model": "Unknown",
+        "Condition": "",
+        "GroupKey": "",
+        "Repeats": []
+    }
     
-    # 1. Base Model Name Extraction
-    match = re.search(r'(?:llm|fixed)_(.+?)_', run_name)
-    if match:
-        raw_model = match.group(1)
-        raw_model = raw_model.replace("gpu0", "").replace("ds", "").strip("_")
-        info["Model"] = raw_model
-    if config and "model_name" in config: info["Model"] = config["model_name"]
-    elif config and "model" in config: info["Model"] = config["model"]
+    # --- 1) 모델명 추출 ---
+    name_lower = run_name.lower()
+    if "resnet50" in name_lower: info["Model"] = "ResNet50"
+    elif "resnet18" in name_lower: info["Model"] = "ResNet18"
+    elif "vgg16" in name_lower: info["Model"] = "VGG16"
+    elif "densenet121" in name_lower: info["Model"] = "DenseNet121"
+    elif "mobilenetv2" in name_lower: info["Model"] = "MobileNetV2"
+    elif "efficientnet_b0" in name_lower: info["Model"] = "EfficientNet-B0"
+    elif "convnext_tiny" in name_lower: info["Model"] = "ConvNeXt-Tiny"
+    elif "resnext50" in name_lower: info["Model"] = "ResNeXt50"
+    elif "swin_t" in name_lower: info["Model"] = "Swin-T"
+    elif "vit_b_16" in name_lower: info["Model"] = "ViT-B/16"
+    elif "qwen3-4b" in name_lower: info["Model"] = "Qwen3-4B"
+    elif "llama3.1-8b" in name_lower: info["Model"] = "Llama3.1-8B"
+    elif "mistral-7b" in name_lower: info["Model"] = "Mistral-7B"
+    elif "gpt2" in name_lower: info["Model"] = "GPT-2"
+    else: info["Model"] = run_name.split('_')[0]
 
-    # 2. Key Variable Extraction based on Experiment Context
+    # --- 2) 실험 컨텍스트 기반 조건 추출 ---
     conditions = []
     
-    # Global Checks (Always relevant if present)
-    is_no_cap = "nocap" in run_name or (config and config.get("power_cap") is None)
-    
+    # 헬퍼 함수: Config 값 우선 확인, 없으면 파일명에서 검색
+    def get_val(key, default=None):
+        return config.get(key, default) if config else default
+        
+    def check_in_name(keywords):
+        return any(k in name_lower for k in keywords)
+
     if context_exp_id:
-        # --- VISION ---
+        # === GPU Experiments ===
         if "01_batch_sweep" in context_exp_id:
-            if config and "batch_size" in config: conditions.append(f"BS {config['batch_size']}")
-            else: # Fallback to filename
-                m = re.search(r'bs(\d+)', run_name)
-                if m: conditions.append(f"BS {m.group(1)}")
-                
-        elif "03_control_cap" in context_exp_id:
-            if is_no_cap: conditions.append("No Cap")
-            elif config and config.get("power_cap"): conditions.append(f"Cap {config['power_cap']}W")
-            else:
-                 m = re.search(r'cap(\d+)', run_name)
-                 if m: conditions.append(f"Cap {m.group(1)}W")
+            bs = get_val("batch_size")
+            if bs: conditions.append(f"BS {bs}")
+            elif "bs16" in name_lower: conditions.append("BS 16")
+            elif "bs64" in name_lower: conditions.append("BS 64")
+            elif "bs128" in name_lower: conditions.append("BS 128")
+            
+        elif "02_operator_control" in context_exp_id:
+            conditions.append("Variable Request Interval")
+            
+        elif "03_control_cap_sweep" in context_exp_id:
+            cap = get_val("power_cap")
+            if cap: conditions.append(f"Cap {cap}W")
+            elif "cap345w" in name_lower: conditions.append("Cap 345W")
+            elif "cap460w" in name_lower: conditions.append("Cap 460W")
+            elif "cap575w" in name_lower: conditions.append("Cap 575W")
+            elif "nocap" in name_lower: conditions.append("No Cap")
 
-        elif "04_control_clock" in context_exp_id:
-            if config and config.get("clock_lock_gpu"): conditions.append(f"Clock {config['clock_lock_gpu']}MHz")
-            else: conditions.append("No Lock")
+        elif "04_control_ramp" in context_exp_id:
+            conditions.append("Ramp Active")
 
-        elif "06_model_scaling" in context_exp_id:
-            # Model name IS the condition basically, but we can be explicit
-            pass 
+        elif "05_pattern" in context_exp_id: # 05_pattern_fixed_var_burst both GPU and LLM
+            if "burst" in name_lower and "concurrent" not in name_lower: conditions.append("Burst")
+            elif "concurrent_burst" in name_lower: conditions.append("Concurrent Burst")
+            elif "variable" in name_lower: conditions.append("Variable")
+            elif "fixed" in name_lower: conditions.append("Fixed")
+            
+        elif "06_model_scaling" in context_exp_id: # GPU #06
+            # 모델 자체가 변인이므로 추가 조건 불필요, 하지만 Config 확인
+            pass
 
-        elif "09_precision" in context_exp_id:
-            if config:
-                if config.get("use_fp16"): conditions.append("FP16")
-                elif config.get("use_bf16"): conditions.append("BF16")
-                elif config.get("use_amp"): conditions.append("AMP")
-                else: conditions.append("FP32")
-                
-        # --- LLM ---
+        elif "07_dataset" in context_exp_id:
+            ds = get_val("dataset")
+            if ds: conditions.append(ds)
+            elif "cifar100" in name_lower: conditions.append("CIFAR-100")
+            elif "imagenet" in name_lower: conditions.append("ImageNet")
+            elif "cifar10" in name_lower: conditions.append("CIFAR-10")
+
+        elif "08_train_modes" in context_exp_id and "automl" in name_lower:
+            conditions.append("AutoML")
+            
+        elif "10_checkpoint" in context_exp_id:
+             conditions.append("Checkpoint Active")
+             
+        elif "11_control_clock" in context_exp_id: # GPU #11
+            if "clk1005mhz" in name_lower: conditions.append("Clock 1005MHz")
+            elif "clk1500mhz" in name_lower: conditions.append("Clock 1500MHz")
+            elif "clk2100mhz" in name_lower: conditions.append("Clock 2100MHz")
+
+        # === LLM Experiments ===
+        elif "01_model_scaling" in context_exp_id: # LLM #01
+             # 모델 자체가 변인
+             pass
+             
         elif "02_decode_length" in context_exp_id or "04_decode_length" in context_exp_id:
-            if config and "gen_max_new_tokens" in config:
-                conditions.append(f"MaxTok {config['gen_max_new_tokens']}")
-                
-        elif "05_inference_pattern" in context_exp_id:
-            pat = config.get("inference_pattern", "fixed") if config else "fixed"
-            if pat == "concurrent_burst": conditions.append("Concurrent Burst")
-            elif pat == "variable": conditions.append("Variable")
-            elif "burst" in run_name: conditions.append("Burst")
+            # Check for maxtok explicitly
+            if "maxtok32" in name_lower: conditions.append("MaxTok 32")
+            elif "maxtok128" in name_lower: conditions.append("MaxTok 128")
+            elif "maxtok256" in name_lower: conditions.append("MaxTok 256")
+            elif "maxtok512" in name_lower: conditions.append("MaxTok 512")
+            else:
+                tok = get_val("gen_max_new_tokens")
+                if tok: conditions.append(f"MaxTok {tok}")
+        
+        elif "03_dataset" in context_exp_id: # LLM #03
+            if "alpaca" in name_lower: conditions.append("Alpaca")
+            elif "mmlu-pro" in name_lower: conditions.append("MMLU-Pro")
+            elif "longbench" in name_lower: conditions.append("LongBench")
+            
+        elif "05_inference_pattern" in context_exp_id: # LLM #05
+            if "concurrent_burst" in name_lower: conditions.append("Concurrent Burst")
+            elif "burst" in name_lower: conditions.append("Burst")
+            elif "variable" in name_lower: conditions.append("Variable")
             else: conditions.append("Fixed")
             
-        elif "06_power_cap" in context_exp_id:
-            if is_no_cap: conditions.append("No Cap")
-            elif config and config.get("power_cap"): conditions.append(f"Cap {config['power_cap']}W")
+        elif "06_power_cap" in context_exp_id: # LLM #06
+             # Extract Cap from name or config
+             found_cap = False
+             match = re.search(r"cap(\d+)w", name_lower)
+             if match: 
+                 conditions.append(f"Cap {match.group(1)}W")
+                 found_cap = True
+             if not found_cap:
+                 cap = get_val("power_cap")
+                 if cap: conditions.append(f"Cap {cap}W")
+        
+        elif "07_clock_lock" in context_exp_id: # LLM #07
+            if "clk1005mhz" in name_lower: conditions.append("Clock 1005MHz")
+            elif "clk1500mhz" in name_lower: conditions.append("Clock 1500MHz")
+            elif "clk2100mhz" in name_lower: conditions.append("Clock 2100MHz")
             
-        elif "07_clock_lock" in context_exp_id:
-            if config and config.get("clock_lock_gpu"): conditions.append(f"Clock {config['clock_lock_gpu']}MHz")
-            else: conditions.append("Default Clock")
+        elif "08_ramp_rate" in context_exp_id: # LLM #08
+            conditions.append("Ramp")
+            
+        elif "09_control_combo" in context_exp_id:
+            # 복합 조건 파싱
+            combo = []
+            if "cap" in name_lower:
+                match = re.search(r"cap(\d+)w", name_lower)
+                if match: combo.append(f"Cap {match.group(1)}W")
+            if "clk" in name_lower:
+                match = re.search(r"clk(\d+)mhz", name_lower)
+                if match: combo.append(f"Clock {match.group(1)}MHz")
+            if "ramp" in name_lower: combo.append("Ramp")
+            if combo: conditions.append(" + ".join(combo))
+            
+        elif "10_precision" in context_exp_id: # LLM #10
+            if "4bit" in name_lower: conditions.append("4-bit")
+            elif "fp16" in name_lower: conditions.append("FP16")
+            elif "bf16" in name_lower: conditions.append("BF16")
+            elif "nocap" in name_lower: conditions.append("BF16 (Default)") # 보통 Default가 BF16
+            
+        elif "11_train_infer_split" in context_exp_id:
+            if "train_only" in name_lower: conditions.append("Train Only")
+            elif "infer_only" in name_lower: conditions.append("Inference Only")
+            elif "full_cycle" in name_lower or "nocap" in name_lower: conditions.append("Full Cycle")
+            
+        elif "12_model_scaling" in context_exp_id: # LLM #12
+            pass
 
-        elif "10_precision" in context_exp_id:
-            if config:
-                if config.get("use_4bit"): conditions.append("4bit")
-                elif config.get("use_bf16"): conditions.append("BF16")
-                elif config.get("use_fp16"): conditions.append("FP16")
-                else: conditions.append("FP32")
-
-    # If no specific condition found, fallback to generic parsing
-    if not conditions:
-        if is_no_cap: conditions.append("No Cap")
-        if "fixed" in run_name: conditions.append("Fixed")
-    
-    # Deduplicate
+    # --- 3) 조건 조합 및 클린업 ---
+    # 중복 제거 및 정렬
     unique_conditions = sorted(list(set(conditions)))
     if unique_conditions:
         info["Condition"] = ", ".join(unique_conditions)
     else:
-        info["Condition"] = "Standard"
+        # 조건이 특별히 없으면 Standard 또는 Baseline 표시
+        if "nocap" in name_lower and "fixed" in name_lower: info["Condition"] = "Standard (Fixed/NoCap)"
+        else: info["Condition"] = "Standard"
 
-    # Repeats Handling
+    # --- 4) 반복 실험(Repeat) 처리 ---
+    # 폴더 구조상 repeats/r01, r02 등인지 확인
     parts = run_path.parts
     is_repeat = False
     repeat_idx = ""
@@ -168,6 +249,7 @@ def parse_run_info(run_name, config, run_path, context_exp_id=None):
             break
             
     info["GroupKey"] = f"{info['Model']} ({info['Condition']})"
+    if info["Condition"] == "Standard": info["GroupKey"] = info["Model"]
     if is_repeat:
         info["Repeats"] = repeat_idx
 
