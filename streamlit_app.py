@@ -336,6 +336,39 @@ def main():
                         
                         fig = create_phase_plot(df, r["label"])
                         st.plotly_chart(fig, use_container_width=True, key=f"chart_{exp_id}_{i}")
+                        
+                        # Download Section
+                        with st.expander("💾 Download Data"):
+                            # 1. Config JSON
+                            st.download_button(
+                                label="Config (JSON)",
+                                data=json.dumps(r["config"], indent=2),
+                                file_name=f"{r['name']}_config.json",
+                                mime="application/json",
+                                key=f"dl_cfg_{exp_id}_{i}"
+                            )
+                            
+                            # 2. Phase Metrics CSV
+                            if r["metrics"]:
+                                metrics_df = pd.DataFrame.from_dict(r["metrics"], orient='index')
+                                st.download_button(
+                                    label="Metrics Summary (CSV)",
+                                    data=metrics_df.to_csv().encode('utf-8'),
+                                    file_name=f"{r['name']}_metrics.csv",
+                                    mime="text/csv",
+                                    key=f"dl_met_{exp_id}_{i}"
+                                )
+                                
+                            # 3. Time-series CSV (Load on click logic not easy in cycle, so lazy prep)
+                            # Note: This uses the currently loaded df (could be Lite or Full)
+                            if not df.empty:
+                                st.download_button(
+                                    label="Time-series Data (CSV)",
+                                    data=df.to_csv(index=False).encode('utf-8'),
+                                    file_name=f"{r['name']}_timeseries.csv",
+                                    mime="text/csv",
+                                    key=f"dl_ts_{exp_id}_{i}"
+                                )
 
 if __name__ == "__main__":
     main()
