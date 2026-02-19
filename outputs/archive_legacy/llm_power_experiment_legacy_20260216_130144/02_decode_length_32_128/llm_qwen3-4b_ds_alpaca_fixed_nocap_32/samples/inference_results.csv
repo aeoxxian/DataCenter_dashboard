@@ -1,0 +1,70 @@
+request_idx,input_tokens,output_tokens,prefill_time_ms,decode_time_ms,prompt_preview,output_preview
+0,71,1,51.142215728759766,87.63957023620605,"Summarize the given passage.
+A recent study showed that global climate change is",
+1,19,32,37.909507751464844,865.7760620117188,"Classify the following into animals, plants, and minerals
+Oak tree, copper ore, ",", gold, rose bush, silver, shark, iron ore, lily, coral, goldfish, quartz, rhino"
+2,8,1,34.020185470581055,29.56247329711914,Provide one example for a cultural practice.,
+3,46,1,35.43257713317871,31.998395919799805,"Extract the facts from the paragraph.
+Online education continues to become more ",
+4,9,1,32.61065483093262,30.225038528442383,Brainstorm possible solutions to reduce water pollution.,
+5,9,32,32.13667869567871,864.274263381958,Generate a poem with 10 lines.," The poem should be about the beauty of a summer day.
+The sun shines bright, a g"
+6,25,1,36.135196685791016,33.07652473449707,"Use the given data to calculate the median.
+[2, 3, 7, 8, 10]",
+7,16,1,31.94570541381836,30.672311782836914,What is the force on a 1 kg mass due to the gravitational force?,
+8,9,1,34.09838676452637,29.56390380859375,Who is the world's most famous painter?,
+9,7,1,34.062862396240234,29.761552810668945,What is the capital of France?,
+10,17,32,35.94636917114258,877.051830291748,Calculate the total surface area of a cube with a side length of 5 cm.," To calculate the total surface area of a cube, we can use the formula:
+
+$$
+\tex"
+11,17,32,36.94748878479004,867.300271987915,"Convert the given equation into an algebraic expression.
+3x+5y=9","
+Answer:
+$$
+3x+5y=9
+$$
+$$
+3x+5y=9
+$$
+
+Use the following information."
+12,10,32,31.086206436157227,858.5872650146484,Describe the life and reign of King Charles II.," King Charles II of England was born on May 29, 1630, and became king on May 2, "
+13,7,1,34.386634826660156,31.092166900634766,How can we reduce air pollution?,
+14,7,32,32.48023986816406,874.0777969360352,Discuss the causes of the Great Depression,".
+Answer:
+The Great Depression was caused by a combination of factors, including"
+15,31,1,33.608198165893555,32.28616714477539,"Given a set of numbers, find the maximum value.
+Set: {10, 3, 25, 6, 16}",
+16,11,1,31.893014907836914,29.749631881713867,Explain the process of cellular respiration in plants.,
+17,7,1,32.44519233703613,28.365373611450195,Generate a poem that expresses joy.,
+18,21,2,33.904075622558594,60.7600212097168,"Evaluate this sentence for spelling and grammar mistakes
+He finnished his meal a","
+"
+19,7,1,33.948421478271484,31.8906307220459,Give three tips for staying healthy.,
+20,13,32,38.19608688354492,883.3017349243164,"Transcribe the recording into text.
+Recording about the history of Waterloo",":
+The Battle of Waterloo was fought on June 18, 1815, near the town of Waterloo "
+21,12,8,39.23749923706055,233.62016677856445,"Generate three verbs that mean the same as ""to apologize""", and explain the differences in usage.
+22,9,32,29.45733070373535,868.5975074768066,Explain the concept of cogging torque., Cogging torque is a type of torque that occurs in permanent magnet synchronous 
+23,30,1,36.79943084716797,32.24658966064453,"Analyze the given text for its tone.
+The world has been greatly impacted by the ",
+24,14,32,32.83858299255371,862.4956607818604,Generate a list of ten items a person might need for a camping trip,".
+1. Tent
+2. Sleeping bag
+3. Sleeping pad
+4. Headlamp
+5. Camping stove
+6. Cookin"
+25,21,32,34.761667251586914,887.3093128204346,"Arrange the given numbers in ascending order.
+2, 4, 0, 8, 3",", 7, 1, 5
+Answer: 0, 1, 2, 3, 4, 5, 7"
+26,11,1,32.2422981262207,30.406951904296875,What is the product of 6 and 2?,
+27,9,14,29.869794845581055,392.0860290527344,Render a 3D model of a house,"
+
+I cannot render a 3D model of a house."
+28,14,32,32.40966796875,876.6171932220459,"Find the area of a circle given its radius.
+Radius = 4"," cm
+Answer:
+The area of a circle is $A = \pi r^2$.  Substituting $r = 4$, we get"
+29,7,1,32.51504898071289,30.191659927368164,Give two examples of a liquid.,

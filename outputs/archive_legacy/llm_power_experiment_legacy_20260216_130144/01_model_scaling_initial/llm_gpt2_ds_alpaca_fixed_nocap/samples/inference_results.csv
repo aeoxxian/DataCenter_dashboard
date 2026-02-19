@@ -1,0 +1,88 @@
+request_idx,input_tokens,output_tokens,prefill_time_ms,decode_time_ms,prompt_preview,output_preview
+0,7,32,11.10529899597168,227.29206085205078,Outline the consequences of deforestation.,"
+1. Dry land is a significant contributor to global warming.
+2. Global warming i"
+1,15,128,8.236169815063477,732.7959537506104,"Find the area of a circle given its radius.
+Radius = 4","
+Step 1:
+Check the area.
+Step 2:
+Make a triangle with the radius of the circle a"
+2,13,128,9.023427963256836,712.421178817749,"Identify the odd one out.
+Twitter, Instagram, Telegram",", Facebook, WhatsApp
+First, create a profile.
+Create a contact list of your favo"
+3,23,18,8.733272552490234,109.70807075500488,Arrange the words in the given sentence to form a grammatically correct sentence," up and down.
+the fox was laughing.
+the fox was not laughing."
+4,16,49,8.157491683959961,279.6766757965088,"Write a short paragraph about the given topic.
+The importance of using renewable"," when calculating your cost of living is illustrated by the following graph:
+The"
+5,8,3,8.36634635925293,20.418882369995117,Generate a poem with 10 lines.,"
+###"
+6,11,4,7.828950881958008,25.9702205657959,Develop a plan to reduce electricity usage in a home.,"
+
+###"
+7,8,43,7.788419723510742,251.25551223754883,Describe the structure of an atom.,"
+###
+A atom consists of a solid containing a nucleus, a gas, and a nucleus. An a"
+8,15,128,8.307695388793945,718.7867164611816,Generate a list of ten items a person might need for a camping trip,".
+
+1. WATER
+
+A water bottle, toilet paper, and plastic cup should be used to pro"
+9,13,9,7.605552673339844,55.62138557434082,Explain the use of word embeddings in Natural Language Processing," (NLP) applications.
+###"
+10,9,4,8.652925491333008,25.278091430664062,Design a logo for a website about recycling.,"
+
+###"
+11,9,128,8.05807113647461,710.512638092041,Explain the concept of cogging torque.,"
+
+The cogging torque is the amount of torque that a given object can produce wit"
+12,8,128,7.910728454589844,725.6348133087158,Look up the boiling point of water.," Let it stand for a couple of minutes.
+Once it's risen to a boil, add the remain"
+13,7,35,8.454561233520508,207.11326599121094,Give two examples of a liquid.,"
+Take a glass of wine.
+Two examples of a liquid.
+Two examples of a liquid.
+Or a "
+14,8,103,8.167505264282227,573.6398696899414,Describe the function of a computer motherboard,"
+The function of a computer motherboard is to provide power for a computer syste"
+15,11,128,7.997274398803711,718.508243560791,Explain the concept of artificial intelligence in simple terms.,"
+
+This is a common theme among researchers interested in artificial intelligence"
+16,9,13,7.775783538818359,79.38528060913086,Who is the world's most famous painter?," He's a classic painter, but he's not alone."
+17,16,39,7.936716079711914,236.59086227416992,"Transcribe the recording into text.
+Recording about the history of Waterloo","
+This song was written by the poet and musician Mervyn Henry. It is a powerful a"
+18,9,128,7.822275161743164,722.8062152862549,Provide one example for a cultural practice.,"
+1. Art of the Sea
+2. Art of the Sea in the Land of the Free
+3. Art of the Sea i"
+19,7,2,8.350610733032227,14.723062515258789,Discuss the causes of the Great Depression,"
+"
+20,69,85,7.6198577880859375,484.785795211792,"Rewrite the given paragraph in a shorter, easier to understand form.
+Although it","
+Although there are always those who claim to be able to find answers to these q"
+21,18,22,8.974075317382812,135.73074340820312,Calculate the total surface area of a cube with a side length of 5 cm.,"
+For example, if the area is 10 cm, then the area of the cube is 10 cm."
+22,14,3,8.432388305664062,22.974252700805664,Identify the lines of longitude that divides North and South America.,"
+###"
+23,19,63,8.231878280639648,374.80831146240234,"Explain why the given definition is wrong.
+A mole is an animal that lives underg", It can grow up to 4 feet high and can weigh up to 80 pounds. Many animals have 
+24,21,1,8.64100456237793,8.580207824707031,"Use the given data to calculate the median.
+[2, 3, 7, 8, 10]",
+25,8,20,8.353233337402344,124.48954582214355,Generate a list of random words.,"
+### Input:
+A blackhole is a place that has no place, only space."
+26,19,41,8.039474487304688,242.7980899810791,"Classify the following into animals, plants, and minerals
+Oak tree, copper ore, "," ivory, gold ore, copper ore, gold ore, gold ore, and silver ore.
+###
+Plain gras"
+27,16,18,8.344888687133789,110.99362373352051,"Convert from celsius to fahrenheit.
+Temperature in Celsius: 15"," °C
+Humidity: 24 %
+Humidity in Fahrenheit: 24 °C"
+28,32,30,8.032083511352539,179.90899085998535,"Analyze the given text for its tone.
+The world has been greatly impacted by the ", The pandemic is the first known pandemic to affect the Central Asian region and
+29,8,1,8.320331573486328,8.892297744750977,Generate a poem that expresses joy.,

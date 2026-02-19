@@ -1,0 +1,97 @@
+request_idx,input_tokens,output_tokens,prefill_time_ms,decode_time_ms,prompt_preview,output_preview
+0,47,123,27.370214462280273,2838.132858276367,"Extract the facts from the paragraph.
+Online education continues to become more ", The flexibility of online learning is one of its most attractive features. It a
+1,29,128,29.37793731689453,2842.499017715454,"Given a set of numbers, find the maximum value.
+Set: {10, 3, 25, 6, 16}"," 
+Maximum Value: 25 
+Explanation: The maximum value is the largest number in the"
+2,9,128,32.37318992614746,2860.328197479248,Provide one example for a cultural practice., Provide an explanation for why this practice is important. Provide a response t
+3,13,52,33.01858901977539,1187.368631362915,"Identify the odd one out.
+Twitter, Instagram, Telegram",", TikTok
+A) Twitter
+B) Instagram
+C) Telegram
+D) TikTok
+Answer: C) Telegram. Tele"
+4,21,128,32.96232223510742,2832.973003387451,Write a short story in third person narration about a protagonist who has to mak," She must weigh the pros and cons of two job offers.
+As she sat in her office, s"
+5,7,128,31.633853912353516,2854.578733444214,How did Julius Caesar die?, Julius Caesar was assassinated on the Ides of March in 44 BC. He was stabbed mu
+6,12,105,29.9224853515625,2346.9138145446777,Explain the concept of artificial intelligence in simple terms.," Explain how AI can be used in various industries.
+Artificial intelligence (AI) "
+7,8,128,31.01634979248047,2857.670783996582,Generate a list of random words.," Each word should be at least 5 letters long.
+Generate a list of random words. E"
+8,14,128,32.08279609680176,2835.3490829467773,"Transcribe the recording into text.
+Recording about the history of Waterloo","
+Transcript of the recording
+In the late 19th century, Waterloo, Iowa, was a thr"
+9,72,24,46.715736389160156,542.8094863891602,"Summarize the given passage.
+A recent study showed that global climate change is", It is therefore essential that governments and businesses take immediate action
+10,14,128,32.21559524536133,2828.3164501190186,Generate a list of adjectives that describe a person as brave.," 
+1. Fearless 
+2. Courageous 
+3. Valiant 
+4. Intrepid 
+5. Daring 
+6. Heroic 
+7. "
+11,7,128,31.621932983398438,2860.382080078125,What does DNA stand for?, DNA stands for deoxyribonucleic acid. It is the molecule that carries the genet
+12,12,128,32.37462043762207,2861.283540725708,Explain the process of cellular respiration in plants.,"?
+Cellular respiration is the process by which cells generate energy from the fo"
+13,14,73,32.469987869262695,1609.5306873321533,Identify the lines of longitude that divides North and South America.,"?
+Lines of longitude that divide North and South America are 40°W, 60°W, 80°W, 1"
+14,17,39,29.630422592163086,872.4472522735596,What is the force on a 1 kg mass due to the gravitational force?," 
+A) 9.8 N 
+B) 10 N 
+C) 8.9 N 
+D) 11 N 
+Answer: A) 9.8 N"
+15,13,128,32.430171966552734,2894.7629928588867,Compare and contrast the Cuban Missile Crisis and the Vietnam War.," How did each conflict impact American society?
+The Cuban Missile Crisis and the"
+16,32,36,28.043746948242188,824.4040012359619,"Edit the following sentence to make it more concise.
+He ran to the bus stop in o"," 
+He sprinted to the bus stop with only five minutes to spare. 
+Note: This sente"
+17,12,128,35.20345687866211,2829.1709423065186,Explain the use of word embeddings in Natural Language Processing," (NLP) tasks.
+Word embeddings are a type of vector representation for words and "
+18,20,103,31.85105323791504,2289.077043533325,"Classify the following into animals, plants, and minerals
+Oak tree, copper ore, ","
+Animals: elephant
+Plants: oak tree
+Minerals: copper ore
+Animals, plants, and mi"
+19,12,73,30.13324737548828,1617.943525314331,Propose an ethical solution to the problem of data privacy,"
+Data privacy is an important ethical issue in the digital age. Individuals have"
+20,18,65,30.215740203857422,1432.863473892212,Calculate the total surface area of a cube with a side length of 5 cm.," 
+
+A = 6s^2
+where s is the side length of the cube. 
+
+A = 6 * (5 cm)^2
+A = 6 * 2"
+21,8,128,31.913280487060547,2877.4218559265137,What are the three primary colors?," 
+The three primary colors are red, blue, and yellow. They cannot be created by "
+22,16,128,33.08868408203125,2857.1224212646484,"Write a short paragraph about the given topic.
+The importance of using renewable"," resources
+The use of renewable energy sources such as wind, solar, and hydroele"
+23,15,38,31.21042251586914,867.0566082000732,"Find the area of a circle given its radius.
+Radius = 4","
+Area = πr2
+Area = 3.14 x 16
+Area = 50.24
+The area of the circle is 50.24 square"
+24,13,67,33.822059631347656,1522.7890014648438,"Generate three verbs that mean the same as ""to apologize""","?
+Generate three verbs that mean the same as ""to apologize""? 
+1. Excuse 
+2. Regr"
+25,10,128,31.925201416015625,2855.8943271636963,Brainstorm possible solutions to reduce water pollution.," Discuss the advantages and disadvantages of each solution.
+Brainstorming possib"
+26,8,128,31.476736068725586,2862.475633621216,Discuss the causes of the Great Depression,".
+The Great Depression was a global economic downturn that lasted from 1929 to t"
+27,10,128,31.07476234436035,2853.0895709991455,Render a 3D model of a house," in a realistic way.
+The 3D model should be made up of various components such a"
+28,9,128,32.37724304199219,2850.590229034424,Design an app for a delivery company.," Include an estimated cost for development and the technologies used.
+The app sh"
+29,15,63,31.25476837158203,1409.909725189209,"Convert from celsius to fahrenheit.
+Temperature in Celsius: 15","
+Temperature in Fahrenheit: 59
+Explanation: The formula to convert Celsius to Fa"

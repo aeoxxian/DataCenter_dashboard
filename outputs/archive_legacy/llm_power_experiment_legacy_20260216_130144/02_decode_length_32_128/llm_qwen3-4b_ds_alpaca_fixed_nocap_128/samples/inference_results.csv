@@ -1,0 +1,47 @@
+request_idx,input_tokens,output_tokens,prefill_time_ms,decode_time_ms,prompt_preview,output_preview
+0,9,1,33.15877914428711,89.65563774108887,Generate a poem with 10 lines.,
+1,7,1,36.719322204589844,30.922889709472656,Generate a list of random words.,
+2,7,8,38.35177421569824,224.90191459655762,What is the capital of France?, The capital of France is Paris.
+3,9,1,34.026384353637695,31.10194206237793,Brainstorm possible solutions to reduce water pollution.,
+4,11,1,34.39807891845703,32.145023345947266,Explain the concept of artificial intelligence in simple terms.,
+5,66,1,58.16221237182617,33.08820724487305,"Rewrite the given paragraph in a shorter, easier to understand form.
+Although it",
+6,9,1,35.05873680114746,29.84905242919922,Who is the world's most famous painter?,
+7,12,38,32.813310623168945,1017.5819396972656,Compare and contrast the Cuban Missile Crisis and the Vietnam War.," Include in your discussion the causes, key events, and outcomes of each conflic"
+8,13,1,34.397125244140625,30.23815155029297,Generate a list of adjectives that describe a person as brave.,
+9,30,1,33.21218490600586,31.000614166259766,"Analyze the given text for its tone.
+The world has been greatly impacted by the ",
+10,11,1,33.364295959472656,29.67357635498047,Develop a plan to reduce electricity usage in a home.,
+11,12,1,33.495187759399414,30.699491500854492,Describe a time when you had to make a difficult decision.,
+12,7,1,33.97417068481445,29.47211265563965,Give two examples of a liquid.,
+13,11,10,31.70323371887207,270.7211971282959,What is the product of 6 and 2?, To find the product of 6 and 
+14,12,30,32.04965591430664,797.1155643463135,"Identify the odd one out.
+Twitter, Instagram, Telegram",", Facebook
+Answer: Telegram is the odd one out. It is a messaging app, while Twi"
+15,39,1,35.18056869506836,31.727075576782227,"Reverse engineer this code to create a new version
+def factorialize(num):
+  fact",
+16,7,128,33.22887420654297,3361.316442489624,Discuss the causes of the Great Depression," and its effects on the United States economy and society.
+The Great Depression "
+17,6,94,32.96160697937012,2478.165626525879,How did Julius Caesar die?," Julius Caesar was assassinated on March 15, 44 BC, in the Roman Senate. He was "
+18,31,1,34.307003021240234,31.523466110229492,"Edit the following sentence to make it more concise.
+He ran to the bus stop in o",
+19,18,1,35.4306697845459,31.06403350830078,"Rewrite the following sentence using active voice.
+The news report was read by t",
+20,7,1,31.39495849609375,28.49268913269043,How can we reduce air pollution?,
+21,7,1,33.509016036987305,30.670881271362305,Give three tips for staying healthy.,
+22,10,128,34.98530387878418,3373.1813430786133,Describe the life and reign of King Charles II.," King Charles II (1630–1685) was the King of England, Scotland, and Ireland from"
+23,19,72,34.66510772705078,1908.4618091583252,"Classify the following into animals, plants, and minerals
+Oak tree, copper ore, ",", rose bush, gold, shark, quartz, cactus, silver, butterfly, iron ore, fern, rhi"
+24,14,2,32.146453857421875,57.80744552612305,Generate a list of ten items a person might need for a camping trip,.
+25,25,1,34.26313400268555,31.384944915771484,"Use the given data to calculate the median.
+[2, 3, 7, 8, 10]",
+26,6,128,34.922122955322266,3393.1565284729004,What does DNA stand for?," What is its structure? What are its main functions?
+Answer: DNA stands for **de"
+27,16,22,34.060001373291016,583.245038986206,What is the force on a 1 kg mass due to the gravitational force?," Also, what is the force on a 1 kg mass due to the electric force?
+
+Okay, the"
+28,9,2,34.90424156188965,62.413930892944336,Render a 3D model of a house,".
+"
+29,46,8,35.26735305786133,223.06180000305176,"Extract the facts from the paragraph.
+Online education continues to become more "," However, there are also disadvantages such"

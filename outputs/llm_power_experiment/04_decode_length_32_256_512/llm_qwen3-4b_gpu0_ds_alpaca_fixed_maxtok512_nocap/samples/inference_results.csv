@@ -1,0 +1,89 @@
+request_idx,input_tokens,output_tokens,prefill_time_ms,decode_time_ms,prompt_preview,output_preview
+0,7,101,280.06768226623535,1371.4377880096436,Give three tips for staying healthy.," 1. Eat a balanced diet rich in fruits, vegetables, whole grains, lean proteins,"
+1,7,512,17.019033432006836,6915.634632110596,What are the three primary colors?," What are the three secondary colors? What are the three tertiary colors?
+
+The t"
+2,7,512,17.561912536621094,6756.337642669678,Describe the structure of an atom.," Include the subatomic particles, their charges, and their locations within the "
+3,7,512,17.20261573791504,6738.798141479492,How can we reduce air pollution?, What are the main sources of air pollution? What are the health effects of air 
+4,12,512,16.902446746826172,6709.6757888793945,Describe a time when you had to make a difficult decision.," What was the decision, and what factors influenced your choice? How did you han"
+5,12,209,16.35575294494629,2742.5355911254883,"Identify the odd one out.
+Twitter, Instagram, Telegram",", WhatsApp
+
+The odd one out is **Telegram**.
+
+**Reasoning:**
+- **Twitter**, **In"
+6,18,512,19.751310348510742,6712.98623085022,"Explain why the following fraction is equivalent to 1/4
+4/16","
+
+To determine why the fraction \( \frac{4}{16} \) is equivalent to \( \frac{1}{"
+7,20,512,17.45438575744629,6753.007888793945,Write a short story in third person narration about a protagonist who has to mak, The story should include a detailed description of the protagonist's surroundin
+8,9,512,16.79825782775879,6746.929883956909,Render a 3D model of a house," with a red roof and a blue door.
+
+We are going to create a simple 3D model of a"
+9,21,512,17.365455627441406,6761.69490814209,"Evaluate this sentence for spelling and grammar mistakes
+He finnished his meal a",".
+
+The sentence contains several spelling and grammar errors. Here is the correc"
+10,6,227,20.786046981811523,2965.1219844818115,How did Julius Caesar die?," Julius Caesar died by **assassination**. On the Ides of March (March 15), 44 BC"
+11,7,140,16.258955001831055,1801.7172813415527,What is the capital of France?," The capital of France is Paris. It is a major cultural, economic, and political"
+12,14,128,16.90816879272461,1664.313554763794,Generate a list of ten items a person might need for a camping trip,".
+
+1. Tent  
+2. Sleeping bag  
+3. Sleeping pad or air mattress  
+4. Headlamp or "
+13,7,512,15.828609466552734,6785.408973693848,Discuss the causes of the Great Depression,", and how it affected the global economy.
+
+The Great Depression was a severe wor"
+14,19,512,17.669677734375,6781.223297119141,"Classify the following into animals, plants, and minerals
+Oak tree, copper ore, ",", gold, rose, iron ore, human, coral, salt, fern
+
+Here is the classification of "
+15,11,512,18.007278442382812,6757.0319175720215,Explain the use of word embeddings in Natural Language Processing," (NLP), and how they help in representing text data.
+
+Word embeddings are a type"
+16,7,405,17.30656623840332,5336.717844009399,Describe the function of a computer motherboard,".
+
+The **motherboard** is the central component of a computer system that connec"
+17,39,512,18.950939178466797,6767.184734344482,"Reverse engineer this code to create a new version
+def factorialize(num):
+  fact","
+
+# This function is broken. Fix it.
+
+# The function is broken because it only i"
+18,11,512,17.647981643676758,6730.373382568359,Propose an ethical solution to the problem of data privacy," in the digital age.
+
+An ethical solution to the problem of data privacy in the "
+19,12,512,16.22629165649414,6755.500555038452,"Generate three verbs that mean the same as ""to apologize"""," and provide a synonym for each.
+
+Certainly! Here are three verbs that mean the "
+20,6,512,17.071008682250977,6785.359621047974,What does DNA stand for?, What is the structure of DNA? What are the four nitrogenous bases in DNA? How d
+21,12,512,18.73016357421875,6734.337329864502,Compare and contrast the Cuban Missile Crisis and the Vietnam War.," What were the key differences and similarities between these two events?
+
+The C"
+22,7,280,17.404556274414062,3663.198232650757,Generate a list of random words.," Here is a list of 10 random words: 
+
+1. Quibble  
+2. Glimmer  
+3. Mirth  
+4. Ze"
+23,13,512,17.94290542602539,6728.515625,"Transcribe the recording into text.
+Recording about the history of Waterloo",", Belgium, and the Battle of Waterloo.
+
+[00:00:00] Welcome to the history of Wat"
+24,9,408,16.47043228149414,5354.440212249756,Who is the world's most famous painter?," The title of the ""world's most famous painter"" can vary depending on cultural c"
+25,9,512,19.370317459106445,6741.192102432251,Explain the concept of cogging torque.," Cogging torque is a phenomenon observed in electric motors, particularly in per"
+26,8,512,17.322063446044922,6747.8132247924805,Look up the boiling point of water.," What is the boiling point of water in degrees Celsius and degrees Fahrenheit?
+
+"
+27,10,512,19.29330825805664,6772.470712661743,Describe the life and reign of King Charles II.," King Charles II of England (1630–1685) was the monarch of England, Scotland, an"
+28,14,512,16.567468643188477,6738.54923248291,"Find the area of a circle given its radius.
+Radius = 4"," cm
+
+To find the area of a circle given its radius, we use the formula:
+
+$$
+A = "
+29,13,512,18.1729793548584,6813.535928726196,Identify the lines of longitude that divides North and South America.," Also, identify the lines of longitude that divide the Eastern and Western Hemis"

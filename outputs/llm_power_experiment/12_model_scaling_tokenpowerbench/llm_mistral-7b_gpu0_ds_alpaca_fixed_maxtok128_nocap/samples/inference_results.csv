@@ -1,0 +1,109 @@
+request_idx,input_tokens,output_tokens,prefill_time_ms,decode_time_ms,prompt_preview,output_preview
+0,8,128,292.1030521392822,1630.1798820495605,Give three tips for staying healthy.,"
+
+1. Eat a balanced diet: Consuming a variety of fruits, vegetables, lean protei"
+1,8,128,15.929460525512695,1611.7026805877686,What are the three primary colors?,"
+
+The three primary colors are red, blue, and yellow. These colors are considere"
+2,8,128,16.104936599731445,1610.9609603881836,Describe the structure of an atom.,"
+
+An atom is the basic unit of matter, which cannot be further divided into smal"
+3,8,128,15.353202819824219,1610.2499961853027,How can we reduce air pollution?,"
+
+1. Use public transportation, carpool, bike, or walk when possible.
+2. Use ene"
+4,13,128,16.265153884887695,1612.0519638061523,Describe a time when you had to make a difficult decision.,"What was the decision and what was the outcome?
+
+One difficult decision I had to"
+5,16,93,16.382455825805664,1166.7470932006836,"Identify the odd one out.
+Twitter, Instagram, Telegram",", Facebook
+
+The odd one out is Facebook. Twitter, Instagram, and Telegram are al"
+6,19,128,17.256736755371094,1611.983060836792,"Explain why the following fraction is equivalent to 1/4
+4/16","
+
+The fraction 4/16 can be simplified by dividing both the numerator and the den"
+7,23,128,17.30632781982422,1611.612319946289,Write a short story in third person narration about a protagonist who has to mak,"
+
+In the heart of the bustling city, nestled between towering skyscrapers, resid"
+8,10,128,15.18869400024414,1610.5105876922607,Render a 3D model of a house,"with a garden and a swimming pool.
+
+To create a 3D model of a house with a garde"
+9,25,72,16.306400299072266,899.1975784301758,"Evaluate this sentence for spelling and grammar mistakes
+He finnished his meal a",".
+
+The sentence has a spelling mistake. It should be ""He finished his meal and l"
+10,9,128,16.167640686035156,1607.5985431671143,How did Julius Caesar die?,"
+
+Julius Caesar was assassinated on the Ides of March (March 15) in 44 BC. He wa"
+11,8,82,15.775442123413086,1025.820016860962,What is the capital of France?,"
+
+The capital of France is Paris. Paris is located in the north-central part of "
+12,16,128,16.46876335144043,1610.4514598846436,Generate a list of ten items a person might need for a camping trip,".
+
+1. Tent: A tent is essential for shelter and protection from the elements.
+2."
+13,10,128,15.195369720458984,1608.6339950561523,Discuss the causes of the Great Depression,".
+
+The Great Depression, a severe economic downturn that lasted from 1929 to 193"
+14,23,64,15.750408172607422,797.3663806915283,"Classify the following into animals, plants, and minerals
+Oak tree, copper ore, ",", gold, rose, salt
+
+Animals: Elephant, Oak tree (although it is a plant, it is o"
+15,14,128,16.049623489379883,1610.5761528015137,Explain the use of word embeddings in Natural Language Processing,"(NLP) and how they are trained.
+
+Word embeddings are a type of word representati"
+16,9,128,16.34526252746582,1608.6339950561523,Describe the function of a computer motherboard,".
+
+A computer motherboard, also known as the mainboard, is the central circuit b"
+17,49,128,16.889572143554688,1617.8596019744873,"Reverse engineer this code to create a new version
+def factorialize(num):
+  fact","
+
+def factorialize_recursive(num):
+  if num == 0:
+    return 1
+  else:
+    retur"
+18,12,128,16.127586364746094,1610.205888748169,Propose an ethical solution to the problem of data privacy,"in the context of social media.
+
+Title: A Holistic Approach to Data Privacy in S"
+19,15,128,16.3271427154541,1611.720085144043,"Generate three verbs that mean the same as ""to apologize""","and write a sentence for each.
+
+1. To express regret: ""I'm sorry for my actions,"
+20,7,128,16.48736000061035,1609.6181869506836,What does DNA stand for?,"
+
+DNA stands for deoxyribonucleic acid. It is a molecule that carries the geneti"
+21,17,128,15.914201736450195,1609.8558902740479,Compare and contrast the Cuban Missile Crisis and the Vietnam War.,"
+
+The Cuban Missile Crisis and the Vietnam War were two significant events in th"
+22,8,128,15.906810760498047,1610.1384162902832,Generate a list of random words.,"
+
+```
+import random
+
+def generate_random_words(n):
+    words = [""apple"", ""banana"
+23,19,128,16.481399536132812,1611.9773387908936,"Transcribe the recording into text.
+Recording about the history of Waterloo",", Ontario, Canada.
+
+Narrator:
+Welcome to Waterloo, Ontario, a vibrant city with "
+24,11,128,16.193151473999023,1612.0209693908691,Who is the world's most famous painter?,Leonardo da Vinci is often considered the most famous painter in the world. He i
+25,12,128,15.708446502685547,1611.320972442627,Explain the concept of cogging torque.,"
+
+Cogging torque, also known as magnetic torque, is a type of torque that occurs"
+26,10,128,15.597343444824219,1611.2074851989746,Look up the boiling point of water.,"
+
+The boiling point of water is 100 degrees Celsius (212 degrees Fahrenheit) at "
+27,11,128,16.35432243347168,1611.724853515625,Describe the life and reign of King Charles II.,"
+
+King Charles II, also known as the ""Merry Monarch,"" reigned from 1660 to 1685 "
+28,16,58,17.09771156311035,722.3474979400635,"Find the area of a circle given its radius.
+Radius = 4","cm
+Area of a circle = πr²
+Area of the circle = π(4)²
+Area of the circle = 16π sq"
+29,16,121,15.556097030639648,1522.5610733032227,Identify the lines of longitude that divides North and South America.,"
+
+The line of longitude that divides North and South America is the Equator. It "

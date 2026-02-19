@@ -1,0 +1,50 @@
+request_idx,input_tokens,output_tokens,prefill_time_ms,decode_time_ms,prompt_preview,output_preview
+0,7,1,34.11459922790527,33.15138816833496,What is the capital of France?,
+1,8,1,37.31894493103027,33.698081970214844,Provide one example for a cultural practice.,
+2,12,5,33.832550048828125,149.05333518981934,"Identify the odd one out.
+Twitter, Instagram, Telegram","
+Answer: Telegram"
+3,20,1,36.5908145904541,33.85519981384277,Write a short story in third person narration about a protagonist who has to mak,
+4,31,1,45.36104202270508,38.31315040588379,"Given a set of numbers, find the maximum value.
+Set: {10, 3, 25, 6, 16}",
+5,23,1,37.49227523803711,34.517765045166016,Variable x is defined as “4x + 2y = 10”. Find the value of x.,
+6,21,11,36.5757942199707,328.4893035888672,Arrange the words in the given sentence to form a grammatically correct sentence,"
+Output: The quick brown fox jumped quickly."
+7,8,1,33.654212951660156,30.748605728149414,Design an app for a delivery company.,
+8,9,1,34.851789474487305,31.49867057800293,Who is the world's most famous painter?,
+9,11,95,33.75101089477539,2651.1270999908447,Propose an ethical solution to the problem of data privacy,".
+
+An ethical solution to the problem of data privacy is to implement strict dat"
+10,7,1,34.51704978942871,32.25350379943848,Give three tips for staying healthy.,
+11,25,1,39.82257843017578,34.57927703857422,"Use the given data to calculate the median.
+[2, 3, 7, 8, 10]",
+12,18,4,37.56594657897949,122.25675582885742,"Explain why the following fraction is equivalent to 1/4
+4/16","
+Answer:"
+13,7,3,34.96098518371582,91.38655662536621,What are the three primary colors?," Additionally,"
+14,15,94,34.5158576965332,2643.5933113098145,"Write a short paragraph about the given topic.
+The importance of using renewable"," sources
+
+Using renewable energy sources is an essential step towards a more sus"
+15,12,6,34.58046913146973,177.321195602417,"Generate three verbs that mean the same as ""to apologize""", and explain their nuances.
+16,7,30,30.16805648803711,850.369930267334,How can we reduce air pollution?, What are the effects of air pollution on the environment and human health? What
+17,9,128,33.442020416259766,3603.8458347320557,Explain the concept of cogging torque., Cogging torque is a type of torque that is generated in a motor due to the inte
+18,16,66,34.84535217285156,1839.4174575805664,What is the force on a 1 kg mass due to the gravitational force?," Also, what is the force on a 2 kg mass due to the gravitational force? How do y"
+19,9,11,39.278268814086914,312.76726722717285,Generate a poem with 10 lines., The poem should be about the beauty of nature.
+20,15,9,34.29770469665527,261.2297534942627,"Convert from celsius to fahrenheit.
+Temperature in Celsius: 15","
+Temperature in Fahrenheit: 59"
+21,71,1,36.08083724975586,33.91003608703613,"Summarize the given passage.
+A recent study showed that global climate change is",
+22,19,44,40.38357734680176,1242.729663848877,"Classify the following into animals, plants, and minerals
+Oak tree, copper ore, ",", gold, rose bush, iron ore, fish, pine tree
+Animals: Elephant, fish
+Plants: Oak"
+23,13,13,36.15736961364746,374.1433620452881,Identify the lines of longitude that divides North and South America., 30°W and 60°W.
+24,11,1,31.458616256713867,30.277490615844727,Develop a plan to reduce electricity usage in a home.,
+25,11,128,33.32185745239258,3550.109624862671,What is the product of 6 and 2?, What is the product of 3 and 4? What is the product of 5 and 3? What is the pro
+26,9,1,32.8218936920166,31.505107879638672,Design a logo for a website about recycling.,
+27,12,13,35.0034236907959,371.1373805999756,Describe a time when you had to make a difficult decision.," What was the decision, and what factors influenced your choice?"
+28,7,128,31.587600708007812,3539.0195846557617,Discuss the causes of the Great Depression," and its impact on the global economy.
+The Great Depression was a severe worldwi"
+29,7,1,33.73885154724121,31.21161460876465,Give two examples of a liquid.,

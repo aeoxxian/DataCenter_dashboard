@@ -1,0 +1,56 @@
+request_idx,input_tokens,output_tokens,prefill_time_ms,decode_time_ms,prompt_preview,output_preview
+0,11,1,35.512447357177734,83.28747749328613,Explain the process of cellular respiration in plants.,
+1,18,1,36.37957572937012,33.25343132019043,"Explain why the given definition is wrong.
+A mole is an animal that lives underg",
+2,19,46,33.177852630615234,1210.0038528442383,"Classify the following into animals, plants, and minerals
+Oak tree, copper ore, ",", gold, rose bush, diamond, lion, pine tree, silver
+Animals: Elephant, Lion
+Plan"
+3,9,1,31.261444091796875,28.29909324645996,Brainstorm possible solutions to reduce water pollution.,
+4,7,1,32.69457817077637,28.95498275756836,Generate a list of random words.,
+5,9,1,33.849239349365234,29.69527244567871,Design a logo for a website about recycling.,
+6,10,128,30.81536293029785,3378.089666366577,Describe the life and reign of King Charles II.," King Charles II was the King of England, Scotland, and Ireland from 1660 until "
+7,7,34,34.56735610961914,913.6111736297607,What are the three primary colors?," What are the three secondary colors?
+Answer:
+
+The three primary colors are red,"
+8,7,1,34.525394439697266,30.06911277770996,How can we reduce air pollution?,
+9,11,1,31.606435775756836,28.928756713867188,Develop a plan to reduce electricity usage in a home.,
+10,7,1,32.93275833129883,31.12483024597168,What is the capital of France?,
+11,12,27,35.291194915771484,727.7979850769043,Describe a time when you had to make a difficult decision., What was the decision and what were the pros and cons of each option? What was 
+12,7,1,32.00364112854004,28.642892837524414,Give two examples of a liquid.,
+13,6,128,33.03384780883789,3362.429618835449,What does DNA stand for?," What is its role in the body?
+Answer:
+
+DNA stands for deoxyribonucleic acid. It"
+14,9,1,34.48176383972168,31.244516372680664,Who is the world's most famous painter?,
+15,7,1,31.735897064208984,29.146671295166016,Generate a poem that expresses joy.,
+16,7,1,33.612728118896484,30.221939086914062,Give three tips for staying healthy.,
+17,9,1,34.698486328125,29.456377029418945,Generate a poem with 10 lines.,
+18,39,17,32.73797035217285,460.0188732147217,"Reverse engineer this code to create a new version
+def factorialize(num):
+  fact","
+
+def factorialize(num):
+  factorial = 1
+  for i in"
+19,11,86,31.566381454467773,2279.4485092163086,Explain the use of word embeddings in Natural Language Processing,".
+Word embeddings are a technique used in Natural Language Processing (NLP) to r"
+20,11,6,33.780813217163086,173.8724708557129,Propose an ethical solution to the problem of data privacy," in the digital age.
+"
+21,9,97,33.333539962768555,2544.9795722961426,Render a 3D model of a house," using the following specifications:
+- The house should be a rectangular prism
+-"
+22,7,99,32.29355812072754,2628.0040740966797,Describe the structure of an atom.," An atom is the basic unit of matter, consisting of a nucleus at its center and "
+23,15,95,36.44752502441406,2528.4488201141357,"Write a short paragraph about the given topic.
+The importance of using renewable"," sources
+
+Using renewable energy sources is becoming increasingly important as t"
+24,21,2,33.76650810241699,60.52756309509277,"Evaluate this sentence for spelling and grammar mistakes
+He finnished his meal a",.
+25,16,4,34.57760810852051,114.28499221801758,What is the force on a 1 kg mass due to the gravitational force?, - Quora
+26,17,63,35.79211235046387,1678.758144378662,Calculate the total surface area of a cube with a side length of 5 cm.," The total surface area of a cube is given by the formula 6a^2, where a is the s"
+27,30,53,35.51006317138672,1436.7501735687256,"Analyze the given text for its tone.
+The world has been greatly impacted by the "," We have had to adapt to new routines, and while it has been difficult, we have "
+28,7,88,33.5841178894043,2325.737237930298,Outline the consequences of deforestation., Deforestation has many negative consequences for the environment and society. T
+29,12,8,36.665916442871094,226.77111625671387,"Generate three verbs that mean the same as ""to apologize""", and use them in a sentence.

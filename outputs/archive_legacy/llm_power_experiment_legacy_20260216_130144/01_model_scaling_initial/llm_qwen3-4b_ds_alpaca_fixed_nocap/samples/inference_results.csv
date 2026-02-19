@@ -1,0 +1,69 @@
+request_idx,input_tokens,output_tokens,prefill_time_ms,decode_time_ms,prompt_preview,output_preview
+0,11,1,32.790422439575195,349.50971603393555,Explain the process of cellular respiration in plants.,
+1,13,1,35.45880317687988,31.851768493652344,Generate a list of adjectives that describe a person as brave.,
+2,18,1,35.20703315734863,31.983137130737305,"Rewrite the following sentence using active voice.
+The news report was read by t",
+3,9,4,30.031204223632812,113.43050003051758,Render a 3D model of a house," in Blender.
+"
+4,14,53,34.06548500061035,1427.5219440460205,Generate a list of ten items a person might need for a camping trip,".
+1. Tent
+2. Sleeping bag
+3. Sleeping pad
+4. Headlamp
+5. Portable stove
+6. Food "
+5,66,1,122.28035926818848,33.324480056762695,"Rewrite the given paragraph in a shorter, easier to understand form.
+Although it",
+6,8,1,34.715890884399414,31.161069869995117,Design an app for a delivery company.,
+7,39,17,38.54799270629883,473.8924503326416,"Reverse engineer this code to create a new version
+def factorialize(num):
+  fact","
+
+def factorialize(num):
+  factorial = 1
+  for i in"
+8,7,1,31.659841537475586,30.169963836669922,What is the capital of France?,
+9,13,128,31.559467315673828,3572.911500930786,"Transcribe the recording into text.
+Recording about the history of Waterloo"," and the surrounding area.
+Transcription:
+The history of Waterloo and the surrou"
+10,15,83,33.4317684173584,2244.6186542510986,"Write a short paragraph about the given topic.
+The importance of using renewable"," sources
+
+Renewable energy sources, such as solar, wind, and hydroelectric power"
+11,11,1,37.30440139770508,29.200077056884766,Develop a plan to reduce electricity usage in a home.,
+12,23,128,37.085771560668945,3443.816661834717,Variable x is defined as “4x + 2y = 10”. Find the value of x.," To solve the equation 4x + 2y = 10 for x, we need to isolate x on one side of t"
+13,25,1,35.043954849243164,31.959056854248047,"Use the given data to calculate the median.
+[2, 3, 7, 8, 10]",
+14,19,56,36.606550216674805,1524.7149467468262,"Classify the following into animals, plants, and minerals
+Oak tree, copper ore, ",", gold, rose bush, silver, dolphin, iron ore, pine tree, goldfish
+Answer:
+
+Anima"
+15,6,128,32.77921676635742,3427.8650283813477,What does DNA stand for?, What is the structure of DNA? What are the main components of DNA? What is the 
+16,15,9,31.83460235595703,251.29199028015137,"Convert from celsius to fahrenheit.
+Temperature in Celsius: 15","
+Answer: 59 degrees Fahrenheit"
+17,9,1,36.1630916595459,30.522823333740234,Who is the world's most famous painter?,
+18,8,25,35.40349006652832,681.046724319458,Look up the boiling point of water.," Then, explain why the boiling point of water is the same at sea level and in a "
+19,7,1,32.145023345947266,29.6630859375,Give three tips for staying healthy.,
+20,12,5,33.39791297912598,144.63424682617188,"Identify the odd one out.
+Twitter, Instagram, Telegram","
+Answer:
+Telegram"
+21,7,128,34.63864326477051,3392.930030822754,Discuss the causes of the Great Depression,".
+Answer:
+
+The causes of the Great Depression are complex and varied. They inclu"
+22,11,125,36.588191986083984,3297.431230545044,Explain the use of word embeddings in Natural Language Processing," (NLP).
+
+Word embeddings are a type of representation used in Natural Language P"
+23,9,1,32.196044921875,29.165983200073242,Generate a poem with 10 lines.,
+24,6,77,35.176992416381836,2083.878993988037,How did Julius Caesar die?, Julius Caesar was assassinated on the Ides of March (March 15) in 44 BC. He was
+25,71,1,39.13998603820801,34.6837043762207,"Summarize the given passage.
+A recent study showed that global climate change is",
+26,12,103,31.660795211791992,2770.7743644714355,"Generate three verbs that mean the same as ""to apologize"""," and explain their differences.
+1. ""To regret"" means to feel sorrow or remorse f"
+27,8,1,34.00087356567383,29.550790786743164,Provide one example for a cultural practice.,
+28,7,1,33.20717811584473,29.472827911376953,Describe the structure of an atom.,
+29,20,1,36.45467758178711,31.945228576660156,Write a short story in third person narration about a protagonist who has to mak,

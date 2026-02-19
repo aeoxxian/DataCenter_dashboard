@@ -1,0 +1,66 @@
+request_idx,input_tokens,output_tokens,prefill_time_ms,decode_time_ms,prompt_preview,output_preview
+0,11,10,34.38377380371094,285.9759330749512,What is the product of 6 and 2?, To find the product of 6 and 
+1,6,75,33.37454795837402,2062.368392944336,How did Julius Caesar die?," Julius Caesar was assassinated on March 15, 44 BCE, in the Roman Senate. He was"
+2,15,11,32.88149833679199,314.39781188964844,"Convert from celsius to fahrenheit.
+Temperature in Celsius: 15","
+Temperature in Fahrenheit: 59.0"
+3,11,123,37.86468505859375,3384.335517883301,Explain the use of word embeddings in Natural Language Processing,".
+Word embeddings are a type of representation used in Natural Language Processi"
+4,7,1,33.30636024475098,31.3723087310791,Outline the consequences of deforestation.,
+5,20,1,36.43178939819336,33.055782318115234,Write a short story in third person narration about a protagonist who has to mak,
+6,14,51,32.31215476989746,1413.914442062378,Generate a list of ten items a person might need for a camping trip,".
+
+1. Tent
+2. Sleeping bag
+3. Sleeping pad
+4. Cooking stove
+5. Cooler
+6. Headlam"
+7,12,7,33.23483467102051,201.96962356567383,"Identify the odd one out.
+Twitter, Instagram, Telegram",", Facebook
+Answer:
+Telegram"
+8,7,1,34.172773361206055,31.449317932128906,What is the capital of France?,
+9,9,6,33.9505672454834,174.8051643371582,Render a 3D model of a house," using the Blender software.
+"
+10,7,13,31.955480575561523,364.08138275146484,What are the three primary colors?," The three primary colors are red, blue, and yellow."
+11,46,1,36.01980209350586,33.39958190917969,"Extract the facts from the paragraph.
+Online education continues to become more ",
+12,21,16,35.62784194946289,464.23935890197754,"Arrange the given numbers in ascending order.
+2, 4, 0, 8, 3",", 1, 5, 7, 9, 6"
+13,8,1,33.27369689941406,30.519723892211914,Design an app for a delivery company.,
+14,18,1,35.76922416687012,33.16235542297363,"Explain why the given definition is wrong.
+A mole is an animal that lives underg",
+15,7,124,32.910823822021484,3398.353338241577,Describe the function of a computer motherboard,".
+Answer: The function of a computer motherboard is to connect and provide commu"
+16,7,1,32.991886138916016,31.28528594970703,Generate a list of random words.,
+17,31,1,34.955739974975586,33.77532958984375,"Given a set of numbers, find the maximum value.
+Set: {10, 3, 25, 6, 16}",
+18,6,22,30.492305755615234,615.839958190918,What does DNA stand for?," What is its function?
+
+If the question has a final answer, please place the ans"
+19,12,1,33.74624252319336,30.724525451660156,"Generate three verbs that mean the same as ""to apologize""",
+20,30,1,35.19487380981445,32.3336124420166,"Analyze the given text for its tone.
+The world has been greatly impacted by the ",
+21,19,38,37.55784034729004,1041.3572788238525,"Classify the following into animals, plants, and minerals
+Oak tree, copper ore, ",", gold, rose bush, iron ore, tiger
+Animals: Elephant, Tiger
+Plants: Oak tree, Ro"
+22,8,28,31.435012817382812,775.61354637146,Look up the boiling point of water.," What is the boiling point of water?
+Answer: 100 degrees Celsius
+
+How do you cal"
+23,9,1,33.92362594604492,31.050920486450195,Design a logo for a website about recycling.,
+24,11,6,30.681371688842773,172.9605197906494,Propose an ethical solution to the problem of data privacy," in the digital age.
+"
+25,11,1,32.58395195007324,31.595230102539062,Explain the process of cellular respiration in plants.,
+26,18,69,33.80870819091797,1897.5212574005127,"Explain why the following fraction is equivalent to 1/4
+4/16","
+Answer:
+
+The fraction $\dfrac{4}{16}$ is equivalent to $\dfrac{1}{4}$ because b"
+27,66,1,34.64221954345703,33.429622650146484,"Rewrite the given paragraph in a shorter, easier to understand form.
+Although it",
+28,7,1,33.985137939453125,31.244516372680664,Give two examples of a liquid.,
+29,21,2,34.8057746887207,63.690900802612305,"Evaluate this sentence for spelling and grammar mistakes
+He finnished his meal a",.

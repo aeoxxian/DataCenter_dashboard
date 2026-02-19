@@ -1,0 +1,56 @@
+request_idx,input_tokens,output_tokens,prefill_time_ms,decode_time_ms,prompt_preview,output_preview
+0,7,1,32.94491767883301,82.49473571777344,Outline the consequences of deforestation.,
+1,12,8,34.87563133239746,218.6880111694336,"Generate three verbs that mean the same as ""to apologize"""," and are in the past tense.
+"
+2,17,44,35.97617149353027,1180.189847946167,"Convert the given equation into an algebraic expression.
+3x+5y=9","
+
+We can convert the given equation into an algebraic expression as follows:
+
+3x"
+3,7,90,32.68170356750488,2386.887311935425,Discuss the causes of the Great Depression," and the economic policies that were adopted in response.
+Answer:
+
+The Great Dep"
+4,11,128,32.64212608337402,3361.9673252105713,Explain the use of word embeddings in Natural Language Processing," (NLP).
+
+Word embeddings are a technique used in Natural Language Processing (NL"
+5,11,1,30.54499626159668,30.440330505371094,Develop a plan to reduce electricity usage in a home.,
+6,9,1,33.532142639160156,31.917572021484375,Generate a poem with 10 lines.,
+7,7,8,33.35428237915039,222.08642959594727,What is the capital of France?, The capital of France is Paris.
+8,7,11,31.226158142089844,296.44274711608887,How can we reduce air pollution?, What are some effective strategies to reduce air pollution?
+9,20,1,33.09750556945801,31.119346618652344,Write a short story in third person narration about a protagonist who has to mak,
+10,11,128,32.42325782775879,3367.9540157318115,What is the product of 6 and 2?, What is the product of 5 and 8? What is the product of 4 and 6? What is the pro
+11,8,1,32.38248825073242,31.680822372436523,Provide one example for a cultural practice.,
+12,7,1,32.52744674682617,31.80718421936035,What are the three primary colors?,
+13,15,9,32.88531303405762,247.32232093811035,"Convert from celsius to fahrenheit.
+Temperature in Celsius: 15","
+Temperature in Fahrenheit: 59"
+14,31,1,33.5843563079834,30.795574188232422,"Given a set of numbers, find the maximum value.
+Set: {10, 3, 25, 6, 16}",
+15,16,33,33.25963020324707,884.8943710327148,What is the force on a 1 kg mass due to the gravitational force?," Also, what is the gravitational force between two objects of masses 5 kg and 3 "
+16,21,42,34.44719314575195,1132.5337886810303,"Arrange the given numbers in ascending order.
+2, 4, 0, 8, 3",", 6, 1, 5, 7
+Answer: 0, 1, 2, 3, 4, 5, 6, 7, 8"
+17,8,1,32.115936279296875,31.70180320739746,Design an app for a delivery company.,
+18,15,80,33.316612243652344,2115.325450897217,"Write a short paragraph about the given topic.
+The importance of using renewable"," sources
+Renewable energy sources, such as solar, wind, and hydroelectric power,"
+19,7,1,31.797409057617188,31.53371810913086,Give three tips for staying healthy.,
+20,13,19,33.91861915588379,517.0109272003174,Identify the lines of longitude that divides North and South America., The line of longitude that divides North and South America is the 30th parallel
+21,13,1,33.44154357910156,32.94086456298828,Generate a list of adjectives that describe a person as brave.,
+22,71,1,52.25825309753418,31.755447387695312,"Summarize the given passage.
+A recent study showed that global climate change is",
+23,10,128,33.255815505981445,3374.5620250701904,Describe the life and reign of King Charles II.," King Charles II (1630–1685) was the King of England, Scotland, and Ireland from"
+24,12,13,32.87506103515625,351.3953685760498,"Identify the odd one out.
+Twitter, Instagram, Telegram",", Facebook
+Answer:
+Telegram is the odd one out."
+25,21,2,34.7292423248291,59.48925018310547,"Evaluate this sentence for spelling and grammar mistakes
+He finnished his meal a",.
+26,9,108,33.09273719787598,2855.186939239502,Explain the concept of cogging torque., Cogging torque is the torque that is produced when the rotor of a motor is in a
+27,7,128,35.94088554382324,3398.7679481506348,Describe the function of a computer motherboard,".
+Answer: The **motherboard** is the main component of the computer. It connects"
+28,21,7,34.131765365600586,194.32592391967773,Arrange the words in the given sentence to form a grammatically correct sentence,"
+The quick brown fox jumped"
+29,6,70,33.08272361755371,1855.6444644927979,How did Julius Caesar die?," Julius Caesar died by assassination. On the Ides of March (March 15th), 44 BC, "

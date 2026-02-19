@@ -1,0 +1,2421 @@
+request_idx,input_tokens,output_tokens,prefill_time_ms,decode_time_ms,prompt_preview,output_preview
+0,14,115,67.79623031616211,2415.6930446624756,Describe an example of a time you used influence in a positive way,".
+Outside of work, I used influence to help a friend who was struggling with dep"
+1,17,8,27.871131896972656,148.22125434875488,"Classify the following phrase ""I am so cold"":
+I am so cold","
+Category: Emotional State"
+2,16,128,31.120777130126953,2645.474672317505,Examine the differences between an LLC and a C-corporation.,"
+Name two advantages of an LLC.
+Compare the tax structures of an LLC and a C-cor"
+3,15,128,31.019210815429688,2636.770725250244,Make a list of 3 things to do to preserve the environment.,"
+
+1. Reduce, Reuse, and Recycle: Reduce the amount of waste you produce by reduc"
+4,22,13,29.53934669494629,263.83256912231445,"Transform the sentence so that it uses direct quotations.
+The speaker said that ","
+The speaker said, ""Education is important."""
+5,27,24,26.418447494506836,476.13978385925293,"Generate a single sentence that summarizes the effects of the given policy.
+Poli","
+Sentence: Companies investing in renewable energy receive tax credits to help o"
+6,11,128,29.575347900390625,2629.871606826782,How can cities become more eco-friendly?,"What steps can cities take to reduce their carbon footprint? In this article, we"
+7,13,79,31.540870666503906,1623.1203079223633,What is the primary benefit of using a relational database?,"
+The primary benefit of using a relational database is the ability to organize, "
+8,9,75,31.267642974853516,1527.9195308685303,Outline the advantages of television advertising.,"
+Summarize the disadvantages of television advertising.
+Describe the target audi"
+9,27,40,27.46438980102539,795.6705093383789,"Illustrate the given text with a drawing.
+Lost in the woods, the brave prince se","
+### Response:
+A drawing of a brave prince, with a worried look on his face, wal"
+10,18,27,26.459932327270508,548.0608940124512,Create a web page design with a color palette of three shades of blue.,"
+Design a website layout with a header, footer and three content sections.
+Creat"
+11,30,8,26.294469833374023,144.9747085571289,"Identify which of the following type of speech is legal in a courtroom?
+Direct e","
+
+Cross-examination."
+12,23,4,25.931835174560547,60.96243858337402,"Identify the sentiment in the text.
+I'm glad to have the opportunity to work wit","
+Positive"
+13,20,41,26.64780616760254,829.0798664093018,"Infer what the author is implying in this sentence.
+He's been busy lately",", juggling his work commitments with his family life.
+The author is implying tha"
+14,11,128,29.767751693725586,2621.5226650238037,How can countries reduce the effects of climate change?,"
+Summarize the key points from the article.
+Summarize the key points from the ar"
+15,14,54,31.25,1098.189115524292,Generate a website design for a company that sells house cleaning services,".
+Design a website for a company that sells house cleaning services. The website"
+16,10,119,31.351327896118164,2442.6422119140625,Generate a random 8-digit number,"using Python.
+You can generate a random 8-digit number using the `random` module"
+17,18,16,26.42822265625,309.13734436035156,"Write an article on the pros and cons of social media usage.
+N/A",. I am an AI and do not have the ability to write articles.
+18,17,21,25.784730911254883,420.57085037231445,"Output the synonym of the word given in the input field.
+Happy","
+Synonym: Joyful, Content, Blissful, Delightful, Ecstatic"
+19,8,128,30.828475952148438,2623.6767768859863,Explain the Product Liability Law,"suit Process
+Brooklyn, NY, United States
+
+A product liability lawsuit is a legal"
+20,11,21,29.386520385742188,415.42530059814453,Generate five adjectives that describe the sun.,"
+R:
+Fiery, golden, radiant, bright, invigorating."
+21,12,128,29.48594093322754,2601.7727851867676,Write two lines of iambic pentameter.,"
+Roses of red,
+Violets of blue,
+Writing with precision,
+Striving to view.
+
+The s"
+22,14,99,31.661033630371094,2025.1235961914062,"Give a definition for the techonolgy ""cloud computing"".","
+Cottonwood Technology Inc.
+Cloud computing is a model for delivering computing "
+23,14,7,31.090497970581055,123.31986427307129,"Generate a CSS rule that displays the following font color
+Yellow","
+#ffeb3b"
+24,19,128,26.057004928588867,2629.3933391571045,Come up with a strategy for solving a Rubik's Cube for beginners.,"
+Create a step by step guide to help beginners learn how to solve a Rubik's cube"
+25,22,128,29.553890228271484,2637.9847526550293,"Create an argument for why the given cause is true.
+The current pandemic is caus","Climate change is causing extreme weather events, such as heatwaves, droughts, a"
+26,10,93,31.580448150634766,1909.9490642547607,Describe the negative impacts of using plastic bags.,"
+Excessive use of plastic bags is having a detrimental effect on the environment"
+27,22,128,25.39205551147461,2605.9539318084717,Generate a list of marketing strategies to encourage people to purchase the give,":
+- Offer discounts and special promotions.
+- Target influencers and have them r"
+28,14,128,31.952857971191406,2616.5590286254883,Summarize the Summary of Qualifications section of a resume.,"
+How to create an effective Summary of Qualifications section on a resume?
+What "
+29,11,30,28.98406982421875,595.6268310546875,Write five landmarks located in New York City.,1. The Statue of Liberty 2. Empire State Building 3. Central Park 4. Brooklyn Br
+30,16,67,31.099557876586914,1378.4255981445312,"Describe how machines can help people with their daily tasks.
+Noinput","
+Machines can help people with their daily tasks in various ways. They can autom"
+31,38,3,25.74300765991211,42.26994514465332,Classify whether the following sentence follows the structure of active voice or,"
+0"
+32,118,44,46.3862419128418,887.0673179626465,"Select the main idea of the passage, output the sentence index.
+(1)The practice ","
+
+The main idea of the passage is that mindfulness is a practice that helps an i"
+33,23,118,27.613401412963867,2395.9743976593018,"Complete the following text to form a short story.
+The girl found a magic lamp i",She rubbed it and out popped a genie. The genie said he would grant her three wi
+34,11,85,30.00330924987793,1716.905117034912,Describe the visual effect of a bouncing basketball,".
+A bouncing basketball creates a dynamic and visually interesting effect. The s"
+35,28,116,25.59828758239746,2377.8364658355713,"Given the input, devise an experiment to determine the length of time it takes t",is a simple process and can be easily tested with an experiment. To determine th
+36,6,67,30.219078063964844,1356.1100959777832,Design a website navigation menu,", and provide an example for each item
+Examples:
+Home Page - Link to the website"
+37,19,128,26.2753963470459,2634.2248916625977,"Rewrite the sentence into a positive phrase
+I can't do anything right.","
+I can't seem to get anything right.
+I can't seem to succeed at anything.
+I can'"
+38,21,15,25.552034378051758,287.90926933288574,"Put the items in order from most important to least important.
+Exercise, Sleep, ","
+1. Sleep
+2. Exercise
+3. Eat"
+39,13,27,32.106876373291016,533.3046913146973,Name three furniture items that would be suitable for a bedroom.,"
+Rated 4.4 out of 5 by 56 customers
+Bed, Dresser, Nightstand"
+40,7,66,30.08294105529785,1351.8986701965332,What is temperature defined as?,"
+Temperature is a measure of the hotness or coldness of an object or system, and"
+41,11,89,29.689788818359375,1820.812702178955,Predict the future direction of the stock market.,"
+Risks associated with stock market investments include loss of capital, fluctua"
+42,10,30,31.287193298339844,593.6806201934814,How many continents are there on Earth?,"The answer is seven. They are Asia, Africa, North America, South America, Europe"
+43,22,20,25.33578872680664,400.6214141845703,"Try coming up with a sentence using the words 'evil', 'mile', and 'apparent'.","
+The evil mile apparent was a seemingly innocent stretch of road that led to a m"
+44,10,20,31.414270401000977,390.60258865356445,Write an opening sentence for a horror story.,"
+
+The moon was full and bright as the old house creaked in the wind."
+45,26,8,25.411367416381836,146.23332023620605,Modify the following sentence so that the verb is in the third person singular p,"
+She reads the book today."
+46,45,83,24.541854858398438,1709.3987464904785,"Summarize the article about human reproductive health.
+https://www.plannedparent","
+
+This article discusses a range of topics related to reproductive and sexual he"
+47,33,118,25.023221969604492,2414.6060943603516,"Using the given information, construct a paragraph about the history of the comp","
+First Product: Crane
+
+Heavy Machinery was established in 1982 with the goal of "
+48,34,22,24.62601661682129,432.5428009033203,"Describe the emotion expressed in the given excerpt and output the response.
+The","
+Response:
+The emotion expressed in the given excerpt is joyful excitement or an"
+49,12,128,29.366254806518555,2618.4911727905273,Generate a word problem that requires the four basic operations:,"addition, subtraction, multiplication and division.
+Research a word problem invo"
+50,13,28,31.625747680664062,551.281213760376,Create a link to an online store that sells books.,"
+Create a link to an online store that sells books.
+Link: <http://www.bookdeposi"
+51,15,128,32.31048583984375,2609.464406967163,Specify the components of the UN Sustainable Development Goals.,"
+Construct a table to illustrate the components of the UN Sustainable Developmen"
+52,29,3,26.305437088012695,42.62948036193848,Edit the following sentence to improve its clarity: “The decision is calculate t,needed.
+53,18,36,28.400182723999023,732.4151992797852,Create a mathematical equation for calculating speed if given the formula distan,"
+Calculating speed with the given formula is straightforward. Simply divide the "
+54,16,44,31.490564346313477,888.1814479827881,Find examples of the word “enigma” used correctly in two sentences.,"
+Ruth was an enigma; at times jovial and outgoing, at others brooding and reserv"
+55,35,128,25.42591094970703,2639.1541957855225,"Given a set of survey results, make a data visualization that summarizes the res","
+The data visualization should be a bar chart.
+The bar chart should show the per"
+56,14,106,34.90328788757324,2158.597230911255,"Write a story that features a character named ""Jenna"".","
+Jenna was a young woman who had always dreamed of making a difference in the wo"
+57,21,21,25.139331817626953,412.0340347290039,"Transform this sentence: ""The cat sat on the mat""
+The cat sat on the mat",".
+The cat sat on the floor mat.
+The cat sat on the doormat."
+58,15,128,31.450271606445312,2633.0440044403076,Identify the major differences between a fable and a parable.,"
+Name three major differences between a fable and a parable. A fable is a short "
+59,8,62,31.395912170410156,1261.6519927978516,Generate a list of musical instruments.,"
+Generate a list of ten musical instruments:
+1. Piano
+2. Guitar
+3. Drums
+4. Viol"
+60,14,68,31.3723087310791,1397.8612422943115,Generate three persuasive arguments supporting a particular point of view.,"
+Examples:
+- Supporting the implementation of renewable energy:
+1. Renewable ene"
+61,17,86,25.462627410888672,1763.794183731079,"Write a paragraph explaining how the given term is used in research
+Data Visuali","
+Data visualization is the use of visuals, such as graphs, charts, and maps to h"
+62,14,20,32.07087516784668,390.4602527618408,Convert the number 2.5p to its exact decimal.,"
+The exact decimal representation of 2.5p is 0.025."
+63,49,79,25.776147842407227,1612.0469570159912,"Compute the total cost for the items below, assuming each item is bought in the ","
+
+The total cost for the apples is 2 kg * $4/kg = $8.00.
+The total cost for the "
+64,10,128,30.895233154296875,2600.507974624634,Create a container class that holds two values.,Make sure that the container can hold only one instance of each type of value. Y
+65,13,53,31.707048416137695,1080.930233001709,Create a SQL query to list all the customers from Chicago.,"
+Given the table 'Customers' with columns 'CustomerName', 'City', and 'State', c"
+66,8,26,31.524181365966797,518.756628036499,List some diseases caused by smoking.,"
+Cancer, emphysema, heart disease, stroke, diabetes, oral health problems, and p"
+67,15,19,30.972719192504883,368.88718605041504,List 5 common adjectives for describing a beautiful sunset.,"
+Crimson, golden, vibrant, breathtaking, mesmerizing."
+68,13,41,32.41372108459473,829.4081687927246,Generate a game plan for a client struggling with eating habits.,"
+Name three strategies to help the client improve their eating habits.
+Create a "
+69,20,128,25.59375762939453,2601.0982990264893,"Create an theano code for making a prediction.
+target_variable = 'sales'","
+input_var = T.matrix('input_var')
+prediction = T.scalar('prediction')
+
+f = thea"
+70,35,14,27.132272720336914,273.284912109375,"Determine the 3rd highest value in the list.
+List: [-3, 0, 5, 9, -5, 10]","
+The 3rd highest value in the list is 9"
+71,19,115,26.230812072753906,2365.8385276794434,Generate a musical piece with a duration of 5 minutes and a key of C Major.,"
+Generate a musical piece with a duration of 5 minutes and a key of C minor.
+Gen"
+72,18,13,25.666475296020508,246.4444637298584,Create a tagline for a company with the word 'smile' in it.,"
+Smile Inc.: Bringing Joy to the World."
+73,43,17,26.270627975463867,330.8570384979248,"Name the type of rhyme scheme used in the following poem.
+""O Time, thou must unt","
+
+Answer: The poem uses an AABB rhyme scheme."
+74,48,50,25.557994842529297,1012.4263763427734,"Compare and contrast the given two pieces of data.
+Piece 1: The temperature is 8","
+
+The two pieces of data are conveying the same information, but in different un"
+75,14,44,32.3786735534668,886.5096569061279,"Give two possible definitions for this phrase.
+Love at first sight",":
+
+1. The instantaneous recognition and feeling of romantic affection towards an"
+76,22,77,25.869369506835938,1574.5527744293213,"Write a Haiku poem, composed of three lines of five, seven and five syllables ea","
+Write about the beauty of a sunset
+The sun sinks low in the sky
+Colors fill the"
+77,13,52,31.977176666259766,1044.2650318145752,Describe what a computer monitor is and why it is used.,"
+A computer monitor is a display device that connects to a computer and displays"
+78,12,128,30.45201301574707,2604.6688556671143,What are the best tips for writing efficient SQL queries?,"
+Rewrite slow queries to avoid using subqueries and joins. Also, use indexes to "
+79,14,14,31.63290023803711,274.8425006866455,Name 3 famous painters of the Baroque period.,"
+Name: Caravaggio, Rembrandt, Bernini"
+80,8,58,30.15303611755371,1184.0803623199463,List two properties of a mineral.,"
+Rock Properties:
+1. A mineral is a naturally occurring inorganic solid with a d"
+81,21,30,25.80094337463379,615.3125762939453,"Develop algorithms to sort the following numbers in increasing order.
+7, 4, 11",", 2.
+In increasing order, the sorted numbers are 1, 2, 4, 7, 11."
+82,16,69,31.792402267456055,1401.2672901153564,"Explain what happened in the following event.
+The Suez Crisis","occurred in 1956 when Egypt's President Nasser nationalized the Suez Canal, lead"
+83,22,4,24.49941635131836,61.89393997192383,"Describe a person's characteristics in 5 words
+pragmatic, logical, creative, dec",", humorous"
+84,32,82,25.640010833740234,1690.5500888824463,"Provide an alternate solution to the below problem.
+The restaurant needs a solut","
+Alternate Solution:
+The restaurant can create a customer loyalty program that r"
+85,39,23,25.095462799072266,449.432373046875,Rewrite the following sentence by replacing all the words with synonyms to make ,".
+Several individuals asserted that the perpetrator had perpetrated a grave tran"
+86,10,49,31.00109100341797,1007.2641372680664,Describe a potential consequence of global warming.,"
+Disappearance of Polar Ice Caps
+
+A potential consequence of global warming is t"
+87,6,128,28.899669647216797,2631.0765743255615,Generate a workplace safety protocol,"for employees who operate forklifts.
+Provide a detailed outline for the protocol"
+88,10,70,31.087398529052734,1436.372995376587,Describe how machine learning models can be deployed.,"
+List two different methods of deploying machine learning models.
+
+Machine learn"
+89,16,128,31.56280517578125,2657.996416091919,Compare and contrast the skills needed for a lawyer and an accountant.,"
+Several key differences exist between the skills needed for a lawyer and an acc"
+90,12,128,30.116558074951172,2641.731023788452,Generate an article about the current state of artificial intelligence.,"
+Generate an article about the current state of artificial intelligence.
+
+The cu"
+91,24,5,27.011394500732422,89.15233612060547,"Classify the following sentence as verb, noun, adjective, etc.
+Nature is beautif","
+Verb."
+92,12,34,30.152082443237305,682.2984218597412,Name three US presidents who passed civil rights legislation.,"
+Name three US Presidents who passed civil rights legislation:
+1. John F. Kenned"
+93,22,37,26.60393714904785,739.8340702056885,"Compose a tweet encouraging your followers to support a given charity.
+Charity: ","
+Tweet: Join me in supporting @FeedingAmerica! Together, we can make sure everyo"
+94,34,7,25.805234909057617,128.76033782958984,Classify this sentence as either a simile or a metaphor: The moon was a light in,This is a simile.
+95,6,128,28.931379318237305,2610.6135845184326,Input a source of inspiration,"for writing your novel.
+Gun violence in the United States
+Output a paragraph of "
+96,16,35,31.25596046447754,708.8406085968018,Construct an algorithm to find the largest number in a given array of numbers.,"
+Provide a Python example.
+Input: arr = [2, 4, 8, 1, 10]
+Output: 10"
+97,14,91,31.573772430419922,1864.811658859253,Produce a chart of the top 4 search engine market share,"for the year 2020.
+Rating: 5.0/5. From 1 vote.
+Chart showing the top 4 search en"
+98,10,19,30.581951141357422,379.61316108703613,Create a newspaper headline about a new discovery,"
+In: ""Scientists Make Stunning Leap in Renewable Energy"""
+99,13,105,31.3413143157959,2143.7315940856934,Analyze the impact of the internet on modern society.,"
+Summarize the impact of the internet on modern society. The internet has revolu"
+100,16,80,31.823158264160156,1625.4329681396484,Provide three tips for teaching young children about the importance of recycling,"
+Create three tips for teaching young children about the importance of recycling"
+101,16,24,31.59046173095703,476.03297233581543,Construct a function that takes three parameters of type int and returns their s,"
+SumThree :: Int -> Int -> Int -> Int
+SumThree x y z = x + y + z"
+102,27,13,26.436567306518555,247.4048137664795,"Reword the following sentence in a simpler form: ""We have reached a point where ","
+
+We can't keep living in the shadows."
+103,7,111,30.420541763305664,2274.6524810791016,Describe the best time for investment,"in stocks
+Explaining the best time to invest in stocks is complex, as the stock "
+104,28,27,26.622295379638672,545.9775924682617,"Suggest the next step in a given problem-solving task.
+A person is trying to bre","
+The next step in this problem-solving task is to try different combinations of "
+105,17,113,25.806427001953125,2321.873903274536,Write a brief description of the primary antagonist of the Harry Potter series,".
+Voldemort is the main antagonist of the Harry Potter series. He is an evil wiz"
+106,10,128,31.11863136291504,2625.6752014160156,Does garlic have any nutritional benefits?,"
+Garlic has many nutritional benefits, including being an antioxidant, anti-infl"
+107,29,11,24.48868751525879,211.4870548248291,"Specify how the following sentence can be written to avoid repetition
+He used th","
+He used his utensils to eat."
+108,10,16,30.68256378173828,315.5026435852051,"Edit the sentence ""I am not eat""","into correct English.
+The correct sentence is ""I am not eating."""
+109,34,87,24.466753005981445,1761.9762420654297,"Create an algorithm to determine the shortest route from point A to point B.
+Poi","
+
+A shortest route from point A (1,1) to point B (6,7) could be:
+
+(1,1) -> (2,2)"
+110,23,128,25.631427764892578,2621.757745742798,"Write a critical review for the given book.
+Harry Potter and the Sorcerer's Ston","
+
+Harry Potter and the Sorcerer's Stone is a marvelous novel that has captivated"
+111,15,86,31.45432472229004,1759.5860958099365,Create a list of 10 interesting questions about World War II.,"
+Design a multiple-choice quiz with 10 questions based on the list.
+Create a tim"
+112,10,58,30.453205108642578,1167.0238971710205,What techniques help an individual lower their stress?,"
+Exercise, meditation, yoga, deep breathing, progressive muscle relaxation, jour"
+113,13,128,31.197786331176758,2631.14857673645,Find out which animal has the biggest eyes in the world.,"
+In the animal kingdom, the animal with the biggest eyes is the giant squid. The"
+114,13,91,32.471418380737305,1847.0332622528076,Create a mockup of a website for an online retail store,". The website should have a search bar, navigation menu, and a product listing.
+"
+115,11,26,30.031204223632812,510.81395149230957,Construct a sentence about an action an animal performs.,"The sentence must contain a verb, an object, and the animal.
+The dog barked at t"
+116,39,18,26.389360427856445,350.1391410827637,"Write a headline for the article about the new issue of the magazine.
+Article: T","
+Headline: ""The Impact of Climate Change: How to Take Action"""
+117,30,52,24.669885635375977,1067.3696994781494,Come up with a creative response that encourages the customer to go ahead with t,"
+Creative response:
+""We understand it can be a big decision, but we assure you, "
+118,10,120,30.855655670166016,2459.984064102173,Explain the significance of the Berlin Wall.,"
+The Berlin Wall, built in 1961, was a symbol of the Cold War division of East a"
+119,19,79,24.645566940307617,1631.866693496704,Give an example of a situation where you can use the scientific method to find a,"
+Examples:
+- Developing a new drug to treat a disease
+- Designing an effective m"
+120,17,2,25.281190872192383,21.109580993652344,"List three items in my grocery list.
+Apples, eggs, and milk",.
+121,11,128,29.526710510253906,2638.439178466797,How do you connect a printer to a laptop?,"
+There are a few ways to connect a printer to a laptop, depending on the types o"
+122,25,13,25.99620819091797,253.51548194885254,"To complete the following sentence, fill-in the blanks.
+""Love is ________ and __","
+The completed sentence is ""Love is blind and infinite."""
+123,30,11,28.72776985168457,215.1315212249756,"Generate a hashtag suitable for marketing this product.
+This is an innovative wa","
+#StayHydratedWithIce"
+124,12,128,30.011892318725586,2643.2909965515137,Create a list of six tasks that need to be completed,"to set up a home Wi-Fi network.
+1. Purchase a Wi-Fi router: Choose a suitable ro"
+125,26,10,28.53846549987793,187.4825954437256,"Notice and correct the spelling mistake in the following sentence.
+The gallery c","
+The gallery contained hundreds of art pieces."
+126,7,128,30.069351196289062,2616.90616607666,Create a new cooking recipe.,"
+Create a super simple recipe for a delicious vegan meal.
+Create a recipe for ba"
+127,8,128,31.140565872192383,2635.324716567993,Generate a login / signup form,"using HTML and CSS.
+Reverse the order of the elements in the form.
+<form>
+<div>
+"
+128,15,40,31.30030632019043,802.2570610046387,"List all the associated nouns with the given verb.
+Read","the following sentence:
+The farmer is ploughing the field.
+The associated nouns "
+129,11,27,30.553340911865234,536.7729663848877,Design an icon that represents a robotic arm.,"
+Design an icon that represents a robotic arm.
+The icon should be simple, stylis"
+130,11,128,29.231548309326172,2619.1062927246094,Name 3 things a software engineer should know.,"
+Name three things a software engineer should know:
+1. Programming languages: A "
+131,28,25,25.116920471191406,495.7005977630615,"Describe a time when you made an impact at work.
+I was working on a project invo","After several weeks of development, I was able to create an efficient and user-f"
+132,91,27,26.84497833251953,543.4110164642334,"Identify the theme in the following passage about a family reunion
+The Smith fam","
+The theme in the passage about a family reunion is the importance of family and"
+133,24,16,24.190425872802734,309.41033363342285,"Given the following input, classify the type of communication expressed in the s","
+Classify the type of communication expressed in the sentence as Advice."
+134,31,16,26.301860809326172,307.7569007873535,"Calculate the average of these 6 numbers: 2, 6, 9, 4, 10, 18.","
+The average of these 6 numbers is 6.83."
+135,15,128,31.527042388916016,2637.4521255493164,Name three differences between the corporate world and the freelance world.,"
+Name three differences between the corporate world and the freelance world: 1. "
+136,26,20,24.93119239807129,405.6093692779541,"Group the following list of shapes into 2D and 3D shapes: triangle, sphere, cyli","
+
+2D shapes: triangle, square
+
+3D shapes: sphere, cylinder"
+137,21,17,24.831295013427734,330.700159072876,"Generate a list of at least 5 adjectives to describe the given item.
+Computer",": Intelligent, reliable, powerful, versatile, user-friendly."
+138,16,84,30.916213989257812,1717.2963619232178,How does the endocannabinoid system affect the immune system?,"
+Cannabinoid receptors are expressed on immune cells and can modulate their func"
+139,18,8,27.322053909301758,150.27499198913574,"Take the given sentence and rewrite it using future tense
+The experiment was con","
+The experiment will be conducted."
+140,16,128,31.651020050048828,2617.203950881958,Create a list of steps to take in order to keep a computer secure.,"
+Write a step-by-step guide to securing a computer.
+List at least ten steps to s"
+141,29,18,26.319265365600586,349.61748123168945,"How would you classify the genre of the following book?
+The book is a thrilling ",".
+The genre of the book would be post-apocalyptic adventure."
+142,7,128,30.522584915161133,2617.5196170806885,Say three positive qualities about yourself,"
+Name three things you like about yourself
+What do you like about yourself?
+Name"
+143,14,10,32.45973587036133,185.0121021270752,"Reword this sentence:
+I started eating healthier.","
+I started consuming healthier foods."
+144,18,128,25.73871612548828,2607.0353984832764,Give two examples of a situation in which you would expect someone to take a sta,"
+Discussion:
+In situations where someone is being wrongfully treated, discrimina"
+145,16,128,31.55970573425293,2633.646249771118,Brainstorm three ideas for creating a marketing campaign for a summer movie.,"Design a budget for each idea and explain how it will increase ticket sales.
+Ide"
+146,57,9,26.22056007385254,167.8011417388916,We have a data set of customer reviews. Find the sentiment of each review and cl,"
+""The product was just okay"""
+147,21,31,26.421785354614258,616.4224147796631,"Convert the date July 28th, 2020 to a Unix timestamp.","
+A Unix timestamp for July 28th, 2020 is 1595968000."
+148,14,46,32.29641914367676,940.3228759765625,Generate an argument for why a person should volunteer in their community.,"
+Summarize the argument in a single sentence.
+Volunteering in one’s community pr"
+149,15,118,30.99370002746582,2404.6595096588135,Explain why loyalty programs are an effective part of customer retention.,"
+
+Loyalty programs are an effective part of customer retention because they prov"
+150,36,109,24.621248245239258,2230.7071685791016,Select the best website font from the 3 options given and provide a brief explan,"
+My choice - Alegreya
+The font Alegreya is the best choice for a website due to "
+151,12,128,30.50994873046875,2629.729986190796,Give a metric to evaluate a natural language processing model.,"
+Reverse engineer the following code snippet.
+Write a code snippet to extract al"
+152,37,25,24.642467498779297,509.7830295562744,Add a sentence to the following story that provides insight about the characters,"
+John and Maria jumped at the sudden noise and flash of light, their grip on eac"
+153,26,12,25.03800392150879,229.56395149230957,"Identify the smallest number in the following set
+1, 5, 9, 20, 25","
+The smallest number in the set is 1."
+154,21,8,26.730775833129883,144.39964294433594,"Generate a creative name for a library that fits the given theme.
+Exploration & ",: Stellar Knowledge Center
+155,10,114,31.070470809936523,2341.6378498077393,Describe the benefits of using electronic medical records.,Electronic medical records (EMRs) provide numerous benefits to patients and heal
+156,14,38,32.84144401550293,776.3442993164062,Name three examples of animal species that are currently endangered.,"
+Name three examples of animal species that are currently endangered:
+1. America"
+157,18,30,25.862455368041992,600.6429195404053,Calculate the value of X in the equation 8X+6=14,".
+Calculate the value of X in the equation 8X+6=14.
+The value of X is 1."
+158,17,19,26.068687438964844,373.81744384765625,Generate a headline for a “how to” article on cleaning silver jewelry.,"
+Example: ""Easily Clean Silver Jewelry with These Simple Steps""."
+159,15,68,30.948877334594727,1388.995885848999,Create a web page that displays the temperature of the city of Florence.,"
+Create a web page that displays the weather forecast for the next 5 days for th"
+160,8,117,30.516862869262695,2409.104824066162,Give me examples of a consumer product,"and a producer good.
+Both a consumer product and a producer good are items that "
+161,15,51,31.326770782470703,1045.250654220581,Come up with a list of 5 basic items needed to camp.,"
+Compile a list of 5 items that are essential for camping.
+
+1. Tent 
+2. Sleeping"
+162,7,128,31.612634658813477,2609.356641769409,How did humans first communicate?,"
+
+The first humans to walk the earth, Homo habilis, likely used a combination of"
+163,71,38,26.589632034301758,768.0652141571045,"Based on the following philosophy passage, determine the author’s primary argume","
+The author’s primary argument is that in order to gain a more objective underst"
+164,11,128,30.109167098999023,2623.9941120147705,Give the menu for the Thanksgiving dinner.,"
+Rice Stuffed Turkey, Sweet Potato Casserole, Green Beans, Cranberry Sauce, Roll"
+165,9,50,31.667709350585938,1007.6515674591064,Describe the risk factors for heart attack.,"
+Risk factors for heart attack include high blood pressure, smoking, diabetes, o"
+166,11,23,30.348539352416992,450.09875297546387,"Restore the original sentence
+drug damage lung","
+Drugs can cause damage to the lungs.
+Drugs can cause damage to the lungs."
+167,15,15,30.881881713867188,288.8336181640625,Generate a headline for an article discussing the importance of backup systems.,"
+Crisis Averted: Why Backup Systems are Essential"
+168,13,85,32.353878021240234,1739.6392822265625,List the differences between a data scientist and a data analyst.,"
+A data scientist is responsible for finding new ways to access and analyze data"
+169,10,51,31.528711318969727,1039.4587516784668,Explain the historical context of WWI.,"
+Identify the main powers involved in the conflict, and explain their motivation"
+170,20,28,26.419878005981445,557.5947761535645,"Categorize the following tweet as positive, negative, or neutral: That was incre","
+Rachel Wood
+@rachelwood
+That was incredible! #greatgig #amazingartist
+Positive"
+171,14,61,32.54055976867676,1255.2034854888916,Brainstorm 5 ways a company can reduce their losses.,"
+Name 5 strategies a company can use to minimize their losses.
+1. Optimize inven"
+172,20,3,26.155710220336914,41.810035705566406,"Categorize this sentence as either a statement or a question.
+Do you like chocol","
+Statement"
+173,22,26,31.120777130126953,525.6321430206299,"Take the input string of numbers below and add the numbers together.
+1,2,3,4",",5,6
+1 + 2 + 3 + 4 + 5 + 6 = 21"
+174,17,34,26.101112365722656,677.5174140930176,Write the answer to 6+2 and explain why the number is correct.,"
+
+The answer to 6+2 is 8. The number is correct because when you add 6 and 2 tog"
+175,11,15,30.24125099182129,289.0958786010742,"Guess the next word
+The family decided to","
+Go to the beach.  The next word is:
+Pack"
+176,41,67,25.594472885131836,1364.534854888916,"Redact all the private data from the following document.
+John Smith, 3456 Main S",", is a customer of ours. He has been with us since January 1, 2009 and his accou"
+177,17,76,26.414155960083008,1550.541639328003,Design an instruction set for a GPT model to create a haiku poem.,"
+Input:
+Output:
+Haiku poem
+
+Dew on the grass glistening
+Softly the petals fall
+P"
+178,29,6,27.132749557495117,106.5056324005127,"Given a sentence, identify whether it is a declarative or an imperative sentence","
+Declarative."
+179,17,101,28.183937072753906,2054.409980773926,Provide an example of a complex system that consists of several interacting comp,"
+The human immune system is an example of a complex system that consists of seve"
+180,31,21,26.03888511657715,413.44404220581055,"Determine whether the number sequence given is an arithmetic sequence.
+2, 5, 8, ","
+Yes, it is an arithmetic sequence. The difference between each term is 3."
+181,17,128,26.05605125427246,2622.9443550109863,Create a detailed paragraph outlining the physical features of a chess board.,"
+Classic chess boards are typically made of wood and have a checkered pattern of"
+182,21,75,25.952577590942383,1536.1313819885254,"In 100 words or less, tell a story about the consequences of the choices people ",".
+John made the decision to rob a bank, thinking it was the best way to solve hi"
+183,32,44,24.88994598388672,885.7595920562744,"Identify two features of the painting.
+The painting depicts a woman in a yellow ",The setting sun is shining in the background and the woman is framed in the door
+184,16,128,32.63497352600098,2645.4527378082275,Create a recipe for a dish that combines Mexican and Italian flavors.,"
+Ingredients:
+- 1 tablespoon olive oil
+- 1 onion, finely diced
+- 4 cloves garlic"
+185,33,60,25.99048614501953,1214.442253112793,"Cite three reputable sources that support the given statement.
+The use of plant-","
+1. ""Plant-Based Diets for a Sustainable Future"" - Scientific American
+2. ""The I"
+186,9,50,30.524730682373047,1033.6277484893799,Describe the trope of a tragic hero,"in a few sentences.
+A tragic hero is a protagonist in a story or drama who has a"
+187,7,23,30.195951461791992,454.1490077972412,How far is Paris from London,"?
+
+London is located approximately 277 miles (446 kilometers) from Paris."
+188,12,128,29.65521812438965,2640.7461166381836,List the most common properties of a hologram.,"
+Name five advantages of using holograms.
+Name three applications of holograms.
+"
+189,42,15,24.535417556762695,290.9839153289795,"Edit the following sentence based on the provided criterion.
+“Marc is fascinatin","
+Result: “Marc is enthralling to talk to”"
+190,14,14,32.48023986816406,268.66936683654785,Generate a valid SQL statement to retrieve all the records in a table,"named 'Employee'
+
+SELECT * FROM Employee;"
+191,21,128,26.304006576538086,2624.950647354126,"Explain the differences between two different things.
+Differences between custom",Customer service is primarily focused on enhancing customer satisfaction by prov
+192,12,83,29.5867919921875,1695.5351829528809,What is the best way to protect personal data online?,"
+What is the best way to protect personal data online? The best way to protect p"
+193,9,128,31.162023544311523,2625.5316734313965,Develop a strategy for managing a large project,using a project management tool such as Microsoft Project or a similar applicati
+194,18,128,25.10380744934082,2630.336284637451,Compile a list of the top 10 highest grossing films of all time,and you’ll find that eight of them are part of a franchise. The Marvel Cinematic
+195,16,58,31.049013137817383,1171.034574508667,Describe what behavior you think an AI assistant should have when talking to hum,"
+An AI assistant should be able to understand and respond to human language with"
+196,19,26,27.375221252441406,517.5793170928955,"Generate a code to achieve the specified outcome
+Print the sum of the two number","
+Output:
+sum = 5 + 3
+print(sum)
+The output will be: 8."
+197,7,65,30.20024299621582,1321.5806484222412,Generate sentence using word2vec,"
+Generate a sentence using the word vector provided.
+
+Input:
+word vector: <vecto"
+198,25,11,26.332616806030273,206.02107048034668,"Construct a sentence with the given words, attach punctuation at the end.
+Words:","
+Sentence: George spoke about his country."
+199,28,31,27.561187744140625,618.765115737915,"Classify these five animals into two different groups.
+Tiger, Shark, Elephant, W","
+Terrestrial Animals: Tiger, Elephant, Kangaroo
+Aquatic Animals: Shark, Whale"
+200,17,18,25.432109832763672,349.0133285522461,Provide an example of an antonym for the word “happy”,"
+Common antonym for the word “happy” is “sad”."
+201,10,113,31.330585479736328,2314.0835762023926,Write a twenty-word poem about hope.,"
+Rays of sunshine pierce the darkness,
+Hope blooms like a beautiful flower,
+A be"
+202,17,64,24.645090103149414,1289.8180484771729,Generate an example of how an AI system could be used for automatic marketing op,"
+Examples of how an AI system can be used for automatic marketing optimization i"
+203,12,128,29.796361923217773,2644.9031829833984,Generate five sentence of text describing the benefits of meditation.,"
+1. Meditation can help to reduce stress and anxiety, offering a sense of calm a"
+204,18,128,26.03602409362793,2639.5702362060547,"Generate a story based on a historical event.
+The Cuban Missile Crisis","
+
+In October 1962, the world teetered on the brink of nuclear war as the United "
+205,21,15,26.602506637573242,291.3973331451416,"Convert the given input into a complex equation.
+4x + 8y = 16","
+4x + 8y - 16 = 0"
+206,15,28,30.73716163635254,556.0247898101807,Come up with a sentence to describe the consequences of deforestation.,"
+Severe deforestation leads to soil erosion, decreased carbon storage, and loss "
+207,12,128,30.471324920654297,2634.878158569336,Please provide some tips for writing a good blog post.,"
+Design a captivating headline
+Create an engaging introduction
+Provide valuable,"
+208,12,128,29.3581485748291,2633.3141326904297,Compare and contrast the American and Chinese education systems.,"
+The American education system is based on the belief of providing equal opportu"
+209,19,128,24.85966682434082,2614.957094192505,Generate a list of office supplies that are necessary for a small team of 5 peop,"
+
+1. Paper, notebooks, pencils, pens, markers, highlighters
+2. Desk lamps, task "
+210,15,83,30.70807456970215,1704.0908336639404,Explain what does it mean to be a citizen of your country?,"
+A citizen of a country is someone who holds the nationality of that country and"
+211,19,90,29.475927352905273,1831.5999507904053,Compose a few lines of a poem that reflect the colorful beauty of sunrise.,"
+Summer sunrise paints the sky a brilliant blend of warm yellow and bright orang"
+212,39,101,25.441884994506836,2075.5202770233154,"Write a story in less than 100 words using the given characters and setting.
+Cha","
+
+The old man stumbled through the thick jungle, his worn clothes and worn face "
+213,21,128,24.62911605834961,2637.6802921295166,Meet with the director of a wildlife conservation center and create a short news,"
+Name: Miss. Anna Schmidt
+Position: Director of the Wildlife Conservation Center"
+214,36,12,24.75118637084961,228.49512100219727,"For the given sentence, remove the adjectives from it by replacing them with the","
+The sun had just set on the dark horizon."
+215,19,6,28.292417526245117,107.68461227416992,"Given a string, insert a period to indicate the end of a sentence
+I like running","
+I like running."
+216,37,111,27.70256996154785,2254.298448562622,"Generate an appropriate explanation to the comment in the code.
+def tweet_id_ext","
+    """"""
+    This function extracts the tweet_id from a given tweet object.
+    "
+217,17,83,27.67348289489746,1699.394702911377,Create a series of questions to help find out a person's career interests.,"
+Reverse the order of the questions and provide the answers
+Answers:
+- What type"
+218,18,128,25.420188903808594,2660.818099975586,"Generate a character sketch of a wise old sage, as accurate and detailed as poss","
+Name: Aloysius ""Loius"" St. Germaine
+Occupation: Mystic, Philosopher, Storytelle"
+219,24,8,26.60536766052246,146.6066837310791,"Assign a truth value (true or false) to the following statement:
+
+Money cannot b","
+
+The statement is true."
+220,12,14,30.04145622253418,277.4617671966553,Create a real-world example of an analogy.,"
+The sun is like a gold star in the night sky."
+221,11,51,30.28392791748047,1034.9037647247314,List five best practices for setting up a business blog,".
+1. Develop a content strategy.
+2. Create an editorial calendar.
+3. Develop a v"
+222,11,43,29.796600341796875,895.4544067382812,Explain the principal activities within a sales cycle.,"
+Explain the principal activities within a sales cycle.
+The principal activities"
+223,14,91,33.0348014831543,1871.66428565979,Create a data modeling design for a system to track medical records.,"
+The data modeling design for a system to track medical records should include t"
+224,24,6,25.577545166015625,105.54337501525879,"Find the type of flower referenced in the text below.
+The house was surrounded b","
+Answer: Rose"
+225,16,4,32.46045112609863,61.417579650878906,"Given two letters, create a three-letter word.
+e and r","
+GRE"
+226,12,28,29.608488082885742,557.4986934661865,"Convert the input into Morse code.
+SOS","
+.–.–.–.
+—
+The Morse code for SOS is .–.–.–. ---"
+227,23,33,26.643753051757812,674.628734588623,"Add an example to explain this statement.
+Organizing data is useful because it h","
+Example:
+Organizing customer data into categories such as age, gender, location"
+228,14,128,32.38725662231445,2620.1109886169434,Create a customer persona for a business selling expensive antique furniture.,"
+Name: Tim Styles
+Age: 60
+Gender: Male
+Occupation: Antique Furniture Restorer
+In"
+229,17,29,26.23915672302246,574.6200084686279,Identify 3 people who have made significant contributions to the field of roboti,"
+Name:
+1. Rodney Brooks
+2. Marc Raibert
+3. Katherine J. K. Gao"
+230,15,34,32.00101852416992,682.7805042266846,"Describe a possible cause of the given symptom.
+Migraine",":
+Possible causes of migraine include genetics, environmental factors, hormonal "
+231,14,64,31.754732131958008,1329.8492431640625,Write an example of a problem statement for a software engineering project.,"
+Create a problem statement for a software engineering project that describes th"
+232,10,84,30.36808967590332,1714.3137454986572,Provide two strategies for reducing student debt.,"
+Create a plan for reducing your student debt.
+### Response:
+Two strategies for "
+233,20,47,25.612831115722656,958.143949508667,"Describe the flavor profile (sweetness, tartness, etc.) of a banana.","
+A banana has a sweet, slightly tropical flavor with a subtle, creamy texture. I"
+234,23,49,25.65598487854004,1004.5008659362793,"Optimize this query for maximum recall:
+SELECT * FROM  table WHERE column1 = ""va","AND column2 = ""value2"";
+
+SELECT * FROM table WHERE (column1 = ""value1"" OR column"
+235,13,65,32.318830490112305,1318.5603618621826,Develop a strategy for improving user engagement with an online product.,"
+Generate a plan for increasing engagement.
+Step 1: Identify engagement metrics."
+236,11,27,29.87051010131836,545.9790229797363,Describe the visible spectrum of light in one sentence.,The visible spectrum of light is the range of colors that can be seen by the hum
+237,22,128,26.345491409301758,2620.280981063843,Write a survey question to investigate the attitudes of people towards a certain,"in the workplace:
+How important do you think it is for employers to promote gend"
+238,16,4,30.783653259277344,62.77036666870117,"Classify this photo as either a landscape or portrait
+[Insert photo]","
+Landscape"
+239,16,20,31.415224075317383,391.5863037109375,Generate a question that someone could ask a new person they have just met.,"
+I'd like to know more about you. What do you do for a living?"
+240,22,11,24.714231491088867,215.9900665283203,"Identify the language of the text ""Buonasera, il mio nome e Giuseppe.""","
+Giuseppe's language is Italian."
+241,16,65,31.268835067749023,1324.3412971496582,Formulate a query to find all the documents containing the term public health.,"
+Display the results in descending order by the number of times the term appears"
+242,10,19,31.835556030273438,382.3890686035156,Multiply 5 and 6.,"
+In this simple multiplication problem, 5 times 6 equals 30."
+243,14,46,32.10282325744629,936.8805885314941,Make a list of ten items one could find in a kitchen.,"
+Name ten items one could find in a garage.
+Make a list of ten items in a living"
+244,9,128,31.481027603149414,2605.3974628448486,Generate a recipe that involves apples.,"
+My recipe is Apple Pie with a Cinnamon Crumb Topping. The apple filling is made"
+245,33,16,25.65789222717285,318.79234313964844,"Generate a creative headline associated with the given news article
+After a long","
+The US Supreme Court Strikes Down Voting Law Discrimination"
+246,109,41,28.02419662475586,823.4400749206543,"Guide the robot using the following grid.
+Grid:
+
+╔═══╦═══╦═══╗
+║ X ║   ║   ║
+╠══","
+
+Commands:
+- X: Move forward
+- Y: Turn right
+
+Input:
+X X Y
+
+Output:
+The robot w"
+247,22,14,24.573326110839844,276.72576904296875,"Construct a sentence with the words ""seize"", ""opportunity"", and ""enjoyment"".","
+I seized the opportunity to enjoy life to the fullest."
+248,8,43,31.319141387939453,867.4192428588867,Produce an analogy for success,".
+
+Success is like a marathon runner who keeps their eyes on the finish line, ev"
+249,18,128,26.08776092529297,2633.1787109375,Generate two arguments debating whether or not a country should ban single-use p,"
+Name the two sides and provide three points for each.
+
+Side 1: Ban Single-Use P"
+250,13,19,31.594276428222656,373.643159866333,Give an example of an animal that is not endangered,".
+The domestic cat is an example of an animal that is not endangered."
+251,13,128,31.251192092895508,2628.695011138916,Please provide a detailed argument for or against the death penalty.,"
+
+The death penalty is a contentious issue that has been debated for centuries. "
+252,97,40,25.803327560424805,807.1396350860596,"Given a set of data, generate a report highlighting the key findings.
+The compan",The key findings from the survey are that the majority of customers are satisfie
+253,50,22,24.52397346496582,439.8977756500244,"Add a sentence that transitions between the two paragraphs smoothly.
+Paragraph 1","
+
+Transition Sentence: As the stress levels at work increased, her energy levels"
+254,13,88,31.604766845703125,1795.4325675964355,How did Ancient Egyptians build the pyramids?,"
+Explanation:
+
+The ancient Egyptians built the pyramids using manpower and simpl"
+255,26,28,24.931669235229492,566.8938159942627,"Given a natural language question, generate an appropriate response.
+What is the","
+I would recommend instrumental or ambient music to listen to while studying. It"
+256,11,128,30.109643936157227,2625.025987625122,What is a virtual private network (VPN)?,"
+A Virtual Private Network (VPN) is a secure, encrypted connection that allows u"
+257,24,79,25.928020477294922,1618.8466548919678,Write a short story of 100 words or less that includes a character who has encou,"
+Explorer Seth Greyson arrived at the far-off isle of Sindria. The lush greenery"
+258,20,8,26.47542953491211,146.65746688842773,"Rewrite the sentence and make the vocabulary more technical
+The object is really","
+The object is significantly large."
+259,20,5,26.339054107666016,83.24933052062988,Is the following sentence true or false? All atoms of the same element have the ,"
+
+True."
+260,17,128,25.684118270874023,2616.5201663970947,Create a short story about a person who finds out they can travel through time.,"
+Classification: Science Fiction
+Word Count: 897
+
+John woke up to the sound of h"
+261,11,25,29.91008758544922,492.6576614379883,"Name five technology related companies
+< noinput >","
+< output >
+1. Apple
+2. Google
+3. Microsoft
+4. Amazon
+5. IBM"
+262,18,5,25.1314640045166,84.06805992126465,"Given two words, name another word that is related to both.
+Light, Blue",- Turquoise
+263,18,32,25.39682388305664,643.9764499664307,"Are the following two words synonyms?
+Jubilant and ecstatic","
+### Response:
+Yes, jubilant and ecstatic are synonyms. Both words refer to a st"
+264,17,16,25.150060653686523,311.89560890197754,"Come up with one way to use the following material:
+Cotton fabric","
+
+One way to use the cotton fabric is to make a dress."
+265,10,128,31.38446807861328,2647.148370742798,Tell me a few benefits of eating vegetables.,"
+
+Eating vegetables can provide a number of health benefits, such as:
+
+1. Improv"
+266,16,37,31.018733978271484,740.0016784667969,Create a thesis statement for a research paper about the benefits of reading boo,"
+A thesis statement for a research paper about the benefits of reading books cou"
+267,23,9,25.301694869995117,164.89529609680176,"Rewrite the given sentence to use a modal auxiliary verb.
+I must eat healthier f","
+I should eat healthier food."
+268,15,9,30.483722686767578,166.1965847015381,Create a close-ended prompt for a chatbot about sports news.,"
+What is the latest sports news?"
+269,12,105,29.328346252441406,2143.280506134033,What are the downsides of getting a tattoo?,"
+Risks associated with getting a tattoo include infection, allergic reactions, a"
+270,10,71,30.43222427368164,1450.4613876342773,Give 4 strategies to promote customer loyalty.,"
+Generate 4 strategies to promote customer loyalty.
+1. Create a loyalty program "
+271,10,86,30.658721923828125,1767.0228481292725,Name three benefits of being bilingual.,"
+Rosetta Stone
+Being bilingual offers a number of advantages. First, it can help"
+272,12,124,29.073715209960938,2548.0523109436035,Describe a time when you have feared for your life.,"
+Name: John Smith
+Age: 28
+
+I was hiking in the mountains with a friend, when sud"
+273,28,6,24.786949157714844,103.1193733215332,"Given two strings, determine the largest palindromic substring
+String 1: madam
+S","
+Output: abba"
+274,55,61,26.514768600463867,1244.0438270568848,Identify the controversy in the following passage and explain why it's controver,"
+The controversy in the passage is the proposed need for reform of the president"
+275,46,121,24.7495174407959,2493.8101768493652,"Analyze and compare the following two paintings.
+Painting 1: Monet’s “Water Lili","
+Both of these paintings depict scenes of leisure, with “Water Lilies” focusing "
+276,55,100,25.278329849243164,2048.321485519409,"Reverse engineer the following code and explain the logic of it.
+def find_smalle","
+
+def isDivisible(n, m):
+    return n % m == 0
+
+The code finds the smallest mult"
+277,9,128,30.462026596069336,2633.1961154937744,Automatically generate a random PIN code,"
+Generate a random 4 digit PIN code.
+
+A 4 digit PIN code is a unique number used"
+278,28,14,25.5277156829834,270.95818519592285,"Name the type of poem that the given words are used in.
+Words: Roses are red, vi",".
+Type of Poem: Rhyming Poem."
+279,13,115,32.138824462890625,2365.2477264404297,Describe how the role of history in today's world.,"
+Suggested Response:
+History is a critical part of today's world. It helps us to"
+280,13,20,32.29475021362305,391.07346534729004,"Generate a proverb starting with ""Beauty is...""","
+Roughly, the proverb will be ""Beauty is only skin deep."""
+281,9,128,30.574798583984375,2617.063522338867,What is a Black Swan event?,"
+A Black Swan event is an unforeseeable event that has a large impact on society"
+282,12,33,29.547452926635742,672.4729537963867,List three safety measures for driving in icy conditions.,"
+1. Slow down and increase following distance.
+2. Remove snow from vehicle and w"
+283,22,19,25.780677795410156,377.4235248565674,"Following the input, generate a mathematical equation that describes a linear re",": y = mx + b
+where m = slope and b = y-intercept"
+284,18,128,25.05946159362793,2657.6313972473145,Explain why democracy is more suitable for running a country than a dictatorship,"
+A democratic system of government is more suitable for running a country than a"
+285,15,128,31.921863555908203,2631.5648555755615,Write a story about a fisherman who lived in a small village.,"
+Create a character description for the fisherman.
+### Response:
+The fisherman w"
+286,17,18,29.11233901977539,355.9730052947998,"Convert this quantity into its equivalent in liters.
+42 ounces","
+The equivalent quantity in liters is 11.36 liters."
+287,12,128,29.404878616333008,2609.3432903289795,Generate an example of a well-written blog post.,"
+
+The blog post should be about a topic of interest, such as personal finance, t"
+288,30,83,26.6876220703125,1703.4239768981934,"Explain the relationship between the nouns and pronouns in the sentence ""Jennife","
+Name the nouns in the sentence: Jennifer, recipe, Tom
+Name the pronouns in the "
+289,32,8,25.951862335205078,145.0660228729248,"Identify the type of the following sentence, whether it is a question, exclamati","
+I had a great time."
+290,13,116,31.511783599853516,2376.190185546875,Describe a process for troubleshooting a computer issue.,"
+Edit: This process should be concise and easily understood by non-technical use"
+291,8,73,31.020164489746094,1477.698802947998,Name 3 properties of water.,"
+Name three properties of water.
+1. Water is an excellent solvent due to its pol"
+292,22,128,27.413129806518555,2639.5859718322754,Explain the significance of the Battle of Tsushima in the Russo-Japanese war.,"
+The Battle of Tsushima was a major naval battle during the Russo-Japanese War o"
+293,53,24,25.44379234313965,476.90463066101074,"Summarize the article about the prediction of political elections.
+In this artic",The model was able to accurately predict the winner of elections in several coun
+294,20,113,25.116682052612305,2309.593915939331,Come up with five questions about the BP oil spill for a trivia game.,"
+What are the five questions about the BP oil spill for a trivia game?
+1. In whi"
+295,18,18,25.694608688354492,352.78868675231934,Generate a headline for a news story about the recent changes in the art world.,"
+Headline: ""Revolutionary Changes Sweep Through the Art World"""
+296,10,128,30.519485473632812,2632.071018218994,Write one way to save energy at home.,"
+Turn off the lights when you leave a room.
+
+Write another way to save energy at"
+297,12,13,30.107498168945312,253.4921169281006,Write a slide title for a presentation about online learning.,"
+Rethinking Education: The Benefits of Online Learning"
+298,20,20,25.648832321166992,398.61512184143066,"Apply a sentiment analysis to the following phrase.
+""I am extremely happy about ","
+The sentiment analysis of the phrase ""I am extremely happy about the news"" is p"
+299,28,50,26.2296199798584,1016.2532329559326,"Rewrite the given passage using new vocabulary words.
+The ship shifted and swaye","The captain stood at the helm, clutching the wheel with white knuckles.
+The vess"
+300,20,128,25.333166122436523,2615.0999069213867,"Can you suggest dishes based on the ingredients given?
+chicken, peppers, garlic","
+
+I suggest making a roasted chicken and vegetable tray with a garlic herb rub. "
+301,33,128,25.585651397705078,2636.2884044647217,"Indicate how the following characters in the novel reflect the theme of ""the cor","
+Gregoire is a miner who rises to power in the mining community after the miners"
+302,10,62,31.049728393554688,1274.8048305511475,Tell the similarities between plants and animals.,"
+Rather than providing a direct answer, I will provide two sentences that highli"
+303,11,8,29.11996841430664,144.14119720458984,Name one example of a non-human primate,".
+Chimpanzee"
+304,9,17,30.939817428588867,334.3489170074463,Generate a sentence for greeting a customer,".
+Greeting: ""Welcome! How can I help you today?"""
+305,10,128,31.273841857910156,2640.195846557617,How to make spicy buffalo sauce?,"
+Gather the following ingredients: 1/2 cup unsalted butter, 1/2 cup hot sauce, 2"
+306,34,7,24.62291717529297,123.0931282043457,"Given the data below, predict the output.
+x = 5
+y = 3
+z = 2
+
+Result = x + y * z","
+
+Output: 9"
+307,17,128,26.43132209777832,2633.181571960449,"Write an original story involving two frogs, a cat, and a bear.","
+Setup:
+Two frogs, Fergus and Frieda, have been best friends since they were tad"
+308,53,15,25.10356903076172,290.79484939575195,"Given a list of values, calculate the mean.
+
+Input: 82, 23, 55, 64, 71
+82, 23, 5","
+
+Output: 54.2
+54.2"
+309,20,21,28.258323669433594,424.4670867919922,"Suppose you heard some news about a pandemic, how would you express the concern ","
+
+I am deeply concerned about the spreading pandemic and the impact it may have "
+310,17,14,26.775360107421875,272.6175785064697,"Take the existing sentence and rephrase it
+We should avoid sugary snacks",".
+We need to steer clear of sugary treats."
+311,25,39,24.88255500793457,785.2523326873779,"Improve the following document per style and readability guidelines.
+the newspap",", so read the whole paper and you will learn much.
+The revised document should r"
+312,14,88,32.036542892456055,1812.9048347473145,How would you search for a paper in a scholarly database?,"
+When searching for a paper in a scholarly database, I would start by entering r"
+313,16,87,30.928850173950195,1786.3759994506836,Refute the following claim: Fruits are not healthy snacks.,"
+Explanation:
+Fruits are a great source of vitamins, minerals, fiber, and antiox"
+314,30,44,26.9927978515625,894.5856094360352,"Given an array of integers, find the lowest value
+[19, 8, 6, -3, 11]","
+
+19, 8, 6, -3, 11
+sorted: -3, 6, 8, 11, 19
+lowest: -3"
+315,28,128,26.4437198638916,2640.4101848602295,"Given a set of ingredients, come up with a recipe that produces a tasty treat.
+F",":
+Start with pre-heating the oven to 350 degrees. Grease and flour a 9-inch roun"
+316,10,78,31.119108200073242,1602.7517318725586,Propose a strategy to solve global poverty.,"
+Name three countries with the highest rates of poverty.
+Identify a major cause "
+317,17,128,26.282072067260742,2635.3988647460938,Compare and contrast the differences between supervised and unsupervised machine,"
+Explain the concept of transfer learning.
+Define the term ""machine learning"".
+E"
+318,30,2,25.14052391052246,20.871877670288086,"Edit the following sentence: ""I am feeling happy and excited to start this journ",
+319,15,105,31.746387481689453,2177.342653274536,Summarize the Rome Statute of the International Criminal Court.,"
+The Rome Statute of the International Criminal Court is an international treaty"
+320,44,29,26.354551315307617,583.3721160888672,Add a sentence to the end of the given paragraph to bring clarity to the argumen,".
+Hence, it is important for us to take regular breaks while studying or working"
+321,23,24,35.115718841552734,476.23705863952637,"Categorize the list into three categories.
+Carrots, oranges, apples, spinach","
+Category 1: Vegetables
+Category 2: Fruits
+Category 3: Greens"
+322,14,112,31.91065788269043,2300.0590801239014,What is the relationship between an insurer and an insured?,"
+An insured is a policyholder who purchases insurance coverage from an insurer. "
+323,11,128,30.13443946838379,2656.8169593811035,What are the main advantages of learning to code?,"
+Coding is an increasingly important skill in the modern world, and there are ma"
+324,18,23,24.998188018798828,454.0388584136963,"Generate a wish for someone's birthday.
+Recipient: My Best Friend","
+Wish: May your special day be filled with joy, laughter and all the blessings y"
+325,30,6,25.441884994506836,105.29971122741699,"Generate the output given the program code.
+num1 = 2
+num2 = 4
+print(num1 + num2)","
+Output:
+6"
+326,27,32,26.43871307373047,636.6641521453857,"Sort the following song titles in chronological order.
+Let it Be, Hey Jude, Comi","
+The song titles in chronological order are: “Paperback Writer”, “Hey Jude”, “Le"
+327,25,64,25.94757080078125,1300.581932067871,"Determine the banking details of the New York branch.
+Bank Name: Bank of America","City Branch
+Address: 1 Bryant Park, New York, NY 10036
+Phone Number: (212) 789-4"
+328,45,37,27.68111228942871,761.8188858032227,"How does the protagonist feel towards the end of the book?
+Josh has been struggl","By the end of the book, Josh has finally come to terms with his new identity. He"
+329,10,123,30.8229923248291,2535.9766483306885,Please generate an extended metaphor for knowledge.,"
+My extended metaphor for knowledge is that it is like a garden: knowledge must "
+330,55,101,24.507999420166016,2081.9923877716064,"Identify the mistakes (if any) in the library management system design below.
+Th","
+### Response:
+The design is missing some important components for a Library Man"
+331,25,9,25.130510330200195,164.6578311920166,"Paraphrase the following sentence in 5 words or less.
+I am preparing for my upco","
+Preparing for exams."
+332,22,7,26.45397186279297,123.75044822692871,"Rewrite the following sentences to make them active voice.
+The project has been ","
+I completed the project."
+333,24,24,26.82018280029297,488.8501167297363,"Use the following vocabulary words to create a sentence: “transparency”, “struct","
+Transparency, structure, and innovation are three concepts that should be incor"
+334,52,26,26.6571044921875,522.9065418243408,Compare the two shipping methods below and provide which one should be used in a,"
+If the customer is willing to wait for their order and wants to save money, Shi"
+335,31,18,26.66449546813965,352.1907329559326,"Given a sentence, reduce the length of the sentence using proper grammar.
+She we","
+
+She went to the store, a place she had never been to before."
+336,18,17,25.116920471191406,332.2911262512207,"What is the result of 17*14, expressed as a decimal?","
+The result of 17*14 is 238."
+337,27,11,24.848461151123047,207.34429359436035,"Given two numerical values, calculate the percentage increase.
+Original value: 2","
+Percentage Increase: 50%"
+338,17,87,27.8475284576416,1792.8574085235596,Write code to display all the prime numbers from 1 to 100,".
+
+def is\_prime(n):
+if n == 1:
+return False
+for i in range(2, n):
+if n % i == 0"
+339,14,88,31.763076782226562,1796.1945533752441,Convert 30 kilometers per hour to meters per second.,"
+Explain the conversion factor used.
+The conversion factor used is 1/3600, as th"
+340,9,57,31.068801879882812,1153.8186073303223,Provide a scientific definition of entropy.,"
+In thermodynamics, entropy is a measure of the randomness of a system and its a"
+341,27,32,25.059938430786133,662.4472141265869,"Classify the following text as a news article, review, or opinion.
+This new rest","The food was delicious, and the staff were friendly and attentive to all custome"
+342,11,68,30.364036560058594,1376.112937927246,What is the ideal length of a blog post?,"
+
+The ideal length of a blog post depends on the topic and the audience. Some bl"
+343,9,128,30.418872833251953,2634.1705322265625,Create a story about a parrot.,"
+Gus was a bright green parrot who loved to sing. He lived in a large cage in th"
+344,22,128,25.674819946289062,2613.8088703155518,Generate an example of a data set with 100 records of customers and their corres,"
+Robert:
+Output:
+{
+""data"": [
+    {
+        ""customer_id"": 1,
+        ""occupation"
+345,13,22,33.037662506103516,432.6508045196533,Give an example of an event that could represent a new beginning,".
+
+An example of an event that could represent a new beginning would be a gradua"
+346,18,128,25.81191062927246,2640.3584480285645,"Construct a survey that meets the given criterion.
+Survey about online shopping","habits
+
+1. How often do you shop online?
+a. Never
+b. Rarely
+c. Occasionally
+d. F"
+347,32,16,26.39317512512207,322.42465019226074,"Summarize the sentence in two sentences, each containing fewer than 7 words.
+The","
+The plot was engaging, but the numerous plot twists were overwhelming."
+348,19,18,26.797771453857422,353.4250259399414,"Identify the sentence structure and output the appropriate label.
+He answered th","
+Label: declarative
+The questions were answered quickly.
+Label: declarative"
+349,17,19,25.330543518066406,374.8779296875,"Generate a sentence that contains the given words.
+magic, castle, king","
+The king of the magic castle cast a spell that mesmerized the whole kingdom."
+350,39,66,25.57849884033203,1357.4275970458984,"Re-arrange the following sentences to make a complete, cohesive paragraph.
+The f","Suddenly, the door to the car opened. A man stepped out, he was tall and wore a "
+351,12,51,30.23552894592285,1054.389238357544,Convert 10kgs to ounces.,"
+Exchange Rate: 1 kg = 35.274 ounces
+So, 10kgs = 10 * 35.274 = 352.74 ounces"
+352,98,46,26.288747787475586,927.6511669158936,"Output a summary of the paragraph.
+Powerful and yet surprisingly easy to use, cl","
+Summary: Cloud computing is a revolutionary technology that enables businesses "
+353,10,50,31.634092330932617,1027.8394222259521,Create a metaphor that illustrates grief.,"
+Grief is like a wildflower in the snow. It is beautiful but delicate, and it is"
+354,19,122,26.56102180480957,2508.918046951294,"Compress a web page content
+The webpage content includes text, images and videos","
+Step 1: Identify the parts of the webpage content that can be compressed (text,"
+355,14,12,31.758785247802734,226.79853439331055,Identify three prime numbers between 1 and 10.,"
+R: 2, 3, 5"
+356,18,26,24.900197982788086,528.0036926269531,"Convert the following Euro amount to US Dollar
+126.99 Euro","
+The US Dollar equivalent to 126.99 Euro is approximately $145.47."
+357,19,66,27.482271194458008,1338.9036655426025,"Create a list of six strategies to promote a given social cause.
+Ending world hu","
+1. Increase donations for food aid programs.
+2. Advocate for sustainable agricu"
+358,27,128,25.88510513305664,2635.181665420532,"Create a timeline that shows the key events of the given history.
+The history of","
+1776: Women are denied the right to vote in the United States.
+1792: Women in N"
+359,13,48,32.32073783874512,976.4547348022461,Generate a table of the first five powers of 2.,"
+Table:
+
+Power  |  2^n
+--------|-----------
+0       |       1
+1       |       2
+"
+360,15,91,31.10671043395996,1866.454839706421,Calculate the probability of getting two heads in four coin tosses.,"
+Calculate the probability of getting two heads in four coin tosses.
+The probabi"
+361,25,76,26.99899673461914,1551.5704154968262,"Calculate the area of a triangle with side lengths of 3 cm, 4 cm, and 5 cm.","
+Calculation:
+The semi-perimeter of the triangle is (3+4+5)=12 cm.
+The area of t"
+362,30,90,29.799938201904297,1852.8335094451904,"Given a description of the symptom, suggest the best way to manage it.
+I am feel","
+Best way to manage it:
+Get plenty of sleep, eat nutritious meals, and engage in"
+363,8,67,32.0897102355957,1366.7688369750977,Create a pizza topping combination.,"
+The pizza topping combination should be unique, tasty and satisfying. Try a com"
+364,16,128,31.8450927734375,2633.8632106781006,Generate a list of appropriate safety precautions to take while sailing.,"
+Name three types of sailboats
+1. Precautions to take while sailing:
+- Ensure al"
+365,11,90,29.381275177001953,1851.8686294555664,List 3 advantages of using machine learning models.,"
+A. Automation and scalability: Machine learning models can be used to automate "
+366,12,62,29.769182205200195,1264.6911144256592,Write a short story featuring an enchanted sword.,"
+What happened to the enchanted sword?
+The enchanted sword was passed down throu"
+367,10,75,31.943798065185547,1529.2704105377197,Create a web page to display a portfolio.,"
+Explain the components of the page.
+Describe how to design a portfolio page for"
+368,11,128,30.540943145751953,2622.4517822265625,Construct an argument against the commercialization of sports.,"
+Being a spectator sport, the commercialization of sports has become commonplace"
+369,19,12,27.12559700012207,231.96911811828613,Generate a plausible title for a movie starring a character named Arjun.,"
+Race Against Time: The Arjun Story"
+370,12,27,29.81853485107422,540.5197143554688,How can I stay calm when I am feeling overwhelmed?,"
+Exercise, meditation, deep breathing and talking to a trusted friend or family "
+371,13,128,31.85582160949707,2641.085147857666,Name the peak that has the greatest elevation in the world,"?
+Name the peak that has the greatest elevation in the world?
+Mount Everest.
+
+Wh"
+372,25,11,24.836301803588867,206.58135414123535,"Create a headline that conveys the meaning of this sentence.
+The government has ","
+The Government Bumps Up Minimum Wage"
+373,29,42,26.937007904052734,854.956865310669,"Group the following countries into EU (European Union) and non-EU countries.
+Ger",", Italy, United Kingdom, Spain, Greece
+### Response:
+EU countries: Germany, Fran"
+374,14,12,31.587600708007812,230.3636074066162,Come up with three adjectives to describe the color red.,"
+Flamboyant, fiery, bold."
+375,13,44,32.13906288146973,884.8555088043213,Generate a list of three ideas to keep the house clean.,"
+1. Develop a cleaning schedule to break up the tasks.
+2. Create a checklist to "
+376,9,128,31.18157386779785,2635.1494789123535,Name four key components of a computer.,"
+Name four key components of a computer.
+1. Motherboard: The motherboard is the "
+377,20,27,27.57716178894043,546.8044281005859,"Can you make a word cloud out of these three words: art, beauty, and imagination","
+Additional information:
+Word clouds are a great way to visualize the most frequ"
+378,14,65,31.463146209716797,1317.148208618164,Generate a report summarizing the sales performance in the past quarter.,"Include the total number of units sold, the average price per unit, and the tota"
+379,12,61,29.698610305786133,1254.9524307250977,"Classify the following healthy food item
+Sushi","
+Sushi can be a healthy food item, but it also depends on the ingredients. Gener"
+380,11,111,30.274391174316406,2267.9126262664795,"Generate a new Wikipedia article
+The Tibetan Wolf",(Canis lupus chanco) is a subspecies of the gray wolf that is found in the Tibet
+381,11,49,29.674291610717773,1006.4506530761719,How can machines be used to reduce carbon emissions?,"
+
+Machines can be used to reduce carbon emissions by automating processes that w"
+382,24,16,25.09784698486328,310.25218963623047,"Generate a creative, on-brand headline for a blog post about how to save money o","
+Raising the Bar: How to Save Big on Groceries"
+383,38,45,25.367259979248047,917.0565605163574,"Given two sentences, rewrite them using the same ideas but different words.
+She ","
+It was a challenging task to rebuild the house. It was a daunting endeavour to "
+384,42,15,25.501012802124023,292.0103073120117,"Given a sentence and a keyword, edit the sentence so that the keyword appears at","
+The sentence is now: Democracy shows the importance of democracy."
+385,16,10,31.35991096496582,185.12821197509766,"Turn this sentence into a tagline
+We believe in the power of music","
+I believe in the power of music."
+386,14,40,31.688690185546875,809.8442554473877,Find an example of an organization working to provide aid to refugees.,"
+Find an example of an organization working to provide aid to refugees.
+The Inte"
+387,14,38,31.390666961669922,789.3452644348145,Describe the biggest challenge you could face in a remote working environment.,"
+The biggest challenge in a remote working environment is maintaining effective "
+388,25,66,25.42901039123535,1351.7935276031494,"Explain why the author is opposed to this plan.
+The author proposed an alternati","They were opposed to the current plan because it was costly, inefficient, and di"
+389,14,91,32.42897987365723,1874.5267391204834,Find and describe a quick fix for a leaky faucet,".
+
+A quick fix for a leaky faucet is to first turn off the water supply valves b"
+390,7,81,31.19206428527832,1651.1240005493164,Design a new fitness program.,"
+Being a fitness instructor, I have developed a new fitness program called ""Fit "
+391,13,43,32.7763557434082,871.4842796325684,Provide an example of how peer pressure can be negative.,"
+When a group of friends decide to do something dangerous or risky that one of t"
+392,24,25,28.062820434570312,500.1184940338135,Identify the mistakes in the following sentence and suggest how to correct them.,"and desserts.
+I suggest correcting it to: This restaurant has the best pasta dis"
+393,17,78,25.440216064453125,1594.689130783081,"Explain the differences between synaptic plasticity, habituation and adaptation.",Synaptic plasticity is the ability of synapses to strengthen or weaken the conne
+394,8,110,30.600309371948242,2250.281810760498,Write five facts about pandas.,"
+
+1. Pandas are native to the bamboo forests of central China.
+
+2. They have a v"
+395,24,53,26.708126068115234,1078.6716938018799,Please provide an example of how the following phrase can be used in a sentence:,"
+The phrase ""once in a blue moon"" is used to describe a rare or infrequent event"
+396,12,128,30.616283416748047,2632.861852645874,Create a program to categorize animals into different groups.,"
+Name at least five animals for each group.
+
+Output:
+Group 1:
+- Tiger
+- Elephant"
+397,12,113,29.511451721191406,2297.1150875091553,Summarize the latest news about the stock market.,"
+Summarize the latest news about the stock market.
+- The U.S. stock market close"
+398,18,27,25.63643455505371,555.8648109436035,"Rephrase the sentence using different words.
+He was extremely attracted to her.","
+He was highly drawn to her.
+He had a strong pull towards her.
+He felt an intens"
+399,14,28,32.96065330505371,556.5750598907471,Provide an example of a third-person point of view.,"
+Providing an example of a third-person point of view: She walked through the do"
+400,14,97,32.32860565185547,1968.088150024414,Describe the relationship between two characters from the novel you are reading.,"
+Romeo and Juliet are star-crossed lovers in the play of the same name by Willia"
+401,18,128,27.460336685180664,2628.2997131347656,Explain the differences between a Static Web page and a Dynamic Web page.,"
+Name three advantages of using a Static Web page.
+Explain what a Cascading Styl"
+402,10,49,31.38899803161621,1000.2129077911377,Name five web technologies used for web development.,"
+Name five web technologies used for web development:
+1. HTML (HyperText Markup "
+403,14,67,31.248092651367188,1365.0178909301758,Write a few sentences describing how to make a cup of tea.,"
+
+To make a cup of tea, bring water to a boil in a pot or teapot. Then add a tea"
+404,13,24,31.68940544128418,476.3641357421875,Tell me what 'Schadenfreude' refers to.,"
+Schadenfreude is the feeling of pleasure or satisfaction one gets from someone "
+405,14,82,32.3789119720459,1675.4357814788818,What is the difference between a direct object and an indirect object?,"
+
+A direct object is a noun or pronoun that receives the action of a verb. An in"
+406,17,14,25.831222534179688,274.1103172302246,Rewrite this sentence in the future perfect tense: She has seen the movie,"five times.
+She will have seen the movie five times."
+407,9,37,31.232118606567383,740.9157752990723,List five objects found in a kitchen.,"
+
+1. Pots and pans
+2. Knives and forks
+3. Dishes and glasses
+4. Mixing bowls
+5. "
+408,12,103,29.53052520751953,2120.7454204559326,List the steps to remove a stain from a fabric.,"
+Create a list of the steps to remove a stain from a fabric:
+1. Identify the typ"
+409,10,123,31.0821533203125,2523.8194465637207,Find a creative way to promote a business.,"
+Name: Twitter Contest
+Description: Create a Twitter contest to increase engagem"
+410,40,48,25.45022964477539,960.8726501464844,"Merge the two lists below into a list of tuples
+list1 = [""apple"",""orange"",""banan","
+
+result = list(zip(list1, list2))
+print(result)
+
+Output:
+[('apple', 'red'), ('o"
+411,16,31,32.17816352844238,636.5771293640137,"Return the XML tag for a given input sentence.
+This is a heading","
+<head>
+This is a sentence
+</head>
+### Input:
+This is a heading
+### Response:
+<h"
+412,35,18,28.08403968811035,352.2484302520752,"Create a headline for the given story.
+Story: After years of uncertainty, the en","
+Headline: Endangered Pumas Spotted in Rising Numbers"
+413,14,30,31.301021575927734,602.5445461273193,"What verb do you use with the word ""inevitable""?","
+We use the verb ""to be"" with the word ""inevitable"". For example, ""It is inevita"
+414,19,100,25.878190994262695,2045.8998680114746,"Generate a series of meaningful sentences using the given phrase.
+""making my way","
+1. Making my way downtown, I passed by the bustling marketplace.
+2. As I made m"
+415,18,67,29.77156639099121,1366.0051822662354,Construct a query to find an article about the economic benefits of renewable en,"
+Select the correct database for the query.
+Choose the correct search terms for "
+416,17,33,25.35843849182129,674.992561340332,"Identify the subject and make a descriptive sentence
+A big brown bear","
+The big brown bear was a magnificent creature, with thick furry fur, a long sno"
+417,14,95,31.807422637939453,1951.7619609832764,Design a game where the goal is to find the missing item.,"
+Create a game where the goal is to find the missing item. The game should have "
+418,35,45,26.595115661621094,909.7826480865479,"Summarize the article in one sentence (less than 10 words).
+The article discusse","
+
+Provide a link to the article.
+www.sciencedirect.com/science/article/pii/S2352"
+419,44,57,24.706125259399414,1161.1428260803223,"Categorize this article into one of the following categories: sports, entertainm","This year, the big game will be played on February 7th, 2021. The matchup will p"
+420,18,128,24.988412857055664,2618.3252334594727,Explain the core concepts of Machine Learning to an audiences consisting of a la,"
+Robert: Hi everyone! Ever wondered how computers can learn by themselves withou"
+421,7,105,30.38811683654785,2168.4348583221436,Create a menu for breakfast.,"
+Examples:
+Breakfast Menu:
+- Fruit salad with yoghurt
+- Pancakes with maple syru"
+422,12,17,30.197620391845703,334.139347076416,Edit the sentence “She visits to the beach everyday”,"to make it grammatically correct.
+She visits the beach every day."
+423,13,128,31.081438064575195,2635.657787322998,Create a shopping list for a weekend trip to the beach.,"
+List:
+1. Sunblock
+2. Swimsuits
+3. Flip flops
+4. Beach towels
+5. Snacks
+6. Beach"
+424,14,128,32.5162410736084,2631.2785148620605,Generate code to add a background gradient to a rectangular block.,"
+Add a background gradient to a rectangular block.
+
+HTML:
+```html
+<div class=""re"
+425,9,128,31.586647033691406,2611.7494106292725,Summarize what Kaggle is,"in a few sentences.
+Kaggle is a platform for data science competitions. It allow"
+426,7,128,30.332088470458984,2642.364501953125,Configure a wireless router.,"
+Routers are essential for connecting multiple devices to the internet without h"
+427,35,20,25.66671371459961,392.04859733581543,"Reorder the list of item according to the given criteria.
+razor, toothbrush, sha","
+Answer: toothbrush, razor, shampoo, moisturizer."
+428,13,26,32.4091911315918,513.6830806732178,Create a script to remove all vowels from a string,".
+Remove all vowels from a string.
+
+Input: “apple”
+Output: “ppl”"
+429,10,128,30.80463409423828,2647.8593349456787,List three facts about Thomas Edison.,"
+Thomas Edison was an American inventor and businessman who developed numerous d"
+430,18,32,25.648832321166992,637.4986171722412,"Generate a sentence using the words 'ceiling', 'window', 'frost'","
+Ex: The frosty window let in a cold breeze from the ceiling fan.
+The frosty win"
+431,9,32,30.529022216796875,637.5510692596436,Name five U.S. presidents,".
+Name five U.S. Presidents: George Washington, Thomas Jefferson, Abraham Lincol"
+432,15,50,31.401872634887695,1013.1573677062988,Provide three examples of plants that are native to the United States.,"
+
+1. Eastern White Pine (Pinus strobus)
+2. Black-Eyed Susan (Rudbeckia hirta)
+3."
+433,20,128,25.943756103515625,2633.101224899292,Explain the limitations of using GPT models compared to other types of natural l,GPT models are a type of deep learning model that can generate human-like text b
+434,9,128,30.520915985107422,2640.515089035034,Design a poster for a social media campaign,"promoting the importance of recycling.
+Explain how the design elements on the po"
+435,11,22,29.561519622802734,437.990665435791,Generate a joke about a doctor and a patient.,"
+What do you call a doctor who treats patients with humor?
+A Doctor-ari-an!"
+436,24,14,24.70231056213379,269.5183753967285,"Take the following string and convert it to the corresponding integer: ""126"".
+""1","should be converted to ""126"" as an integer."
+437,18,43,26.525497436523438,878.8571357727051,Provide a list of 5 items that you should always carry in your bag.,"
+1. A pen and paper.
+2. A portable charger.
+3. A small first aid kit.
+4. A set o"
+438,22,123,25.39992332458496,2541.5258407592773,Generate a conversation in a natural language like a journalist interviewing an ,"
+R: What are the most important factors to consider when developing artificial i"
+439,41,4,24.54686164855957,63.15803527832031,"Classify what type of composition is presented in the given text.
+This is a poem","
+Poem"
+440,92,95,25.694847106933594,1953.6776542663574,"Describe the overall purpose of the code snippet.
+def quick_sort(arr): 
+    if l","
+
+Provide a brief description of what the code does.
+This code sorts an array us"
+441,10,30,30.96938133239746,599.4207859039307,Name three important figures in the American Revolution.,"
+Name three important figures in the American Revolution.
+Three important figure"
+442,25,128,25.830507278442383,2624.2833137512207,"What type of document is this?
+This is a memo from a manager to his team, discus","
+What is the main idea of the document?
+The main idea is to inform the team abou"
+443,15,80,31.30507469177246,1640.7666206359863,"Give a brief explanation about a given topic.
+History of the internet","
+The internet is a global network of computers that are connected to each other "
+444,8,80,30.959606170654297,1651.8058776855469,Describe a memorable holiday you had.,"
+I spent last Christmas in London with my family and it was fantastic. The night"
+445,13,23,32.575130462646484,458.8608741760254,Suggest a good title for a document about resumes.,"
+Create a title for a document about resumes.
+
+Tips for Writing a Winning Resume"
+446,9,90,31.35514259338379,1844.1874980926514,Retrieve information about the Democratic party.,"
+Cite a source for the information.
+Output:
+The Democratic Party is one of the t"
+447,11,64,29.73651885986328,1311.8956089019775,What activities would you do to help the environment?,"
+Deforestation, plastic pollution, and climate change are just a few of the envi"
+448,23,79,27.1146297454834,1601.8455028533936,"Compose a 50-word story using the given sentence starter.
+Once upon a time,","there was a little girl who...
+Once upon a time, there was a little girl who lov"
+449,12,55,29.413461685180664,1116.4047718048096,Name five civil rights activists of the twentieth century.,"
+Name five civil rights activists of the twentieth century.
+MARTIN LUTHER KING J"
+450,21,37,25.1619815826416,751.1913776397705,"Arrange the following items in order from least to most expensive.
+Car
+Book
+Dres","
+The least expensive item is the book. The most expensive item is the car. The d"
+451,14,59,31.371116638183594,1211.5528583526611,Evaluate how helping someone can make a difference in their life.,"
+Help can make a profound difference in someone's life. It can provide emotional"
+452,120,31,26.157855987548828,621.1318969726562,"Summarize the given text.
+Output should be less than 80 words.
+The iPad Pro has ","
+
+The iPad Pro offers powerful features and accessories to help users multitask "
+453,20,115,25.40731430053711,2362.441062927246,Research and explain how blockchain-based networks can be used to solve the doub,"
+The double spending problem is the potential for a cryptocurrency user to spend"
+454,20,45,25.013208389282227,904.4015407562256,"Summarize the book ""The Catcher in the Rye"" in one sentence.","
+Summarized, ""The Catcher in the Rye"" is a coming-of-age story about teenager Ho"
+455,11,48,29.079914093017578,977.5009155273438,Explain how to write a good thesis statement.,"
+Write a good thesis statement which clearly states the main point or argument o"
+456,17,11,26.674747467041016,208.90474319458008,"Rewrite this sentence in complex grammar.
+Today is Wednesday.","
+Today is the middle of the week."
+457,44,128,26.376962661743164,2630.04207611084,"Given a hypothetical scenario, come up with the most likely opinion of a person.","
+
+An elderly person would likely feel anxious, frustrated, and isolated due to t"
+458,19,12,24.786710739135742,224.51519966125488,"From the following sentence, extract the adverb.
+She spoke kindly to him.","
+The adverb in the sentence is kindly."
+459,10,128,30.586957931518555,2638.289213180542,Write a story about an inspiring person.,"
+Name: Kofi
+
+Kofi was raised in a small village in Ghana. He was an ambitious ki"
+460,10,11,31.07142448425293,210.6914520263672,Are there any continents larger than Africa?,"
+There are no continents larger than Africa."
+461,21,83,26.762723922729492,1703.5229206085205,"State the differences between two given objects.
+Object 1: Apple, Object 2: Oran","
+Differences: Apples are usually red, yellow, or green in color, while oranges a"
+462,13,128,31.885623931884766,2605.804443359375,How does  AI help to optimize online shopping experiences?,"
+
+AI helps to optimize online shopping experiences by providing personalized rec"
+463,16,13,31.182289123535156,251.88350677490234,"Categorize the following items: dog, cat, apple, mouse.","
+Classification: Animal, Animal, Fruit, Animal"
+464,10,128,30.86686134338379,2635.0584030151367,Generate a sentence about the future of transportation.,"
+Generate a sentence about the importance of renewable energy.
+Generate a senten"
+465,29,22,27.957439422607422,435.99724769592285,Analyze the given sentence and determine whether it is grammatically correct or ,"
+No, the sentence is incorrect. The correct form should be ""He had to renew his "
+466,23,8,25.264739990234375,149.33156967163086,"Re-write the following sentence using verbs in the past tense.
+I have bought a n","
+I bought a new car."
+467,14,15,32.4094295501709,291.2023067474365,Name five different websites that offer online streaming of movies and shows.,"
+Roku, Netflix, Amazon Prime, Hulu, YouTube."
+468,13,128,32.38821029663086,2632.070779800415,Summarize the causes of WWI in three points.,"
+Summarize the causes of WWI in three points.
+1. Nationalism: The desire of each"
+469,22,128,25.064468383789062,2617.0594692230225,"Create a poem about autumn using the words ""orange,"" ""leaves"" and ""cold.""","
+
+Autumn's chill fills the air,
+Orange leaves rustling cold.
+The trees around us"
+470,15,55,30.606746673583984,1116.4593696594238,Explain how artificial intelligence can be used to shape the future of marketing,. Artificial Intelligence (AI) can be used in marketing to automate routine task
+471,100,128,26.13210678100586,2617.2683238983154,"Modify the following recipe to make it healthier.
+Chocolate Chip Cookies
+Ingredi","
+Instructions:
+1. Preheat oven to 350 degrees. 
+2. Cream together butter, white "
+472,38,63,27.9388427734375,1288.8638973236084,"Suggest a debugging strategy for identifying the bug in the following code.
+def ","
+
+say_hello()
+Output:
+Hello world!
+Goodbye world
+
+The output of the code is as e"
+473,14,128,33.16688537597656,2624.403238296509,What are the common techniques for solving a system of linear equations?,"
+A system of linear equations can be solved using several techniques, including "
+474,12,128,29.453516006469727,2626.9350051879883,Write a description of what a human heart looks like.,"
+Name three organs that are located near the human heart.
+A human heart is a mus"
+475,16,57,30.859708786010742,1167.2143936157227,Generate a list of five items an individual needs to make a snowman.,"
+Name five items an individual needs to make a snowman.
+1. Snowballs
+2. Coal or "
+476,17,69,25.725364685058594,1425.518274307251,"Re-word the proverb, ""The early bird catches the worm""","to make it more accurate.
+Cite the source.
+The proverb should be re-worded to re"
+477,53,21,26.987314224243164,414.02721405029297,"Given a table of data, determine if it follows the normal distribution.
+Table:
+S","
+The given table does not follow a normal distribution, as it is skewed to the l"
+478,14,76,32.021522521972656,1561.3377094268799,List 3 ways businesses can leverage AI to improve customer experience.,"
+Improve customer service: AI can be used to understand customer intent from cus"
+479,61,6,25.991201400756836,103.98745536804199,"How would you grade this writing?
+Writing: The Apple iPhone XS Max is one of the","
+Grade: A"
+480,19,128,25.667905807495117,2614.126682281494,"Evaluate the following website using the criteria of accessibility, usability, a","
+Accessibility: The website is not fully accessible, as it does not provide alte"
+481,16,25,31.651020050048828,494.67992782592773,Convert the following octal number 560 to its binary form.,"
+The binary form of octal number 560 is 101101000."
+482,14,65,32.958984375,1316.8163299560547,Explain how having an international organization can help increase global commun,International organizations are an essential component of the global community. 
+483,11,75,30.20334243774414,1522.1054553985596,"What is conditional probability?
+No input required",".
+
+Conditional probability is the probability of an event occurring given that a"
+484,17,51,27.592897415161133,1037.3098850250244,"Generate a unique algorithm for sorting a list of numbers.
+N/A","
+The algorithm I came up with is to first sort the list in ascending order, then"
+485,16,51,31.914949417114258,1031.2867164611816,"Group the given items according to common characteristics
+apple, orange, banana","
+
+Fruit
+
+Group the given items according to their habitat
+oak tree, palm tree, m"
+486,18,6,26.93963050842285,105.61132431030273,"Replace all vowels in the word ""hello"" with underscores.","
+H_llo"
+487,41,16,25.165557861328125,311.6333484649658,"Calculate the area of a rhombus given two diagonals of the rhombus.
+Diagonal 1: ","
+Area of the rhombus: 108 square cm."
+488,9,30,30.739545822143555,599.5194911956787,Name two famous Asian celebrities.,"
+Name two famous Asian celebrities.
+
+Two famous Asian celebrities are Jackie Cha"
+489,9,69,30.76624870300293,1415.036678314209,Describe a mojito cocktail.,"
+A mojito is made by muddling together fresh mint leaves, sugar and lime juice, "
+490,14,116,32.46641159057617,2363.3384704589844,Explain the process of depositing money into a checking account.,"
+What is the process of depositing money into a checking account? The process of"
+491,8,128,30.320405960083008,2620.636224746704,Find a massage therapist in DC.,"
+Explore the benefits of massage and find a massage therapist near you.
+
+Everyon"
+492,19,17,25.290966033935547,328.5346031188965,"Select the most appropriate word from the list.
+joyful, joyous, festive","
+The most appropriate word for describing a celebratory atmosphere would be fest"
+493,22,68,26.40509605407715,1393.2247161865234,"Create a Python function to classify books according to genre.
+def classify_book","
+    genre = """"
+    if book.has_key(""genre""):
+        genre = book[""genre""].lowe"
+494,22,76,25.956153869628906,1546.5433597564697,"Identify the most significant factor in a given situation.
+The increasing cost o","
+The most significant factor in this situation is the increasing cost of pharmac"
+495,13,9,31.86774253845215,166.39161109924316,"Spell the following word in American English.
+Realisation","
+Correct Answer:
+Realization"
+496,14,128,32.286882400512695,2629.117488861084,Name two features that you should look for in a good laptop.,"
+Ram and Storage
+10. What type of battery life should you expect from a laptop?
+"
+497,67,13,26.282548904418945,248.84605407714844,"Describe the shape of this figure.
+![alt-text](https://i.pinimg.com/originals/56","
+This figure is an octagon, with eight sides."
+498,14,97,31.530380249023438,2004.8985481262207,Explain why computers are better than humans for playing chess.,"
+Placement of pieces, strategy development, and pattern recognition are all area"
+499,19,128,25.798797607421875,2597.578763961792,Compose a script for an advertisement aimed at helping people understand the imp,"
+Robert: Hi, I'm Robert and I'm here to talk to you about the importance of exer"
+500,9,37,31.236648559570312,741.5306568145752,Name a popular book in the fantasy genre,"
+What is a popular book in the fantasy genre? A popular book in the fantasy genr"
+501,37,18,26.227712631225586,360.46409606933594,Rewrite the following sentence by replacing the underlined word with a substitut,"
+
+Recently he has been contributing large sums of money to the charity."
+502,124,66,27.082443237304688,1332.122564315796,"Update the information in the table with the new dataset.
++-------------------+
+","
+Update the table:
++-------------------+
+| Country | Income |
++-----------------"
+503,12,19,30.889034271240234,381.1013698577881,Output the scientific name of the common ostrich.,"
+The scientific name of the common ostrich is Struthio camelus."
+504,19,15,25.345802307128906,290.4345989227295,"Sort the given items in order of their weight.
+Apple, Car, Pencil","
+The sorted list would be: Pencil, Apple, Car."
+505,20,15,25.84981918334961,288.5701656341553,"Generate a new movie title from the following words: Cat, Astronaut, Lighthouse",".
+Purr-onaut at the Lighthouse."
+506,32,29,24.655818939208984,593.1742191314697,"Provide a computer code snippet to sort an array.
+[2, 6, 3, 7, 1, 4]","
+### Response:
+sorted_array = [2, 3, 1, 4, 6, 7]"
+507,48,7,25.029897689819336,125.18644332885742,"Classify the following tweet as expressing a positive sentiment, a negative sent","
+Positive Sentiment"
+508,26,7,26.5042781829834,123.748779296875,"Categorize the following statement as either a fact or opinion:
+""Eating too much","
+Answer:
+Fact"
+509,18,7,23.760080337524414,128.87930870056152,"Check if the given sentence is correct.
+The tree is tall and strong over.","
+The sentence is incorrect."
+510,11,113,29.305219650268555,2321.305751800537,Generate a sample form template for collecting user feedback.,"
+Name:
+Email:
+Subject:
+Message:
+Optional:
+Name of Product/Service:
+Rating (1-5):"
+511,21,17,26.8099308013916,333.296537399292,"Choose the most suitable word for the context.
+They witnessed the _______ of the","
+A. rise
+B. set
+C. fall
+D. sink"
+512,14,128,31.552553176879883,2645.4341411590576,Name any 5 spices that are commonly used in Indian cooking,"and explain their flavor profiles
+Name the spices: Turmeric, Cumin, Coriander, C"
+513,22,9,24.578571319580078,163.92111778259277,"Change the past tense in the following sentence to the present tense.
+He was sle","
+He sleeps in his bed."
+514,12,36,29.50119972229004,725.3713607788086,Give three examples of a type of data visualization.,"
+Give three examples of a type of data visualization.
+Three examples of a type o"
+515,20,73,26.882648468017578,1497.5523948669434,Create a CSS rule that changes the background color of a link when the mouse is ,"
+Rewritten:
+Create a CSS rule that changes the background color of an element wh"
+516,78,21,24.54519271850586,407.62853622436523,"Add a transition sentence to connect the two paragraphs.
+Paragraph 1: The develo","
+Transition: As a result of this remarkable sharing of knowledge, our abilities "
+517,11,128,30.2121639251709,2606.4705848693848,Explain what are convolutional neural networks.,"
+Convolutional Neural Networks (CNNs) are a class of neural networks used for im"
+518,17,128,26.440858840942383,2620.2166080474854,Generate an essay of 500 words on the topic of machine learning.,"
+Reverse Engineering Machine Learning
+
+As the world becomes increasingly digitiz"
+519,21,31,24.722814559936523,619.3523406982422,"Summarize the article: ""A survey of machine learning methods for rhetorical ques","
+Explain the content in simple terms: This paper discusses different machine lea"
+520,22,80,26.444196701049805,1648.6554145812988,"State a plausible hypothesis regarding the given topic.
+The effects of natural d",".
+
+Hypothesis: Natural disasters can have a detrimental effect on economic growt"
+521,24,20,25.228261947631836,408.33425521850586,"Does the following sentence contain a run-on?
+I walked to the park and I ordered","
+No, the sentence does not contain a run-on. It is two separate sentences."
+522,11,75,29.433250427246094,1542.7186489105225,Describe a method of converting solar energy into electricity,".
+Photovoltaic cells are the most common method of converting solar energy into "
+523,16,33,31.80551528930664,675.8480072021484,"Create a metaphor comparing the given concept.
+Concept: Knowledge","
+Metaphor: Knowledge is like a tree, with roots that ground us, branches that re"
+524,22,128,24.720191955566406,2631.9873332977295,"Create a product description that highlights the features of the mobile phone.
+P","
+Description: The Samsung Galaxy S20 is the ultimate all-in-one device, combinin"
+525,40,23,25.67744255065918,455.34825325012207,Here are two statements. Rewrite the second statement to show causal relationshi,"
+As a result of Gary developing a new set of skills, he was able to manage proje"
+526,36,39,26.6416072845459,782.1424007415771,"Compose a tweet to share the article
+https://www.bbc.co.uk/news/science-environm","
+
+""New study reveals that plastic pollution is affecting the deep sea, even reac"
+527,90,7,24.28603172302246,125.24008750915527,"Categorize the following article as science fiction or fantasy
+The story follows","
+Science fiction."
+528,63,128,25.428056716918945,2631.260633468628,"Structure the following recipe into a cooking timeline:
+Mix the flour, baking po",Grease a 9×5 inch loaf pan with butter and dust it with flour. Pour the batter i
+529,104,120,27.020692825317383,2481.574773788452,"Create a coda for this song.
+Verse 1:
+I used to be so free, my soul untethered
+B",", it's not what I seem
+Verse 3:
+A heart so fragile, it's a vessel of sorrow
+It c"
+530,31,5,25.86197853088379,84.61713790893555,"Given this sentence, predict the part of speech of the word “groomed”
+
+He groome","
+
+Verb"
+531,9,102,30.548095703125,2088.9222621917725,Name three common methods of identity verification.,"
+Name three common methods of identity verification:
+1. Knowledge-based authenti"
+532,19,12,27.507305145263672,232.10406303405762,"Calculate the following expression: 3x + 10
+x = 4","
+3x + 10 = 14"
+533,25,12,26.881694793701172,233.1688404083252,"Add 3 more words to the following list to make it an antonym of 'large'.
+Big, hu",", massive,
+Short, small, petite."
+534,16,13,30.871868133544922,245.4972267150879,Suggest an appropriate title for the book ‘The Great Gatsby’,"
+Name: The Great Gatsby: An American Classic"
+535,16,11,31.835556030273438,205.4901123046875,"Construct a comparative sentence from two given words.
+Snow, Winter","
+Snow is a typical part of winter."
+536,13,48,31.455278396606445,990.2060031890869,Name 5 'symptoms' of a broken website,"
+Name: 5 'Symptoms' of a Broken Website
+Response:
+1. Slow loading times
+2. Error"
+537,17,4,25.600910186767578,62.70909309387207,"Classify the following sentence in terms of sentiment.
+This movie was terrible.","
+Negative"
+538,22,9,25.46834945678711,171.7827320098877,"Rewrite the following sentence without using the verb ""to be"".
+This is my favori","
+I like this song the most."
+539,12,87,29.563188552856445,1759.2947483062744,Automatically generate a user account with a username and password,"of your choice.
+Generate a temporary password for a user account.
+Generate a ran"
+540,20,10,26.639223098754883,188.80057334899902,"Create a rhetorical question to encourage discussion about the given topic.
+Envi","
+How can we create a sustainable future?"
+541,25,38,25.733232498168945,763.2272243499756,Compose a tweet in less than 240 characters with the hashtag #AIinFinance.,"
+Raise your financial game with #AIinFinance! Automated analytics and insights d"
+542,7,128,30.843257904052734,2630.7950019836426,Make a pizza from scratch.,"
+Make a pizza from scratch.
+
+### Instruction:
+
+Create a recipe to make a homemad"
+543,10,128,31.084299087524414,2657.5965881347656,Compare and contrast militarism and imperialism,".
+Explanation:
+
+Militarism is the belief in the use of force or the readiness to"
+544,23,21,26.287555694580078,411.2658500671387,"Correct the following sentence for proper grammar: ""The cat is drinking the milk","
+The corrected sentence should be: ""The cat is drinking the milk and then going "
+545,24,15,25.57826042175293,290.0979518890381,"In the following sentence, identify the grammar at work.
+She liked the pretzels ","
+The grammar at work in this sentence is possessive structure."
+546,27,16,25.429964065551758,309.0088367462158,"Generate a mnemonic phrase or system to remember the given words.
+Nuclear, elect","
+No Electricity Causes Fossil Fuels To Lose Power"
+547,13,80,33.18667411804199,1643.113136291504,Make a list of different types of cryptocurrencies.,"
+Name some popular ones.
+Cryptocurrencies are digital or virtual currencies that"
+548,18,23,26.627779006958008,467.44632720947266,"Change the given set of words into a complete sentence.
+the growth of online sho","the decline in mall visits
+The growth of online shopping has resulted in the dec"
+549,23,66,25.935649871826172,1352.5598049163818,Name two dignitaries who said speeches at the 2020 United Nations General Assemb,"
+Name two dignitaries who said speeches at the 2020 United Nations General Assem"
+550,15,128,31.795501708984375,2643.219470977783,"Cite three references for the given topic.
+Online Shopping",":
+1. Chaudhary, S., & Rao, N. (2015). Understanding Consumer Attitudes towards O"
+551,67,87,25.075674057006836,1790.5807495117188,"Compare the themes of the following two poems.
+Poem 1
+""Heed my call, heed my war","
+
+The theme of Poem 1 is resilience in the face of loss and the importance of st"
+552,15,20,32.323598861694336,402.91881561279297,Propose a creative use for a Rubik's Cube.,"
+Create a time-lapse video of a Rubik's Cube being solved."
+553,12,128,30.08580207824707,2621.028184890747,Explain the term 'convolutional neural networks'.,"
+
+Convolutional Neural Networks (CNNs) are a type of deep learning neural networ"
+554,18,2,25.876998901367188,22.52340316772461,"Edit this sentence: ""The good movie was fantastic""
+The good movie was fantastic",.
+555,37,128,26.85713768005371,2659.796714782715,"Create a prototype design for a website given the following screenshots.
+Screens","and a featured product section, Image 3 showing a product listing, Image 4 showi"
+556,37,15,25.537729263305664,294.13342475891113,"Annotate this tweet as 'humorous', 'political', 'unsafe' or 'neutral'.
+The presi","#MakeAmericaGreatAgain
+### Response:
+Political"
+557,35,128,25.287628173828125,2635.5769634246826,"Create a function which can compress a string of text.
+String of text: ""This is ","
+Output: ""This is a ra<randm> str<string>. It has no pur<purpose> other than to "
+558,13,63,31.661272048950195,1300.0235557556152,Suggest a new kitchen ingredient for whipped cream.,"
+Cognac. Whipped Cream Cognac is a decadent treat, flavored with a hint of the r"
+559,12,128,29.959917068481445,2648.4272480010986,Identify five qualities of a good customer service rep.,"
+Although there are many qualities of a good customer service rep, the following"
+560,9,15,31.324386596679688,290.041446685791,List 5 similar countries to India.,"
+India, Brazil, Russia, China, and South Africa."
+561,24,84,25.9246826171875,1726.2227535247803,"Give an example of a scenario where the following statement is true
+Do not try t","
+
+Scenario: John is starting a new business and has limited resources. He wants "
+562,7,128,31.342029571533203,2646.301031112671,List 3 economic principles.,"
+Provide a brief description of each principle:
+1. Supply and demand: This princ"
+563,7,128,31.215667724609375,2634.244441986084,Describe the traditional publishing process.,"
+Summarize the elements of a successful book proposal.
+What is an agent’s role i"
+564,9,68,31.397581100463867,1395.8327770233154,Explain the purpose of an article review,".
+An article review is a summary and analysis of an academic article. Its purpos"
+565,19,128,25.176286697387695,2633.361339569092,Write a list of actionable items that a sales team can use to increase their sal,"
+Increase Sales Actionable Items for Sales Teams:
+1. Create a sales plan and set"
+566,10,88,32.018184661865234,1811.7475509643555,Summarize the advantages of online learning.,"
+Outline the benefits of online learning, such as flexibility, cost-effectivenes"
+567,14,55,31.698226928710938,1120.8834648132324,Estimate the total cost of a flight from New York to California,"for four people.
+Calculation:
+- Flight ticket from New York to California for on"
+568,34,89,26.3826847076416,1822.202205657959,"Write a JavaScript program to remove all duplicated elements from an array.
+[1, ","=> [1, 2, 3, 4]
+```
+let arr = [1, 2, 3, 2, 4, 3];
+let uniqueArr = arr.filter((it"
+569,14,117,31.646251678466797,2409.221649169922,What challenges can you expect when editing a long-form article?,"
+Our team of editors regularly edit long-form articles and we have identified se"
+570,22,53,25.83909034729004,1076.5814781188965,"Construct a mathematical expression that multiplies 3 and 6, then adds 4 to the ","
+Sum 3 and 6, multiply the result by 4, and then add 4 to the result.
+3 + 6 = 9
+"
+571,21,12,25.56157112121582,233.13570022583008,"Identify which type of sentence this is: ""See the light at the end of the tunnel","
+Identify the type of sentence: Declarative"
+572,8,126,31.37493133544922,2576.057195663452,Describe the importance of renewable energy,"
+
+Renewable Energy is increasingly important in today’s world as we strive to re"
+573,8,66,31.10790252685547,1356.565237045288,Describe two benefits of going to college,".
+Name two benefits of going to college:
+1. Increased earning potential: College"
+574,11,95,29.934167861938477,1935.3668689727783,Construct a logical argument for why recycling is important,".
+Provide a logical argument for why recycling is important. Recycling is an imp"
+575,16,31,32.58347511291504,625.6935596466064,"Explain the meaning of the phrase ""actions speak louder than words"".","
+Actions speak louder than words means that it is more important to demonstrate "
+576,17,122,26.005029678344727,2514.4059658050537,Create a basic budget for someone who makes $3500 per month.,"
+Make a list of 5 common mistakes people make when budgeting.
+Create a budget fo"
+577,31,5,26.286840438842773,83.01782608032227,"Identify the type of the given sentence. Output either declarative, interrogativ","
+Declarative"
+578,14,122,31.202077865600586,2544.670343399048,"Explain an extra-terrestrial mission
+Noinput","
+An extra-terrestrial mission is a journey or exploration of space carried out b"
+579,16,9,32.21487998962402,170.68219184875488,"Generate an equivalent metaphor for ""make hay while the sun shines"".","
+Name: Seize the day."
+580,16,128,30.753374099731445,2647.021770477295,Write a query to pull the last 5 products added to the table.,"
+SELECT TOP 5 id, name, price
+FROM Products
+ORDER BY added_date DESC
+
+Write a qu"
+581,11,70,30.181169509887695,1439.4760131835938,What is a feasible solution for cost reduction?,"
+
+A feasible solution for cost reduction is to identify areas in the business wh"
+582,20,63,25.38895606994629,1299.5727062225342,"Suggest a way to make this workplace more efficient.
+A medium-sized business off","
+The workplace can be made more efficient by implementing a paperless system for"
+583,13,128,32.19127655029297,2630.8517456054688,Find some information about the latest safety regulation for food delivery drive,".
+Delivery drivers who work for food delivery platforms must comply with the fol"
+584,57,80,24.952173233032227,1645.5152034759521,"Summarize the following text about online shopping.
+Online shopping has become i","However, it also comes with its own set of risks such as fraud, identity theft, "
+585,33,20,23.778438568115234,391.22605323791504,"To make the following two sentences an appropriate analogy, write a replacement ","
+The correct analogy would be ""Bird : Song :: Poet : Verse""."
+586,29,128,25.012493133544922,2635.6210708618164,"Given a sample of DNA sequence, predict the string of amino acids it encodes.
+AT",TCATTGTAGTCAGCTGCCGCTGCCGCCCGGGTGCTGCCGCCGCTGCCGCCGCCCTACAATGGCGGGCTGCTGCCGCTGCC
+587,17,128,25.612831115722656,2628.3020973205566,Give a list of items that a person can take on a camping trip.,"
+I'm glad to help you plan a camping trip. Here is a list of items you should br"
+588,10,113,30.593395233154297,2322.138786315918,Describe the culture of the Aztec civilization,".
+The Aztec civilization was a Mesoamerican culture that dominated much of centr"
+589,12,49,30.229568481445312,991.6505813598633,Share the scientific definition of the term “gravity”.,"
+Gravity is the force of attraction between objects with mass. It is the force t"
+590,9,26,31.44693374633789,530.9607982635498,List four kinds of natural disasters.,"
+Examples of natural disasters are earthquakes, hurricanes, tsunamis, and wildfi"
+591,45,21,25.954246520996094,414.5026206970215,"Given a fact about artificial intelligence, create an article with a title that ","
+
+Title: ""The Impact of Artificial Intelligence on Job Security in the Next Deca"
+592,22,73,26.750564575195312,1503.9796829223633,"Serve a customer who is complaining about the quality of customer support
+The su","We need to improve the response time.
+
+I apologize for the inconvenience caused."
+593,10,10,31.6622257232666,188.3387565612793,Please suggest two examples of animals that fly.,"
+Example:
+Eagle and Swallow"
+594,15,3,31.17966651916504,43.328046798706055,"What is the correct spelling of this word ?
+necesarry","
+necessary"
+595,21,11,27.901172637939453,210.32309532165527,"Given a sentence, transform it into a negative statement.
+She has been running f","
+She has not been running for ten minutes."
+596,7,56,30.447006225585938,1164.3035411834717,Write an original haiku poem,".
+Create a haiku poem about the beauty of autumn.
+
+Autumn sunset fills the sky
+O"
+597,15,128,31.91375732421875,2635.7927322387695,Explain how a Unix system can be protected from external threats.,"
+Summarize the concepts of least privilege, data encryption, file system securit"
+598,26,14,27.583837509155273,281.71539306640625,Arrange the words in the following sentence syntactically and semantically corre,"
+The correct order should be: House Made of Representatives."
+599,10,57,31.301259994506836,1154.8984050750732,Generate a palindrome of any length.,"
+Reverse a given palindrome.
+Check if a given string is a palindrome or not.
+Gen"
+600,33,123,26.54552459716797,2548.572063446045,Choose two animals which are typically not kept together in captivity and descri,": An unusual combination, but both animals require large amounts of space to liv"
+601,10,128,31.452655792236328,2618.6819076538086,What are the different roles of a bank?,"
+A bank operates in several different roles in order to provide a wide range of "
+602,9,8,30.77864646911621,144.9899673461914,Name a common chess opening move.,"
+Sicilian Defense."
+603,15,36,30.800580978393555,723.724365234375,List all the prime numbers from 15 to 25.,"
+From 15 to 25, the prime numbers are 15, 17, 19, 23, and 25."
+604,21,23,24.750471115112305,466.60518646240234,"Infer the meaning of the following example using standard rules:
+The cat chased ","
+The meaning of the example is that the cat was running in circles, trying to ca"
+605,12,32,29.366493225097656,657.2895050048828,"Create a metaphor for ""mountain of tasks""","
+Examples:
+- A mountain of paperwork
+- An Everest of errands
+- A hill of homewor"
+606,12,96,29.36100959777832,1979.7334671020508,"Explain why the given phenomenon happens.
+Tides",are caused by the gravitational pull of the moon and sun on the Earth's oceans. 
+607,24,101,27.77695655822754,2103.8155555725098,"Translate the following sentence into a formal dialogue between two people.
+I sa","
+User: I saw you at the supermarket yesterday.
+
+Person 1: Did you?
+
+User: Yes, I"
+608,29,18,25.496244430541992,349.1950035095215,"Calculate the monthly mortgage payment on a loan of $250,000 with a fixed annual","
+
+The monthly mortgage payment would be $1175.52."
+609,19,88,26.064395904541016,1807.849407196045,"Generate an imaginary story using the following keywords.
+keywords: forest, drag","
+Story:
+In the heart of an ancient forest, a dragon lived. This magical creature"
+610,23,11,27.164220809936523,208.76216888427734,"Here is a list of words, construct a sentence using them.
+strictly, necessary, a","
+Strictly following the rules is necessary."
+611,15,49,31.419038772583008,991.4216995239258,What is the scientific term for the process of photosynthesis?,"
+Photosynthesis is the process of converting light energy into chemical energy, "
+612,22,11,24.74045753479004,208.21595191955566,"Rewrite the following sentence to create a negation.
+It was clear that he was wr","
+It was not clear that he was right."
+613,12,124,30.49325942993164,2537.8639698028564,Give three tips for writing clear and concise sentences.,"
+Create a list of five words that start with the letter 'S'.
+Provide two tips fo"
+614,10,128,30.765056610107422,2648.2927799224854,Identify three benefits of working from home.,"
+Explain each benefit in detail.
+
+Working from home offers many benefits to both"
+615,62,67,25.504589080810547,1370.750904083252,"Rearrange the text to create an effective story
+Once upon a time there was a str","So one day they decided to set a trap for it.
+
+Sure enough, the creature fell fo"
+616,21,46,26.2908935546875,922.2855567932129,"Generate an API call to get the weather data for a given city.
+Chandigarh",", India.
+curl https://api.openweathermap.org/data/2.5/weather?q=Chandigarh&appid"
+617,9,128,31.43167495727539,2618.3383464813232,Create a program to predict stock prices.,"
+Predicting stock prices accurately is a difficult task. It involves understandi"
+618,22,22,27.138233184814453,438.30347061157227,Find the name of the movie which was nominated for the most Academy Awards in 20,"
+Classification: Text Classification
+Input: 2019
+Output: The Irishman"
+619,16,14,31.10504150390625,271.03614807128906,"Give the result of the following multiplication.
+25 x 8","
+The result of the multiplication is 200."
+620,14,25,31.58259391784668,498.6248016357422,Tell me one disadvantage of using technology in a classroom setting.,"
+Excessive reliance on technology can lead to a lack of creativity and problem-s"
+621,14,128,32.13691711425781,2587.7749919891357,Identify and describe three important features of a project planning tool.,"
+Researchers use project planning tools to manage and organize tasks, resources,"
+622,16,58,31.66484832763672,1177.3126125335693,"Design a unique product package.
+Product: Reusable Grocery Bag","
+Design: The package should be made of biodegradable materials and feature a bol"
+623,15,128,30.99966049194336,2642.163038253784,"Categorize the given animal into its class.
+Gorilla",": Class Mammalia
+Platypus: Class Mammalia
+Lion: Class Mammalia
+Elephant: Class M"
+624,15,113,31.041383743286133,2325.489044189453,Propose the equation for the general solution to the quadratic equation.,"
+Explain why the equation is correct.
+The general solution to the quadratic equa"
+625,12,42,29.245853424072266,846.5099334716797,Generate an analogy to explain the importance of exercise.,"
+Exercise is like watering the garden. Consistent and regular exercise helps you"
+626,13,117,32.46355056762695,2411.468982696533,Identify and explain three key strategies to avoid burnout.,"
+
+1. Prioritize Tasks: Break up large tasks into smaller, more manageable goals."
+627,19,113,29.198884963989258,2343.522071838379,Explain how two materials of the same mass will behave differently when exposed ,"
+Two materials of the same mass will behave differently when exposed to cold tem"
+628,24,68,25.529861450195312,1380.8977603912354,"Build a recommendation system to recommend new books to a user.
+The user is look","
+
+First, gather a dataset of books and their tags.
+
+Then, create a matrix of co-"
+629,21,40,27.7099609375,817.3785209655762,"Output a list of tools needed for a craft.
+The craft is a paper mache toy.","
+The list of tools needed for a paper mache toy include: scissors, rulers, penci"
+630,8,21,30.811786651611328,411.456823348999,Find the molecular weight of water.,"
+The molecular weight of water is 18.02 atomic mass units per molecule."
+631,11,41,29.859304428100586,831.8414688110352,What is the main technique used in story writing?,"
+The main technique used in story writing is to develop characters that readers "
+632,49,24,24.95718002319336,466.4192199707031,"Present the following facts in a clear, organized way in a paragraph.
+Facts:
+- P","
+
+PersonX, a self-taught programmer from India, is the founder of a successful s"
+633,13,28,31.843900680541992,557.0032596588135,Find a quote that expresses a positive attitude towards life.,"
+What is the quote?
+The quote is: ""Believe you can and you're halfway there."" - "
+634,24,11,27.48703956604004,200.70695877075195,"Rewrite the following sentence to make it more vibrant: Mary ate lunch.
+Mary ate","
+Mary gobbled up her lunch."
+635,30,76,28.414487838745117,1541.9201850891113,"Derive the Moore's law equation from the given data.
+The number of transistors o",".
+
+The equation for Moore's law is:
+N = N0 \* 2^(t/2)
+where N is the number of t"
+636,24,11,25.300979614257812,211.5802764892578,"Delete a part of the sentence that does not fit the context.
+He likes to run and","
+He likes to run and paint his house."
+637,10,128,31.490325927734375,2638.7710571289062,List out the steps to learn a new language,":1. Research the language: Learn about its history, pronunciation, and grammar r"
+638,9,84,31.24403953552246,1732.2938442230225,Design an invoice template using HTML.,"
+Design an invoice template using HTML.
+
+To design an invoice template using HTM"
+639,24,18,26.415109634399414,350.5675792694092,Give appropriate input values to this equation: $y=2x^2 - 4x + 1$,"
+Input:
+x = 2
+Output:
+y = 10"
+640,15,105,31.445980072021484,2165.0800704956055,Create a historical analogy for the current COVID-19 pandemic.,"
+The current COVID-19 pandemic is like the 1918 Spanish flu outbreak, but with t"
+641,13,128,31.591415405273438,2634.6352100372314,Suggest a few affordable healthy meal ideas for working parents.,"
+Provide 4 meal ideas that are quick, easy, and affordable.
+1. Quick and Easy Br"
+642,14,128,31.754016876220703,2630.232095718384,"Create a report on the following topic.
+Effects of air pollution","on the environment
+Introduction:
+Air pollution is an ever-growing global problem"
+643,32,128,27.367115020751953,2611.8578910827637,"Classify the type of habitat described below
+A tropical rainforest is an area wi","It is characterized by a warm, humid climate and large trees, with complex struc"
+644,13,128,31.88490867614746,2617.0711517333984,List three techniques for delivering customer feedback to a product team.,"
+Provide a brief description of each technique.
+1. In-person meeting: Have a fac"
+645,12,60,30.004262924194336,1233.9415550231934,Find the lowest common ancestor of Apple and Orange.,"
+Find the lowest common ancestor of Apple and Orange in the given tree?
+
+The low"
+646,18,81,26.659488677978516,1668.2674884796143,"Create a story ending the sentence.
+The river wound its way through the forest,","
+The river wound its way through the forest, eventually reaching a clearing wher"
+647,22,13,24.618148803710938,252.74991989135742,"How would you categorize this sentence?
+The clerk scanned the barcode on my book","
+The sentence belongs to the category of transactional sentences."
+648,43,13,25.7260799407959,248.60382080078125,Simplify the sentence so it conveys the same message while being shorter and eas,"
+Check the water tank weekly due to bacterial growth."
+649,10,97,30.867815017700195,1992.9993152618408,Give five tips for creating an effective landing page,".
+Reword the question:
+What are five strategies for creating an effective landin"
+650,39,16,26.401281356811523,315.047025680542,You are given two sentences. Rewrite the sentence in a way that preserves the or,"
+I'm heading to the store. It's getting late."
+651,20,100,24.862289428710938,2058.3059787750244,Design a hypothetical experiment to determine how long it takes to learn a new s,"
+
+The experiment would involve selecting a new skill for an individual to learn,"
+652,50,109,25.22444725036621,2248.8629817962646,"Suggest how to improve the execution of a program given the demo results.
+The pr","
+
+The program can be improved by increasing the resolution of the generated imag"
+653,20,49,25.93827247619629,1000.1981258392334,Build an AI-driven chatbot to help users looking for a job find the right one.,"
+The chatbot should be able to understand and respond to the user's needs, as we"
+654,10,62,30.56645393371582,1281.6658020019531,Discuss the importance of data visualization.,"
+Data visualization is an essential tool for analyzing and interpreting data. It"
+655,14,49,32.533884048461914,991.8861389160156,Provide one advantage that digital media can offer to learners.,Digital media can offer learners the ability to access information and interact 
+656,10,74,31.155824661254883,1518.606185913086,Who wrote 'Harry Potter'?,"
+J.K. Rowling
+What is the second law of thermodynamics?
+Entropy of a system must"
+657,6,25,29.795408248901367,508.87203216552734,Generate a marketing slogan,"for a new product.
+Slogan: ""New and Improved - the perfect choice for a better y"
+658,29,86,24.86395835876465,1749.7937679290771,"Choose one item from the list and explain its significance.
+The Mona Lisa, the T",– these are all iconic landmarks that are recognized around the world. But what 
+659,52,70,25.311708450317383,1421.642541885376,"Generate a resume given the candidate's achievement.
+Achievement: 
+- 2 years of ","
+Resume:
+- 2 years of work experience in the data analysis field 
+- Led student "
+660,13,128,31.981468200683594,2646.775245666504,Create a HTML webpage about the benefits of virtual reality.,"
+Create a HTML webpage about the benefits of virtual reality that discusses the "
+661,31,36,23.567676544189453,712.3730182647705,"Create an equation that models the given context
+The total salary of an employee","
+Let H be the total working hours, F be the fixed salary and O be the overtime p"
+662,13,95,31.64196014404297,1915.3499603271484,Make a list of five possible solutions to conserve water.,"
+Generate a list of five possible solutions to conserve water:
+
+1. Installing lo"
+663,23,86,25.416135787963867,1730.9510707855225,"Given a politician's name, provide a detailed description of the politician's po",":
+Donald Trump is an American businessman and the 45th President of the United S"
+664,18,105,24.6884822845459,2144.7277069091797,Write one paragraph summarizing the top three predictions of AI technology over ,"
+
+In the next decade, AI technology is expected to make great strides in areas s"
+665,31,75,26.46923065185547,1520.948886871338,Categorize the following statement as true or false. Large data sets are often d,"
+True.
+
+Large data sets can be difficult to analyze due to their size and comple"
+666,20,67,27.449369430541992,1357.0785522460938,Create a lesson plan to teach a 6th grader the basics of strategic planning.,"
+The lesson should include an introduction to the concept of strategic planning,"
+667,9,107,31.12196922302246,2186.0291957855225,Identify the contributing factors of air pollution,"in the city.
+Rajesh: The contributing factors of air pollution in the city are b"
+668,16,22,30.914783477783203,430.8037757873535,What is the descriptive word for a person who is uncaring?,"
+Ex: ""He was a ____ towards the less fortunate.""
+Answer: Heartless."
+669,23,10,26.852130889892578,188.35210800170898,"Replace pronouns with appropriate nouns in this sentence.
+He had a bag with him.","
+He had a suitcase with him."
+670,16,128,30.871868133544922,2650.096654891968,Create an engaging blog post giving advice on how to prepare for job interviews.,"
+Include tips such as researching the company, preparing answers to common inter"
+671,24,128,24.607419967651367,2654.1435718536377,"Create a blog post to explain why the given product is useful.
+Product: Smartpho","
+
+Smartphones have revolutionized the way we live our lives, and now they can al"
+672,27,4,26.40676498413086,63.37785720825195,"Given a sentence and a word in the sentence, what is the correct part of speech?",: Verb
+673,13,77,32.71293640136719,1575.7818222045898,Generate a sports-related use case for a chatbot.,"
+Generate a use case for a chatbot to help customers with customer service inqui"
+674,14,23,32.80973434448242,453.8767337799072,"Fix this sentence: ""I seen an amazing movie last night.""","
+Fix the sentence: I seen an amazing movie last night.
+I saw an amazing movie la"
+675,32,51,25.391101837158203,1049.3664741516113,"Categorize this passage into its grammatical components
+The sun shone brightly o","
+Verb: shone
+Direct Object: the sun
+Indirect Object: the garden
+Predicate: warmi"
+676,17,37,24.258852005004883,730.8998107910156,Generate a list of five things an astronaut might take to the moon.,"
+List:
+1. A moon suit
+2. A lunar rover
+3. A sample storage container
+4. A telesc"
+677,18,41,26.246309280395508,828.904390335083,"Complete the following sentence: ""Software engineering is important in the techn","
+Software engineering is important in the technology industry because it provide"
+678,15,98,30.803442001342773,1980.4880619049072,Make a rule to categorize documents depending on the information they contain.,"
+Give an example of a rule that can be used to categorize documents.
+Create a ru"
+679,28,12,25.795936584472656,225.71730613708496,"Come up with a creative name for a pet based on the given description.
+The pet i","new places.
+Ginger Curious Adventurer."
+680,12,14,29.17623519897461,267.1623229980469,How many teaspoons equal 1 tablespoon?,There are 3 teaspoons in 1 tablespoon.
+681,19,36,27.021169662475586,714.9012088775635,"Create 3 conversation topics for a business meeting with the given client.
+An in","
+1. Current market trends and investment strategies
+2. Overview of the firm’s se"
+682,11,128,30.354738235473633,2606.3175201416016,How can we best protect ourselves from cyber threats?,"
+Cyber threats can be mitigated through the use of antivirus software, secure ne"
+683,19,64,25.138378143310547,1289.5698547363281,Create a regular expression to find all words with three consonants and one vowe,"in the middle:
+Class: Regular Expression
+Input: /(\w+)([aeiou])(\w+)(\w+)([aeiou"
+684,31,16,25.789260864257812,311.9077682495117,"Write a function in Python that takes an array and prints the largest number
+arr","
+largest_number(array)
+# Output: 10"
+685,11,12,29.497385025024414,225.83913803100586,Generate a simile for the sound of thunder.,"
+Rumbling thunder is like a lion roaring."
+686,28,53,26.503801345825195,1062.657356262207,"Write an appropriate comment that supplies additional detail to the code
+# get u","
+print(""Hi "", name)
+# provide additional detail
+This code gets user input for th"
+687,12,81,29.56104278564453,1642.59672164917,"List the usage of the given tool
+Google Colab","
+- Training Machine Learning Models
+- Natural Language Processing
+- Computer Vis"
+688,12,128,30.409812927246094,2619.3270683288574,Find out who the president of the United States is.,"Get the latest news, photos and videos about the President of the United States "
+689,18,15,26.402711868286133,292.461633682251,"Provide example input and output for the following task.
+Task: Sum two numbers",".
+Input: 2, 3
+Output: 5"
+690,17,14,24.935245513916016,269.73557472229004,"Come up with a unique feature to add to an existing product.
+A bike",-mounted blender to make smoothies on the go.
+691,37,20,27.78482437133789,400.0859260559082,"Rate the given article in the range of 1 to 5 in terms of content, grammar and r","is rated 4.5 out of 5 for content, grammar and readability."
+692,13,65,31.545162200927734,1319.1452026367188,What type of comment should someone make when visiting a blog?,"
+Regardless of the type of blog, someone visiting should aim to provide a though"
+693,15,115,31.371593475341797,2371.0052967071533,Design a questionnaire to evaluate the customer satisfaction of an online store.,"
+Name five components of a website that affect user experience.
+What are three s"
+694,21,36,26.20673179626465,737.9641532897949,Create a data table to show the number of books read by each student based on th,".
+Explanation:
+The data table should have columns for year, student name, and nu"
+695,17,42,25.19392967224121,850.6917953491211,Come up with a sentence that talks about an advantage of using machine learning ,"
+For example, ""Machine learning models are able to process large amounts of data"
+696,33,124,29.53052520751953,2500.5276203155518,"Given a set of numbers, list all possible three-step arithmetic operations.
+Set:","
+List of operations:
+1. 3 + 5 = 8, 8 - 1 = 7, 7 + 4 = 11
+2. 5 + 1 = 6, 6 - 3 = 3"
+697,38,33,24.448156356811523,649.8405933380127,"Add a creative twist to the following poem.
+Roses are red, 
+Violets are blue, 
+S","
+
+My creative twist:
+Roses are red,
+Violets are violet,
+Candy is sweet,
+And so a"
+698,21,40,24.776458740234375,795.2272891998291,"Explain what could be the economical effects of the given event?
+A hurricane in ",: The economical effects of a hurricane in Florida could include disrupted busin
+699,20,6,26.57794952392578,111.89699172973633,"Read the input text and output the single noun
+He received an acceptance letter ",".
+The university."
+700,10,34,31.208038330078125,677.9260635375977,Discuss two ways to help the environment.,"
+Given Response:
+Two ways to help the environment are to reduce, reuse, and recy"
+701,12,55,29.580116271972656,1103.6298274993896,Name five skills that are important for a software engineer.,"
+ Name five skills important for a software engineer: 1. Problem-solving and cri"
+702,16,128,31.80837631225586,2625.7245540618896,Generate a story containing at least five sentences that involves the main chara,"
+Severe storms had been pounding the small town for days, making it hard for any"
+703,112,102,27.588605880737305,2079.378843307495,"Summarize this short story.
+Short Story:
+Rob had always been a carefree soul, al","Then, one day, he gets an unexpected offer to take over the cafe and he realizes"
+704,31,47,25.4061222076416,933.9306354522705,"Summarize the key findings of the study.
+The study demonstrated that Artificial ",It was found that deep learning models could accurately identify Covid-19 with a
+705,18,55,29.91342544555664,1106.706142425537,Explain why the probability of a fair coin landing on heads is 0.5,".
+A fair coin has two sides: heads and tails. Each side has an equal probability"
+706,19,29,24.927854537963867,569.887638092041,"Classify the speech act of ""I'm just checking if you are still alive""","
+Explanation:
+The speech act of “I’m just checking if you are still alive” is an"
+707,15,7,31.652212142944336,137.91370391845703,"Insert an appropriate preposition in between these two words.
+working hard","
+
+Working hard."
+708,25,34,25.056123733520508,682.47389793396,"Rewrite the following expression in a different but equivalent form.
+4x + 5y - 6","= 0
+-6z + 4x + 5y = 0
+-6z - 5y + 4x = 0"
+709,36,128,26.108980178833008,2638.1630897521973,"Analyze the effectiveness of the given advertisement.
+The advertisement features",The man is making a facial expression that conveys excitement and enthusiasm. Th
+710,51,26,26.18408203125,528.3982753753662,"Select the sentence that best summarizes the output of the Python code below.
+ar","
+The sentence that best summarizes the output of the Python code is:
+
+The origin"
+711,15,128,31.42237663269043,2627.3374557495117,"Generate a story that starts with ""It all started with a whisper...""","
+Summer had just begun and the days seemed to stretch on forever. I was walking "
+712,23,9,26.49068832397461,166.58926010131836,"Rewrite the given sentence to be in active voice.
+The presentation was given by ","
+The researcher gave the presentation."
+713,83,17,26.208162307739258,327.0149230957031,"Write a sentence that describes what happens in the photo.
+![alt text](https://d","
+The two women in the photo are exchanging money in a cafe."
+714,11,125,29.996395111083984,2608.0093383789062,Guide the user on how to store food properly.,"
+Discuss how to store different types of food and the importance of proper food "
+715,26,13,25.063753128051758,248.90637397766113,Rewrite this sentence with a completely different phrasing but conveying the sam,"
+The sandwich boasts an unexpectedly delightful flavor."
+716,15,7,31.644105911254883,125.14686584472656,"Given the following string, remove all white spaces.
+Hello   world","
+Output:
+HelloWorld"
+717,10,96,30.913591384887695,1985.872507095337,Design a logo for an online accounting software.,"
+The online accounting software logo should be sleek, modern, and professional. "
+718,13,83,31.628131866455078,1699.60618019104,How can we reduce the environmental impact of home electricity usage?,"
+
+There are several ways to reduce the environmental impact of home electricity "
+719,10,35,30.405521392822266,702.4378776550293,Name a winter sport that requires a helmet.,"
+Skiing, snowboarding, ice hockey, ice skating, snowmobiling, and bobsledding ar"
+720,42,26,25.093555450439453,538.4359359741211,"Reorder the two sentences to form one logical phrase.
+1. Scientists have not bee","
+
+Although scientists have not been able to find a cure for cancer yet, they are"
+721,22,18,26.401996612548828,351.3805866241455,"Given a sentence, detect any potential bias in it.
+Women are not suited to becom","
+This sentence is biased towards the idea that women are not capable of leading."
+722,12,82,30.156373977661133,1686.8817806243896,Think of a creative opening line for a horror story.,"
+Gunfire echoed off the walls of the small town as the moon hung in the night sk"
+723,33,32,26.6873836517334,639.9555206298828,"Analyze the following statement and identify the logical fallacy.
+""If he is elec","
+
+The logical fallacy committed in this statement is an Ad Hominem attack, as th"
+724,40,128,24.969816207885742,2650.39324760437,"Edit the following sentence to make it more concise: ""He had a really bad headac","
+He had a bad headache.
+Published on: 28/03/2018
+Edit the following sentence to "
+725,39,92,25.975704193115234,1895.8368301391602,Write a JavaScript function that takes in a string and returns an object with ea,"
+Example input: ""hello world""
+Example output: { h: 1, e: 2, l: 3, o: 4 }
+
+def ch"
+726,22,7,25.9249210357666,124.88269805908203,"Translate the following from English to Spanish: ""I am a student.""
+I am a studen","
+I am a student."
+727,9,45,30.90214729309082,913.7880802154541,Compose a song that reflects freedom.,"
+What I'd like you to do is to come up with a song that reflects the feeling of "
+728,18,128,24.34253692626953,2601.0429859161377,"Construct a sheet of paper with the product details.
+iPhone 11 Pro","Max
+Display: 6.5-inch Super Retina OLED display
+Processor: A13 Bionic chip
+Memor"
+729,19,10,26.74269676208496,184.34619903564453,"Explain the humor in the following statement
+Why did the Python programmer go hu","
+Because he swallowed a module without looking."
+730,23,18,25.90489387512207,346.7698097229004,Generate a movie title that fits the sequel to “Rise of the Planet of the Apes”,"
+Name: ""Ape Exodus: Planet of the Simians"""
+731,15,86,31.022310256958008,1752.270221710205,Explain how carbon dioxide contributes to global warming.,"
+When carbon dioxide is released into the atmosphere, it traps heat and prevents"
+732,11,26,29.64925765991211,512.601375579834,Brainstorm three ideas for an outdoor activity.,"
+Arrange the ideas in order of complexity.
+1. Bird watching
+2. Hiking
+3. Mountai"
+733,18,18,26.131391525268555,347.1369743347168,Construct a search query to find a wooden chair with a reclining backrest.,"
+Construct the search query: ""Wooden chair reclining backrest"""
+734,10,128,32.33051300048828,2633.817195892334,Design a recipe for protein waffles.,"
+How to make protein waffles?
+Protein waffles can be made by combining oat flour"
+735,16,21,32.08112716674805,410.3574752807617,Generate a list of 4 adjectives related to the outdoors.,"
+Rustic, verdant, tranquil, and awe-inspiring."
+736,16,76,31.54301643371582,1539.6382808685303,Generate 10 different topics that could be used to start a conversation.,"
+Generate 10 different topics that could be used to start a conversation.
+1. Rec"
+737,12,56,30.46727180480957,1125.6375312805176,Name the elements in the third period of the periodic table,".
+Name the elements in the third period of the periodic table. The third period "
+738,8,42,31.05759620666504,840.407133102417,Name five common types of pension funds,".
+
+1. Defined benefit pension funds
+2. Defined contribution pension funds
+3. Cas"
+739,19,10,25.409460067749023,181.67638778686523,"Transform the statement into an interrogative sentence.
+I forgot to buy oranges.","
+Did you forget to buy oranges?"
+740,10,128,30.81822395324707,2578.946113586426,Write a short story about battling evil forces,".
+Create a protagonist who is a young girl struggling against evil forces.
+
+Once"
+741,14,115,31.125545501708984,2325.8938789367676,Give me a list of five use cases of natural language processing.,"
+
+1. Sentiment analysis: Automatically extract opinions and emotions from text t"
+742,39,128,25.50506591796875,2579.2672634124756,"Given an array of integers, return the first repeating element.
+arr = [3, 6, 7, ","
+output = 6
+
+def firstRepeatingElement(arr):
+    hashMap = {}
+    for i in arr:
+"
+743,17,62,24.64151382446289,1253.4635066986084,"Explain the phrase ""money is a good servant but a bad master"".","
+Money is a good servant because it can provide us with the things we need and t"
+744,17,113,24.541854858398438,2293.6902046203613,"Write a detailed description about a person in 50 words
+Person: Sarah","
+
+Sarah is a 24-year-old woman with auburn hair and a smile that lights up a roo"
+745,15,34,31.374692916870117,681.0891628265381,Generate 3 unique adjectives related to 'jovial',"
+Generate 3 unique adjectives related to 'jovial':
+1. Genial
+2. Mirthful
+3. Greg"
+746,25,13,25.03681182861328,247.6365566253662,"Edit the following sentence: ""The man walked the slow down the street"".
+The man ",".
+The man walked the slow way down the street."
+747,12,62,30.00020980834961,1256.6051483154297,Generate an appropriate example of a cause-effect relationship.,"
+Responses may vary, but an example of a cause-effect relationship could be:
+
+Ca"
+748,33,14,25.79474449157715,261.44862174987793,Remove the 3rd person singular pronoun in the following sentence and make the ne,"
+He should reach early to be on time for the meeting."
+749,15,110,31.4633846282959,2248.718023300171,"Generate 5 questions relevant to the following topic
+Men's fashion","trends in 2022
+1. What are the most popular men's fashion trends for 2022?
+2. Wh"
+750,78,73,25.215625762939453,1493.3667182922363,"Edit a rough draft of a paper on solar system astronomy.
+The first recorded obse","As technology improved, so did their ability to study the Solar System. They wer"
+751,19,7,26.80373191833496,124.35173988342285,"Provide the translation for a given sentence in French.
+Je veux un café.","
+I want a coffee."
+752,14,128,32.58061408996582,2634.7174644470215,Construct a proposal regarding a school initiative to recycle during lunchtime,".
+
+The initiative would involve setting up a centralized recycling station in th"
+753,11,84,30.033349990844727,1726.391315460205,Describe the difference between web development and web design.,"
+
+Web design is the process of creating a visually appealing website. It focuses"
+754,13,6,32.9744815826416,103.87253761291504,Convert the phrase “1/2” into a fraction.,"
+R1/2"
+755,18,8,26.261329650878906,147.40467071533203,Change the following sentence to the active voice: The presentation was given by,"
+The manager gave the presentation."
+756,26,28,26.38840675354004,563.9095306396484,"Detect irony in a sentence.
+My parents said I could go to the party, but I alrea","
+The irony in the sentence is that the speaker has already made plans to go to t"
+757,21,37,26.708126068115234,773.3883857727051,"Respond to the following tweet.
+Tweet text: 
+What an amazing day!","The sun is shining and the birds are singing. #Nature
+
+Response:
+I agree! The be"
+758,31,45,28.04732322692871,910.8016490936279,"Generate a post regarding this article on Twitter.
+This article discusses the us","
+Tweet: Medical professionals are using AR technology to provide better care to "
+759,17,45,25.328874588012695,928.2982349395752,Generate a short conversation between two people expressing admiration for a thi,"
+Susan: I admire how diligent and hardworking Alex has been with his project.
+Pe"
+760,22,26,25.62880516052246,515.9125328063965,"Create a list of 5 adjectives that best describe the product or service.
+A share","offering flexible office solutions.
+
+A vibrant, collaborative, inspiring, produc"
+761,14,82,31.45003318786621,1681.8556785583496,Generate 5 tips that can help improve one's focus.,"
+Create a list of 5 tips that can help improve one's focus.
+1. Break tasks into "
+762,13,128,32.367706298828125,2647.333860397339,What should you do when you are stuck on a problem?,"
+Take a break and come back to it later with a fresh mind.
+
+What strategies shou"
+763,11,128,30.918598175048828,2653.752326965332,Create a PowerPoint presentation about the French Revolution.,"
+Explain the causes and consequences of the French Revolution.
+Analyze the impac"
+764,17,11,26.604652404785156,210.19625663757324,"Identify which type of sentence this is: ""John walked to the store.""","
+Classify it as a declarative sentence."
+765,11,101,29.54387664794922,2063.2200241088867,How does a hot-air balloon fly?,"
+A hot-air balloon is able to fly due to the difference in temperature between t"
+766,24,76,26.944637298583984,1559.6275329589844,"Research a famous poet and summarise their famous work in 2-3 sentences.
+William",is one of the most famous poets in the English language. He is best known for hi
+767,39,26,26.736974716186523,521.8410491943359,"Rank the following activities based on their level of difficulty, from easiest t","
+My order: Drawing a still life painting, memorizing a poem, solving a Rubik's c"
+768,26,47,26.4739990234375,965.1668071746826,"Create a visual representation of the relationship between two variables.
+The nu","
+Creating a scatter plot
+X axis: Number of years of education
+Y axis: Earning pe"
+769,21,5,26.40676498413086,84.5942497253418,"Calculate the sum of all the digits in the given number.
+18047","1
+18"
+770,18,21,26.73792839050293,411.98110580444336,"Convert the following odometer reading into miles.
+21335 km","
+Miles = 21335 km / 1.60934"
+771,7,53,30.13777732849121,1090.8010005950928,Name some popular machine learning algorithms,".
+Name some popular machine learning algorithms:
+1. Decision Tree
+2. Random Fore"
+772,11,33,30.15899658203125,663.8016700744629,Create a menu item for a seafood dinner.,"
+The menu item could be Grilled Salmon with Lemon Butter, served with a side of "
+773,85,101,27.457714080810547,2063.814401626587,"Explain what the article is about in 1 to 2 sentences.
+Summary: This paper descr","It also has the potential to improve NLP tasks like sentiment analysis, topic mo"
+774,10,97,30.973434448242188,1989.6612167358398,Estimate the cost for building a website.,"
+Give an estimate for an e-commerce website with 1000 product listings, 100 page"
+775,19,17,26.213884353637695,328.33266258239746,"Find the mistake in the following sentence and correct it
+He sadly said his fare",".
+The correct sentence would be: He sadly said his farewells."
+776,11,113,30.55429458618164,2343.4314727783203,List four responses about the usage of mobile phones.,"
+1. Mobile phones can be used for communication purposes, such as making calls, "
+777,13,113,32.27114677429199,2351.8474102020264,Describe what a smartphone does in five words or less.,"
+Communication, organization, entertainment.
+
+What does the cloud mean?
+The clou"
+778,22,69,25.951862335205078,1415.3618812561035,"Consider the given input and give a business idea.
+Software as a Service (SaaS)","for customer relationship management.
+
+Business Idea: Create a software that hel"
+779,27,16,25.609254837036133,309.80873107910156,"Add a sentence that expresses the happiness of this family
+They had just won the","The father, mother, and two children were all beaming with joy."
+780,36,79,25.62880516052246,1617.9420948028564,"Summarize the following 20 words into 1 sentence.
+toxic – substance – human – fi",– plastic – disposable – microscopic – particles – sized – dangerous – inhale – 
+781,29,43,26.75771713256836,874.3815422058105,"Compose a sentence describing the argument of a recent article
+The article is en","
+### Response:
+The article examines how digital technology has been marketed as "
+782,17,128,25.413036346435547,2626.8398761749268,"Craft a story from the following three words: Moon, Whale, Balloon",".
+
+Once upon a time there was a whale who loved to live in the bright light of t"
+783,18,115,26.30019187927246,2359.069347381592,"Formulate an argument for or against a given action.
+Banning plastic bags.","
+
+Banning plastic bags is a necessary and important step to reduce plastic pollu"
+784,11,96,30.133724212646484,1974.5633602142334,Describe a design process for creating a new website.,"
+Designing a new website involves several key steps:
+1. Identifying the website’"
+785,7,54,30.071496963500977,1093.787431716919,Describe the smell of chocolate.,"
+What is the scientific definition of a molecule?
+How does light refract?
+What i"
+786,60,128,26.201486587524414,2634.74702835083,"Given a customer's preference and budget, suggest 3 hotels in the destination ci",", Brazil
+Hotel Suggestions:
+1. Hotel Rio Palace - This modern hotel is located i"
+787,25,28,26.591062545776367,555.9051036834717,"Write the missing words to complete the sentence in an appropriate way.
+The swim","
+The correct answer is ""inclement weather"". The sentence should now read: The sw"
+788,14,34,31.67581558227539,679.7850131988525,Make a list of three activities you can do in the rain.,"
+1. Go for a walk in the rain.
+2. Have a picnic in the rain.
+3. Make rain-themed"
+789,14,128,31.59022331237793,2623.8527297973633,Write a short story about an elderly person who starts a garden.,"
+Gramps had always loved nature, and now in his retirement he decided it was fin"

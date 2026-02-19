@@ -1,0 +1,96 @@
+request_idx,input_tokens,output_tokens,prefill_time_ms,decode_time_ms,prompt_preview,output_preview
+0,7,128,214.58721160888672,605.3135395050049,Give three tips for staying healthy.,"
+
+1. Buy healthy food.
+
+Some people are so desperate to get healthy they want to"
+1,8,128,5.532264709472656,386.86227798461914,Design an app for a delivery company.,"
+
+This is a small app that lets you do all sorts of things.
+
+This app is for eve"
+2,11,128,4.894733428955078,398.1354236602783,Describe the life and reign of King Charles II.,"
+
+The story begins with a visit to the Royal Children's Hospital in London in 16"
+3,8,128,7.489681243896484,397.2821235656738,Render a 3D model of a house," from a new angle, showing the same angle in all three dimensions. The house is "
+4,11,2,4.428386688232422,11.75379753112793,Propose an ethical solution to the problem of data privacy,.
+5,53,128,5.54656982421875,391.9224739074707,"Reverse engineer this code to create a new version
+def factorialize(num):
+  fact","
+def doxygen(num):     for i in range(1, num):          
+for num in count(num): "
+6,20,128,5.455970764160156,407.58371353149414,Write a short story in third person narration about a protagonist who has to mak,"
+
+Narrate your story directly to the reader. You can add the words of your hero'"
+7,6,128,5.154132843017578,391.31665229797363,How did Julius Caesar die?, Is it possible that the Roman Emperor died during the reign of Augustus? For ex
+8,25,128,5.235433578491211,396.99387550354004,"Given a set of numbers, find the maximum value.
+Set: {10, 3, 25, 6, 16}","
+Set of numbers: {0, 2, 6, 5, 4}
+Set of values: {0, 1, 10}
+Set of values: {0, 3,"
+9,23,128,5.2738189697265625,390.2015686035156,Arrange the words in the given sentence to form a grammatically correct sentence," out of his nest and started running towards the door.
+""I'll take you out when y"
+10,19,128,4.380702972412109,395.11728286743164,"Explain why the given definition is wrong.
+A mole is an animal that lives underg", Its food is usually a mix of soil and water. The mole has a body mass of around
+11,19,128,5.073308944702148,392.9727077484131,"Convert the given equation into an algebraic expression.
+3x+5y=9","x/10y=13x/14x=20x/25y=35x/40y+60y=80x/90y+110x/120y
+The above equation can be do"
+12,18,128,5.993843078613281,400.38371086120605,Calculate the total surface area of a cube with a side length of 5 cm.,"
+
+To find the minimum depth of the cube, divide the distance between the two edg"
+13,9,128,4.939794540405273,400.5284309387207,Design a logo for a website about recycling.,"
+
+The idea is that after the site has been redesigned, with the site being the f"
+14,9,128,5.007743835449219,392.1947479248047,Explain the concept of cogging torque.,"
+
+Let's say you're in a race. You want to know how many steps you need to make t"
+15,11,128,5.470514297485352,399.7819423675537,Explain the process of cellular respiration in plants.,"
+
+Proliferative Chemistry
+
+The chemists have identified a chemical product of th"
+16,7,9,5.344390869140625,34.53683853149414,Discuss the causes of the Great Depression, and what it means for people today.
+17,15,128,4.845857620239258,394.4530487060547,What is the force on a 1 kg mass due to the gravitational force?,"
+
+The force on a 1 kg mass is the force divided by the mass divided by the mass."
+18,13,128,6.186485290527344,392.0886516571045,Describe a time when you had to make a difficult decision.,"
+
+Your decision to commit suicide by suicide was painful. But now you are experi"
+19,16,128,5.428314208984375,395.0660228729248,"Explain why the following fraction is equivalent to 1/4
+4/16"," = 1.75 = 14.25
+5/16 = 15.25 = 16.25 = 31.25
+6/16 = 19.25 = 24.25 = 38.25
+7/16 ="
+20,15,128,4.713296890258789,399.2118835449219,Generate a list of ten items a person might need for a camping trip,", and then choose which one to use. You can choose the value of the first item i"
+21,8,128,4.785776138305664,390.1824951171875,Describe the structure of an atom.,"
+
+The atom consists of two parts: an atom that has a nucleus and a spin. A spin "
+22,7,128,4.740238189697266,394.42896842956543,What are the three primary colors?,"
+
+Pink, Blue, and Yellow.
+
+What color will be used in the game?
+
+The following t"
+23,21,66,8.002042770385742,207.89098739624023,"Use the given data to calculate the median.
+[2, 3, 7, 8, 10]","
+There are three ways to calculate the median.
+[1, 2, 3, 4, 5, 6, 11]
+[2, 3, 4, "
+24,9,128,5.3234100341796875,392.17686653137207,Who is the world's most famous painter?, What are the most famous paintings? Who is the world's most famous musician? Wh
+25,7,128,5.42759895324707,387.3109817504883,How can we reduce air pollution?,"
+
+The answer to this question is complicated and we don't want to just jump to c"
+26,23,128,4.314661026000977,387.8059387207031,"Evaluate this sentence for spelling and grammar mistakes
+He finnished his meal a"," alone.
+'She's not going to be here before she's gone,' he said.
+He glanced over"
+27,19,128,4.817485809326172,396.6984748840332,"Rewrite the following sentence using active voice.
+The news report was read by t","
+The captain said something to the effect of ""I will be the first one to go to M"
+28,13,128,4.557371139526367,389.47558403015137,Explain the use of word embeddings in Natural Language Processing," (NLP).
+
+The second example illustrates the use of word embeddings in Natural La"
+29,7,128,5.580425262451172,388.4294033050537,Outline the consequences of deforestation.,"
+
+In many places, the amount of water the Amazon consumes is much higher than th"

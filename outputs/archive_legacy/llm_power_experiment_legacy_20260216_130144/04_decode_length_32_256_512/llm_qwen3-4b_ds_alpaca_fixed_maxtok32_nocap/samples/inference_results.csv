@@ -1,0 +1,65 @@
+request_idx,input_tokens,output_tokens,prefill_time_ms,decode_time_ms,prompt_preview,output_preview
+0,14,32,32.155752182006836,904.7296047210693,"Find the area of a circle given its radius.
+Radius = 4"," cm
+A = pi * r^2
+A = pi * 4^2
+A = 16 pi
+A = 50."
+1,8,1,30.730724334716797,28.445720672607422,Provide one example for a cultural practice.,
+2,9,1,32.02462196350098,29.860258102416992,Who is the world's most famous painter?,
+3,31,1,34.6376895904541,30.930280685424805,"Given a set of numbers, find the maximum value.
+Set: {10, 3, 25, 6, 16}",
+4,12,7,36.081552505493164,200.12760162353516,"Identify the odd one out.
+Twitter, Instagram, Telegram",", Facebook
+Answer: Telegram"
+5,12,16,31.651735305786133,433.3357810974121,Describe a time when you had to make a difficult decision.," What were the factors that influenced your decision, and what was the outcome?"
+6,16,32,33.590078353881836,860.572099685669,What is the force on a 1 kg mass due to the gravitational force?," - Quora
+What is the force on a 1 kg mass due to the gravitational force?
+Sort
+R"
+7,31,1,33.89763832092285,31.904220581054688,"Edit the following sentence to make it more concise.
+He ran to the bus stop in o",
+8,18,32,34.88898277282715,862.5555038452148,"Explain why the following fraction is equivalent to 1/4
+4/16","
+Answer:
+The fraction $\dfrac{4}{16}$ is equivalent to $\dfrac{1}{4}$ because wh"
+9,11,32,32.311439514160156,857.306718826294,What is the product of 6 and 2?," Also, what is the product of 2 and 6?
+
+The product of 6 and 2 is 12. The produc"
+10,7,1,31.28528594970703,29.503822326660156,Generate a list of random words.,
+11,7,32,33.55121612548828,878.288984298706,Discuss the causes of the Great Depression," and its impact on the economy.
+The Great Depression was a severe worldwide econ"
+12,11,1,34.536123275756836,31.265735626220703,Explain the concept of artificial intelligence in simple terms.,
+13,6,32,32.95612335205078,861.2926006317139,How did Julius Caesar die?, Julius Caesar was assassinated on the Ides of March (March 15) in 44 BCE. He wa
+14,8,27,31.646728515625,721.2674617767334,Look up the boiling point of water.," What is the boiling point of water in degrees Celsius?
+Answer:
+
+The boiling poi"
+15,9,18,32.11498260498047,495.6057071685791,Explain the concept of cogging torque.," | Physics Forums
+Forums
+Homework Help
+Engineering and Comp Sci Homework Help"
+16,7,1,34.0883731842041,29.378414154052734,What is the capital of France?,
+17,46,24,34.81793403625488,653.9895534515381,"Extract the facts from the paragraph.
+Online education continues to become more ", Online education can be used to supplement traditional education as well as rep
+18,7,1,31.73375129699707,29.318809509277344,Give three tips for staying healthy.,
+19,9,1,32.00125694274902,29.546022415161133,Brainstorm possible solutions to reduce water pollution.,
+20,8,1,29.939651489257812,28.649568557739258,Design an app for a delivery company.,
+21,12,32,32.96971321105957,862.393856048584,"Generate three verbs that mean the same as ""to apologize"""," and include an example sentence for each verb.
+1. To regret: I regret not being"
+22,21,16,34.88945960998535,440.5694007873535,"Arrange the given numbers in ascending order.
+2, 4, 0, 8, 3",", 5, 1, 6, 9, 7"
+23,11,1,31.89873695373535,30.111074447631836,Explain the process of cellular respiration in plants.,
+24,18,1,34.50775146484375,32.503366470336914,"Rewrite the following sentence using active voice.
+The news report was read by t",
+25,19,13,34.12127494812012,359.3790531158447,"Classify the following into animals, plants, and minerals
+Oak tree, copper ore, ",", grass, gold, butterfly, salt, and coral."
+26,13,1,36.14449501037598,29.88123893737793,Generate a list of adjectives that describe a person as brave.,
+27,7,1,31.998872756958008,27.96196937561035,Generate a poem that expresses joy.,
+28,18,1,35.48455238342285,31.736373901367188,"Explain why the given definition is wrong.
+A mole is an animal that lives underg",
+29,23,32,35.54344177246094,880.345344543457,Variable x is defined as “4x + 2y = 10”. Find the value of x.," To solve for x, we can use the given equation:
+
+4x + 2y = 10
+
+Subtracting 2y fr"

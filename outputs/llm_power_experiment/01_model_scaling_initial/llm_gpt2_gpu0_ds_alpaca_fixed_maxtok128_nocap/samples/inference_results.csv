@@ -1,0 +1,134 @@
+request_idx,input_tokens,output_tokens,prefill_time_ms,decode_time_ms,prompt_preview,output_preview
+0,7,128,198.04811477661133,350.3749370574951,Give three tips for staying healthy.,"
+
+1. Don't eat too much.
+
+The best way to keep your body healthy is to eat a lot"
+1,7,128,4.842281341552734,350.28839111328125,What are the three primary colors?,"
+
+The three primary colors are:
+
+The three primary colors are:
+
+The three primar"
+2,8,128,5.6629180908203125,338.12975883483887,Describe the structure of an atom.,"
+
+The atom is a collection of atoms.
+
+The atom is a collection of elements.
+
+The"
+3,7,128,5.255460739135742,336.61508560180664,How can we reduce air pollution?,"
+
+The answer is simple: we can.
+
+The EPA's Clean Air Act requires that all new p"
+4,13,128,4.966259002685547,334.4087600708008,Describe a time when you had to make a difficult decision.,"
+
+""I was a little bit nervous about it, but I was just trying to make the right "
+5,13,128,4.747629165649414,336.00401878356934,"Identify the odd one out.
+Twitter, Instagram, Telegram",", Facebook, Google+, LinkedIn, and Google+ are all great places to start.
+The on"
+6,16,128,5.782604217529297,342.45920181274414,"Explain why the following fraction is equivalent to 1/4
+4/16","
+4/16
+4/16
+4/16
+4/16
+4/16
+4/16
+4/16
+4/16
+4/16
+4/16
+4/16
+4/16
+4/16
+4/16
+4/16
+4/16"
+7,20,128,5.706548690795898,341.9525623321533,Write a short story in third person narration about a protagonist who has to mak,"
+
+The story is written in a way that makes it easy to read, and the characters a"
+8,8,128,4.733562469482422,340.313196182251,Render a 3D model of a house,".
+
+The model is a 3D model of a house.
+
+The model is a 3D model of a house.
+
+The"
+9,23,128,4.981040954589844,345.8056449890137,"Evaluate this sentence for spelling and grammar mistakes
+He finnished his meal a",".
+""I'm sorry, I'm sorry,"" he said. ""I'm sorry, I'm sorry.""
+""I'm sorry, I'm sorry"
+10,6,128,5.918264389038086,337.59498596191406,How did Julius Caesar die?,"
+
+The answer is that he died in the year of his death, the year of his death, th"
+11,7,128,5.285024642944336,334.20467376708984,What is the capital of France?,"
+
+The capital of France is Paris.
+
+The capital of France is Paris.
+
+The capital "
+12,15,128,4.440784454345703,332.92198181152344,Generate a list of ten items a person might need for a camping trip,".
+
+The list of items a person might need for a camping trip. Create a list of te"
+13,7,128,5.45191764831543,333.4803581237793,Discuss the causes of the Great Depression,".
+
+The Great Depression was a major economic crisis that caused the United State"
+14,19,128,5.080938339233398,338.0608558654785,"Classify the following into animals, plants, and minerals
+Oak tree, copper ore, "," ivory, and gold ore
+The following are the minerals that are used in the manufac"
+15,13,128,5.454540252685547,346.8790054321289,Explain the use of word embeddings in Natural Language Processing," (NLP) to describe the properties of a word.
+
+The following example shows how to"
+16,8,128,5.82575798034668,339.4052982330322,Describe the function of a computer motherboard,".
+
+The first thing you need to know about a computer motherboard is that it is a"
+17,53,128,6.434202194213867,353.13987731933594,"Reverse engineer this code to create a new version
+def factorialize(num):
+  fact","
+def factorialize(num):  factorial = 1
+def factorialize(num):  factorial = 1
+def"
+18,11,128,4.847049713134766,332.8683376312256,Propose an ethical solution to the problem of data privacy,".
+
+The first step is to make sure that the data is not being collected by a thir"
+19,13,128,5.061864852905273,333.0216407775879,"Generate three verbs that mean the same as ""to apologize"""," and ""to apologize"" in the same sentence.
+
+The first verb is ""to apologize"" and "
+20,6,128,5.569219589233398,338.2718563079834,What does DNA stand for?,"
+
+DNA is a molecule that is made up of a number of different molecules. The most"
+21,12,128,5.8689117431640625,335.39271354675293,Compare and contrast the Cuban Missile Crisis and the Vietnam War.,"
+
+The U.S. government has been a major player in the Cuban Missile Crisis.
+
+The "
+22,8,128,4.841804504394531,337.2321128845215,Generate a list of random words.,"
+
+The following example shows how to create a list of random words.
+
+import rand"
+23,16,128,4.822015762329102,333.67919921875,"Transcribe the recording into text.
+Recording about the history of Waterloo",", Ontario, and the history of the city of Waterloo, Ontario, and the history of "
+24,9,128,6.019115447998047,333.85586738586426,Who is the world's most famous painter?,"
+
+The world's most famous painter is the famous painter, the most famous painter"
+25,9,128,4.670619964599609,335.6351852416992,Explain the concept of cogging torque.,"
+
+The cogging torque is the amount of torque that a given amount of torque is ab"
+26,8,128,5.073308944702148,339.51520919799805,Look up the boiling point of water.,"
+
+""I'm not going to be able to do that. I'm not going to be able to do that. I'm"
+27,11,128,4.92548942565918,334.69581604003906,Describe the life and reign of King Charles II.,"
+
+The first of the two kings, Charles II, was born in the year 1510, and was the"
+28,15,128,5.307912826538086,346.71640396118164,"Find the area of a circle given its radius.
+Radius = 4",.0 / (1.0 / (1.0 / (1.0 / (1.0 / (1.0 / (1.0 / (1.0 / (1.0 / (1.0 / (1.0 / (1.0 
+29,14,128,5.661964416503906,339.65373039245605,Identify the lines of longitude that divides North and South America.,"
+
+The first line of latitude is the line of latitude between the two poles.
+
+The"

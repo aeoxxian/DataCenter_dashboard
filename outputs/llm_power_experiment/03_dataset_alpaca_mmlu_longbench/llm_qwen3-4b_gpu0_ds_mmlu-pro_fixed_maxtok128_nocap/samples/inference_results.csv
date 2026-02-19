@@ -1,0 +1,128 @@
+request_idx,input_tokens,output_tokens,prefill_time_ms,decode_time_ms,prompt_preview,output_preview
+0,159,128,262.7427577972412,1857.6762676239014,"Typical advertising regulatory bodies suggest, for example that adverts must not"," The correct answer is: **(I)**
+
+**Answer: (I) Unsafe practices, Distress, Fear,"
+1,176,128,18.54109764099121,1798.6490726470947,Managers are entrusted to run the company in the best interest of ________. Spec," The correct answer is: **(F) Shareholders, Care and Skill, Diligence**
+
+---
+
+##"
+2,199,128,19.72365379333496,1815.77730178833,There are two main issues associated with _____ sizing. _______ is a key issue a," The correct answer is: **(G) Up, Involvement, Remuneration, Severance**
+
+---
+
+#"
+3,95,128,29.522418975830078,1797.8734970092773,_______ locate morality beyond the sphere of rationality in an emotional 'moral ," The correct answer is: **(H) Ethics of care**.
+
+**Explanation:**
+
+The statement"
+4,196,128,17.85755157470703,1808.2220554351807, Some of key differences between Islamic finance and conventional finance includ," The correct answer is: **(A) Interest, Certain, Assured, Both tangible and inta"
+5,149,128,19.36507225036621,1807.4629306793213, Which of the following are the three broad groups of organizational characteris," The correct answer is: **(A) Organizational size, industry type, and geographic"
+6,117,128,18.691539764404297,1800.6341457366943," Pine and Gilmore (1999) derive four distinct realms of experience, based on two", The correct answer is: **(D) Customer participation and environmental relations
+7,82,128,117.45429039001465,1798.4745502471924, Which type of research methods are designed to elicit responses to predetermine," The correct answer is: **(J) Quantitative**.
+
+---
+
+**Explanation:**
+
+The questi"
+8,88,128,18.338441848754883,1780.808925628662,"Where the price is set low relative to the competition to gain market share, thi"," The correct answer is: **(E) Penetration pricing**.
+
+**Explanation:**
+
+Penetrat"
+9,113,128,18.166780471801758,1795.1316833496094,"Once a train pulls out of a station, or an aeroplane takes off or a film starts,"," The correct answer is: **(F) Perishability**.
+
+---
+
+**Explanation:**
+
+The scena"
+10,94,128,17.664432525634766,1791.0432815551758,A marketing research firm contracts with clients to conduct a complete marketing," The correct answer is: **(E) Full-service agency.**
+
+**Explanation:**
+
+The ques"
+11,84,128,19.179105758666992,1788.5630130767822,The six dimensions usually considered to constitute the external marketing envir," The correct answer is: **(C) Personal preferences of the marketing team**
+
+### "
+12,87,128,17.964839935302734,1776.015043258667,"What is the term for the 'rule of thumb' type of bias in decision making?
+
+(A) F"," The correct answer is: **(C) Representativeness bias**
+
+---
+
+**Explanation:**
+
+"
+13,82,128,18.595218658447266,1794.7180271148682,As what is ensuring that one individual does not carry the burden of a whole wor," The correct answer is: **(B) Workload balancing**
+
+---
+
+**Explanation:**
+
+The q"
+14,87,128,19.46854591369629,1791.471004486084,What theory is built around the principle that 'people make choices regarding ho," The correct answer is: **(J) Humanistic**
+
+---
+
+**Explanation:**
+
+The principle"
+15,114,128,19.040822982788086,1784.7099304199219,"How does lateral communication in an organisation occur?
+
+(A) Information is sha","  
+Answer: **J**
+
+**Explanation:**  
+Lateral communication refers to the exchang"
+16,195,128,18.802165985107422,1807.3201179504395,The stock of the CCC Corporation is currently valued at $12 and is assumed to po," The correct answer is **(J) 45.0**.
+
+---
+
+### **Step-by-step Explanation:**
+
+We"
+17,168,128,17.948627471923828,1809.2570304870605,"George is seen to place an even-money $100,000 bet on the Bulls to win the NBA F", The key to solving this problem lies in understanding **logarithmic utility of 
+18,414,128,23.772239685058594,1813.4870529174805,Boy Alcott and Jon Buxton are partners in a steel company. They share the net in," To find each partner's share of the profit, we need to calculate their **averag"
+19,195,128,18.886566162109375,1798.0482578277588,"TheAlforsCompany had a beginning inventory of $30,000, Jan 1, 1974. During the y"," The correct answer is **(F) $54,400**.
+
+---
+
+### Step-by-step reasoning using t"
+20,354,128,20.807981491088867,1805.5534362792969,"(a) Given the two discount series of 30-10-2(1/2) % and 25-15-2%, which is bette"," (a) To determine which discount series is better, we need to calculate the **ef"
+21,248,128,18.863439559936523,1815.5245780944824,"On July 7, Magee Data stock sold at a high of 23(1/8) and a low of 22(5/8). Gian"," The answer is (A)
+
+Let's carefully go through the problem step by step to deter"
+22,147,128,19.76943016052246,1811.856985092163,"During a riot, Mr. Winter's car was overturned causing $346.50 in damage.Mr. Win"," The correct answer is: **(A) $296.50**
+
+---
+
+**Explanation:**
+
+Mr. Winter's car"
+23,146,128,20.032405853271484,1812.3869895935059,Janet Firestone purchased an option on a stock for $175 giving her the right to ," The correct answer is **(E) $125**.
+
+---
+
+### Step-by-step reasoning:
+
+Janet Fi"
+24,189,128,19.56629753112793,1806.9536685943604,Margaret Denault recently rented a truck to drive 516 miles in days and 17 hours," The total cost of the rental is the sum of the following components:
+
+1. Daily "
+25,394,128,23.5903263092041,1804.4164180755615,Where in the balance sheet does each of the following belong? (A) Taxes payable ," 
+
+Correct answer: (J)
+
+Explanation:  
+- (A) Taxes payable: This is a liability "
+26,260,128,18.908023834228516,1804.1291236877441,"Prepare a balance sheet for Silvertown Office Supplies, C.H. Walters, owner, as "," The correct answer is **(C) Total assets 48,500**.
+
+---
+
+### **Step-by-step Rea"
+27,127,128,19.014835357666016,1765.6350135803223,What is the net cost of a tape recorder whose list price is $32 and on which the, The net cost of a tape recorder is the price after the discount is applied. The
+28,142,128,20.525455474853516,1758.239984512329,"Mr. Frankel wants to borrow $2,000 from November 16 for 143 days. The interest r"," To solve this problem, we need to compare the interest calculated using **exact"
+29,154,128,21.00539207458496,1782.578468322754,HarryHyppeis paid a straight wage of $2.89 (1/2) per hour. If he works 9 hours a, The problem states that HarryHyppeis paid a straight wage of $2.89 (1/2) per ho

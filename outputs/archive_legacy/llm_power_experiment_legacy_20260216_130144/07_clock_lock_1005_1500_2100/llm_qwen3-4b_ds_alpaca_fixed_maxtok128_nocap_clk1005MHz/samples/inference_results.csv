@@ -1,0 +1,63 @@
+request_idx,input_tokens,output_tokens,prefill_time_ms,decode_time_ms,prompt_preview,output_preview
+0,14,53,50.4152774810791,1724.4558334350586,Generate a list of ten items a person might need for a camping trip,".
+1. Tent
+2. Sleeping bag
+3. Sleeping pad
+4. Headlamp
+5. First aid kit
+6. Multi-"
+1,10,1,49.276113510131836,50.202369689941406,Describe the life and reign of King Charles II.,
+2,7,1,48.674821853637695,48.72775077819824,Describe the structure of an atom.,
+3,12,30,46.926259994506836,953.1376361846924,"Identify the odd one out.
+Twitter, Instagram, Telegram",", Snapchat
+Answer:
+Telegram is the odd one out. Twitter, Instagram and Snapchat "
+4,31,1,36.180973052978516,35.119056701660156,"Edit the following sentence to make it more concise.
+He ran to the bus stop in o",
+5,13,1,51.23639106750488,51.27859115600586,Identify the lines of longitude that divides North and South America.,
+6,18,1,40.096282958984375,34.70420837402344,"Explain why the given definition is wrong.
+A mole is an animal that lives underg",
+7,6,128,44.481754302978516,4029.254674911499,How did Julius Caesar die?," Julius Caesar was assassinated in the Roman Senate on the Ides of March, 44 BC."
+8,15,86,49.39627647399902,2712.2535705566406,"Write a short paragraph about the given topic.
+The importance of using renewable"," sources
+Renewable energy sources are becoming increasingly important as a means"
+9,7,1,48.97594451904297,48.77114295959473,How can we reduce air pollution?,
+10,19,128,36.7884635925293,4019.906520843506,"Classify the following into animals, plants, and minerals
+Oak tree, copper ore, ",", gold, rose bush, silver, human, iron ore, pine tree, goldfish, marble, wheat, "
+11,7,128,48.35247993469238,4028.6970138549805,What are the three primary colors?, What is the primary color in the RGB color model? What is the primary color in 
+12,8,22,49.378395080566406,705.3296566009521,Look up the boiling point of water.," Write down the number in degrees Celsius.
+The boiling point of water is 100 deg"
+13,39,1,39.72458839416504,40.1301383972168,"Reverse engineer this code to create a new version
+def factorialize(num):
+  fact",
+14,31,1,37.892818450927734,35.4771614074707,"Given a set of numbers, find the maximum value.
+Set: {10, 3, 25, 6, 16}",
+15,17,63,36.193132400512695,1976.102352142334,Calculate the total surface area of a cube with a side length of 5 cm.," The surface area of a cube is given by the formula 6s^2, where s is the length "
+16,20,1,36.11183166503906,34.632205963134766,Write a short story in third person narration about a protagonist who has to mak,
+17,7,1,48.047542572021484,48.505306243896484,Generate a list of random words.,
+18,7,128,48.421621322631836,4030.1272869110107,Discuss the causes of the Great Depression,", the effects of the New Deal, and the impact of the Great Depression on the eco"
+19,6,128,44.844865798950195,4025.484085083008,What does DNA stand for?, What is the role of DNA in the body? What are the four bases in DNA? What is th
+20,8,1,48.967599868774414,49.05247688293457,Provide one example for a cultural practice.,
+21,14,20,51.83267593383789,644.7105407714844,"Find the area of a circle given its radius.
+Radius = 4"," cm
+Answer:
+$$
+16\pi\text{ cm}^2
+$$"
+22,18,128,39.32666778564453,4024.6148109436035,"Explain why the following fraction is equivalent to 1/4
+4/16","
+Answer:
+
+We need to explain why the fraction $\frac{4}{16}$ is equivalent to $\"
+23,46,1,40.49324989318848,40.008544921875,"Extract the facts from the paragraph.
+Online education continues to become more ",
+24,12,9,45.89080810546875,296.66948318481445,Compare and contrast the Cuban Missile Crisis and the Vietnam War., What similarities and differences can you identify?
+25,9,1,48.39015007019043,49.207448959350586,Who is the world's most famous painter?,
+26,16,23,49.91793632507324,737.2188568115234,What is the force on a 1 kg mass due to the gravitational force?," Also, what is the force on a 1 kg mass due to the electrostatic force?
+
+Okay, t"
+27,13,78,50.12249946594238,2462.737798690796,"Transcribe the recording into text.
+Recording about the history of Waterloo"," Bridge
+Waterloo Bridge is a bridge spanning the River Thames in London, England"
+28,12,10,46.19860649108887,327.8014659881592,"Generate three verbs that mean the same as ""to apologize""", and provide an example sentence for each verb.
+29,8,1,49.616098403930664,49.02338981628418,Design an app for a delivery company.,

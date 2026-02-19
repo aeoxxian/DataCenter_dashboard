@@ -1,0 +1,69 @@
+request_idx,input_tokens,output_tokens,prefill_time_ms,decode_time_ms,prompt_preview,output_preview
+0,8,128,280.8496952056885,1692.0626163482666,Give three tips for staying healthy.," Here are three tips for staying healthy:
+1. Eat a balanced diet: Eating a balan"
+1,8,128,15.7470703125,1673.417091369629,What are the three primary colors?," The three primary colors are red, blue, and yellow. These colors cannot be crea"
+2,8,128,15.972137451171875,1673.3994483947754,Describe the structure of an atom., The atom is the basic building block of matter. It is made up of three main par
+3,8,128,16.83950424194336,1672.4295616149902,How can we reduce air pollution?," - PowerPoint PPT Presentation
+How can we reduce air pollution?. Air pollution i"
+4,13,128,16.06297492980957,1674.375295639038,Describe a time when you had to make a difficult decision.," What was the decision, and how did you arrive at it?
+I recall a situation where"
+5,13,128,16.869783401489258,1673.7771034240723,"Identify the odd one out.
+Twitter, Instagram, Telegram",", Facebook, WhatsApp, Snapchat, TikTok, WeChat, Viber, Line, Kik, Signal, Discor"
+6,18,128,17.59481430053711,1673.3791828155518,"Explain why the following fraction is equivalent to 1/4
+4/16"," = 1/4
+The fraction 4/16 is equivalent to 1/4 because both fractions have the sa"
+7,21,128,17.155885696411133,1674.983263015747,Write a short story in third person narration about a protagonist who has to mak," 
+Title: The Crossroads
+As she sat at her desk, staring blankly at the computer "
+8,10,128,16.217470169067383,1673.3450889587402,Render a 3D model of a house," using Blender
+In this tutorial, we will learn how to render a 3D model of a hou"
+9,22,128,16.049861907958984,1674.5381355285645,"Evaluate this sentence for spelling and grammar mistakes
+He finnished his meal a",".
+The sentence is missing a verb in the second clause. It should be ""restaurant"""
+10,7,128,16.963958740234375,1673.5117435455322,How did Julius Caesar die?, Julius Caesar was stabbed to death by a group of conspirators on the Ides of Ma
+11,8,128,16.170501708984375,1672.9719638824463,What is the capital of France?," Paris
+What is the capital of France?
+The capital of France is Paris. It is the "
+12,15,128,16.112327575683594,1673.821210861206,Generate a list of ten items a person might need for a camping trip,". The items should be related to food and cooking.
+Here is a list of ten items a"
+13,8,128,16.249656677246094,1674.1724014282227,Discuss the causes of the Great Depression," and the New Deal policies that were implemented to address it.
+The Great Depres"
+14,20,128,16.424179077148438,1674.9916076660156,"Classify the following into animals, plants, and minerals
+Oak tree, copper ore, ",", granite, rose, gold, rabbit, iron ore, daisy, quartz, cat, limestone, dog, san"
+15,12,128,16.14093780517578,1673.3312606811523,Explain the use of word embeddings in Natural Language Processing," (NLP)
+Word embeddings are a type of representation of words in a high-dimension"
+16,8,128,15.473604202270508,1673.891544342041,Describe the function of a computer motherboard,"
+The motherboard is the main circuit board of a computer, connecting and support"
+17,40,128,17.939329147338867,1679.537296295166,"Reverse engineer this code to create a new version
+def factorialize(num):
+  fact","
+
+# Test the function
+print(factorialize(5))  # Output: 120
+print(factorialize(1"
+18,12,128,16.285181045532227,1674.4234561920166,Propose an ethical solution to the problem of data privacy," in the digital age
+The problem of data privacy in the digital age is a pressing"
+19,13,128,17.565250396728516,1675.257682800293,"Generate three verbs that mean the same as ""to apologize"""," in English. 
+Here are three verbs that mean the same as ""to apologize"" in Engli"
+20,7,128,16.687631607055664,1673.9733219146729,What does DNA stand for?, DNA stands for Deoxyribonucleic acid. It is a molecule that contains the geneti
+21,13,128,16.823291778564453,1674.6177673339844,Compare and contrast the Cuban Missile Crisis and the Vietnam War.," Essay
+The Cuban Missile Crisis and the Vietnam War were two significant events "
+22,8,128,16.583919525146484,1674.8480796813965,Generate a list of random words., The list should contain 10 words. The words should be chosen randomly from a pr
+23,14,128,15.850067138671875,1675.8522987365723,"Transcribe the recording into text.
+Recording about the history of Waterloo"," Bridge
+[0:00]
+Interviewer: Good morning, I'm here with John, a local historian."
+24,10,128,16.495227813720703,1675.9717464447021,Who is the world's most famous painter?," - Quora
+The world's most famous painter is a matter of debate, as opinions on a"
+25,10,128,16.12067222595215,1674.4167804718018,Explain the concept of cogging torque., Cogging torque is a phenomenon that occurs in permanent magnet synchronous moto
+26,9,128,16.796588897705078,1675.6236553192139,Look up the boiling point of water., The boiling point of water is 100 degrees Celsius or 212 degrees Fahrenheit. Th
+27,11,128,15.933513641357422,1674.5061874389648,Describe the life and reign of King Charles II.," Charles II was born on May 29, 1630, in St. James Palace, London, England. He w"
+28,15,128,17.1966552734375,1676.295518875122,"Find the area of a circle given its radius.
+Radius = 4","
+Area = πr^2
+Area = π(4)^2
+Area = 16π
+Area = 50.265
+The area of the circle is 50"
+29,14,128,16.584157943725586,1675.3485202789307,Identify the lines of longitude that divides North and South America.," Identify the lines of longitude that divides North and South America.
+The lines"

@@ -1,0 +1,58 @@
+request_idx,input_tokens,output_tokens,prefill_time_ms,decode_time_ms,prompt_preview,output_preview
+0,7,128,37.40954399108887,3461.834192276001,Discuss the causes of the Great Depression,".
+Answer:
+
+The Great Depression was caused by a number of factors, including the"
+1,16,25,37.14108467102051,682.257890701294,What is the force on a 1 kg mass due to the gravitational force?," Also, can you explain what a force is, its SI unit, and the difference between "
+2,15,97,37.23335266113281,2569.6394443511963,"Write a short paragraph about the given topic.
+The importance of using renewable"," sources. Renewable energy sources such as solar, wind, and hydroelectric power "
+3,7,1,38.33174705505371,37.80245780944824,Describe the structure of an atom.,
+4,7,1,37.87684440612793,37.88399696350098,Outline the consequences of deforestation.,
+5,71,1,49.55935478210449,30.531644821166992,"Summarize the given passage.
+A recent study showed that global climate change is",
+6,30,1,33.45060348510742,30.78627586364746,"Analyze the given text for its tone.
+The world has been greatly impacted by the ",
+7,23,103,34.65080261230469,2724.0374088287354,Variable x is defined as “4x + 2y = 10”. Find the value of x.," To solve the equation 4x + 2y = 10 for x, we need to isolate x on one side of t"
+8,12,23,36.20290756225586,618.0710792541504,"Identify the odd one out.
+Twitter, Instagram, Telegram","
+Answer: Twitter
+Explanation: Twitter is a social media platform, while Instagra"
+9,21,15,33.86807441711426,418.4105396270752,"Arrange the given numbers in ascending order.
+2, 4, 0, 8, 3","
+0, 2, 3, 4, 8"
+10,31,16,34.46149826049805,438.08579444885254,"Edit the following sentence to make it more concise.
+He ran to the bus stop in o", He ran to the bus stop to catch the bus arriving in five minutes.
+11,6,83,34.4541072845459,2216.7413234710693,How did Julius Caesar die?, Julius Caesar was assassinated on the Ides of March (March 15th) in 44 BCE. He 
+12,7,128,37.94288635253906,3406.3620567321777,What are the three primary colors?," Additionally, what is the difference between a color wheel and a color triangle"
+13,21,2,35.591840744018555,64.90707397460938,"Evaluate this sentence for spelling and grammar mistakes
+He finnished his meal a",.
+14,18,1,35.84003448486328,31.988143920898438,"Rewrite the following sentence using active voice.
+The news report was read by t",
+15,7,128,38.29789161682129,3394.357919692993,Describe the function of a computer motherboard,".
+Answer: The motherboard is the main component of a computer system, connecting"
+16,12,10,35.66241264343262,280.87806701660156,Compare and contrast the Cuban Missile Crisis and the Vietnam War., What are the key differences between the two?
+17,18,1,32.85646438598633,31.266212463378906,"Explain why the given definition is wrong.
+A mole is an animal that lives underg",
+18,8,1,37.042856216430664,37.2312068939209,Provide one example for a cultural practice.,
+19,9,4,41.053056716918945,119.31896209716797,Render a 3D model of a house," using Blender.
+"
+20,7,1,37.755727767944336,37.99605369567871,Give two examples of a liquid.,
+21,39,1,36.36932373046875,32.186269760131836,"Reverse engineer this code to create a new version
+def factorialize(num):
+  fact",
+22,7,1,38.4669303894043,37.853240966796875,Give three tips for staying healthy.,
+23,8,40,37.039756774902344,1083.2078456878662,Look up the boiling point of water., What happens to the temperature of the water as it boils? Does the temperature 
+24,9,1,37.9481315612793,37.57810592651367,Design a logo for a website about recycling.,
+25,20,1,34.86776351928711,30.324220657348633,Write a short story in third person narration about a protagonist who has to mak,
+26,11,1,37.070274353027344,35.71367263793945,Explain the process of cellular respiration in plants.,
+27,14,60,38.33150863647461,1617.311716079712,Generate a list of ten items a person might need for a camping trip,".
+
+1. Tent
+2. Sleeping bag
+3. Sleeping pad
+4. Headlamp
+5. Multi-tool
+6. Matches "
+28,31,1,34.64674949645996,32.121896743774414,"Given a set of numbers, find the maximum value.
+Set: {10, 3, 25, 6, 16}",
+29,12,39,35.341501235961914,1067.068338394165,Describe a time when you had to make a difficult decision.," What was the decision, and how did you make it? What were the pros and cons of "

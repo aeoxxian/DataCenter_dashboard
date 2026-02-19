@@ -1,0 +1,58 @@
+request_idx,input_tokens,output_tokens,prefill_time_ms,decode_time_ms,prompt_preview,output_preview
+0,21,10,33.64253044128418,346.30680084228516,Arrange the words in the given sentence to form a grammatically correct sentence,"
+Answer: The quick brown fox jumped."
+1,7,69,34.174442291259766,1904.1943550109863,Outline the consequences of deforestation.," Deforestation has many consequences, including but not limited to: increased gr"
+2,7,1,34.662723541259766,30.526161193847656,Give two examples of a liquid.,
+3,13,14,32.389163970947266,397.82190322875977,"Transcribe the recording into text.
+Recording about the history of Waterloo",", the location of the battle and its impact on the world."
+4,17,98,36.602020263671875,2735.5406284332275,Calculate the total surface area of a cube with a side length of 5 cm.," The total surface area of a cube can be calculated using the formula:
+
+Surface "
+5,7,13,35.9957218170166,376.6155242919922,What are the three primary colors?," The three primary colors are red, blue, and yellow."
+6,14,51,33.498525619506836,1434.157133102417,Generate a list of ten items a person might need for a camping trip,".
+1. Tent
+2. Sleeping bag
+3. Sleeping pad
+4. Headlamp
+5. Multi-tool
+6. Water fil"
+7,7,1,34.29007530212402,31.09264373779297,Generate a poem that expresses joy.,
+8,12,9,33.59532356262207,266.72887802124023,"Generate three verbs that mean the same as ""to apologize""", and provide an example sentence for each.
+9,11,1,34.09433364868164,31.17823600769043,Explain the concept of artificial intelligence in simple terms.,
+10,9,1,33.99491310119629,31.1126708984375,Brainstorm possible solutions to reduce water pollution.,
+11,11,10,32.13357925415039,288.97666931152344,What is the product of 6 and 2?, To find the product of 6 and 
+12,18,9,38.51485252380371,268.8734531402588,"Rewrite the following sentence using active voice.
+The news report was read by t"," 
+The captain read the news report."
+13,15,79,34.43789482116699,2156.4910411834717,"Write a short paragraph about the given topic.
+The importance of using renewable"," sources
+Using renewable energy sources is crucial in the fight against climate "
+14,9,1,31.38899803161621,29.523372650146484,Who is the world's most famous painter?,
+15,11,1,33.33115577697754,30.28082847595215,Explain the process of cellular respiration in plants.,
+16,30,1,33.19382667541504,31.543254852294922,"Analyze the given text for its tone.
+The world has been greatly impacted by the ",
+17,11,1,33.64825248718262,29.566526412963867,Develop a plan to reduce electricity usage in a home.,
+18,21,15,33.20598602294922,415.78102111816406,"Evaluate this sentence for spelling and grammar mistakes
+He finnished his meal a","
+Corrected sentence: He finished his meal and left the restaurant."
+19,12,128,32.904863357543945,3512.542724609375,Describe a time when you had to make a difficult decision.," What was the decision and why was it difficult?
+Answer: One of the most difficu"
+20,6,128,34.548044204711914,3442.110538482666,What does DNA stand for?, What is the structure of DNA? What are the four nitrogenous bases in DNA? What 
+21,13,1,31.865596771240234,29.857158660888672,Generate a list of adjectives that describe a person as brave.,
+22,71,1,48.42734336853027,32.05561637878418,"Summarize the given passage.
+A recent study showed that global climate change is",
+23,11,59,33.53095054626465,1597.0265865325928,Explain the use of word embeddings in Natural Language Processing,".
+Word embeddings are a type of representation that maps words in a language int"
+24,9,17,33.196449279785156,463.4568691253662,Explain the concept of cogging torque.," | Chegg.com
+Engineering
+Mechanical Engineering
+Mechanical Engineering questions"
+25,8,1,36.56411170959473,30.238628387451172,Design an app for a delivery company.,
+26,7,49,30.538082122802734,1331.0964107513428,Describe the function of a computer motherboard,".
+Answer: The motherboard is the main circuit board of a computer. It connects a"
+27,11,128,33.15114974975586,3475.6853580474854,Propose an ethical solution to the problem of data privacy," in the digital age.
+
+An ethical solution to the problem of data privacy in the "
+28,18,1,35.72893142700195,32.57942199707031,"Explain why the following fraction is equivalent to 1/4
+4/16",
+29,7,1,33.27345848083496,28.7930965423584,Describe the structure of an atom.,

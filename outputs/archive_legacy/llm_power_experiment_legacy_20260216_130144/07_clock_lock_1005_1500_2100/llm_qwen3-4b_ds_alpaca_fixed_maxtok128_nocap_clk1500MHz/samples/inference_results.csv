@@ -1,0 +1,57 @@
+request_idx,input_tokens,output_tokens,prefill_time_ms,decode_time_ms,prompt_preview,output_preview
+0,11,6,35.40182113647461,229.39348220825195,Propose an ethical solution to the problem of data privacy," in the digital age.
+"
+1,17,13,36.026954650878906,360.78953742980957,"Convert the given equation into an algebraic expression.
+3x+5y=9","
+Answer: $3x+5y=9$"
+2,31,1,34.737348556518555,32.2260856628418,"Given a set of numbers, find the maximum value.
+Set: {10, 3, 25, 6, 16}",
+3,7,119,38.11836242675781,3233.5126399993896,How can we reduce air pollution?," What are the most effective methods?
+
+Reducing air pollution is essential for p"
+4,18,1,35.84456443786621,32.63449668884277,"Rewrite the following sentence using active voice.
+The news report was read by t",
+5,66,31,55.82284927368164,825.2484798431396,"Rewrite the given paragraph in a shorter, easier to understand form.
+Although it"," In order to bridge the gap, educational programs and resources should be develo"
+6,7,94,37.83059120178223,2493.4611320495605,Describe the structure of an atom., An atom is the basic unit of matter and consists of a nucleus surrounded by ele
+7,13,1,39.20769691467285,38.95759582519531,Identify the lines of longitude that divides North and South America.,
+8,7,1,37.58740425109863,37.85967826843262,Generate a list of random words.,
+9,39,17,34.815311431884766,462.66913414001465,"Reverse engineer this code to create a new version
+def factorialize(num):
+  fact","
+
+# Output: 120
+print(factorialize(5))"
+10,6,11,35.2482795715332,303.81226539611816,How did Julius Caesar die?," Julius Caesar died on March 15, "
+11,7,1,38.54489326477051,37.885427474975586,Give three tips for staying healthy.,
+12,8,120,37.05096244812012,3270.190954208374,Provide one example for a cultural practice.," One example of a cultural practice is the celebration of Diwali, a festival of "
+13,25,1,33.99801254272461,31.34751319885254,"Use the given data to calculate the median.
+[2, 3, 7, 8, 10]",
+14,12,1,35.68243980407715,35.41994094848633,"Generate three verbs that mean the same as ""to apologize""",
+15,23,94,35.34531593322754,2590.440511703491,Variable x is defined as “4x + 2y = 10”. Find the value of x.," To solve for x, we need to isolate x on one side of the equation. 
+
+Starting wi"
+16,7,91,38.88130187988281,2489.194631576538,Outline the consequences of deforestation., Deforestation is the large-scale removal of forests and can have far-reaching c
+17,15,104,38.248538970947266,2846.9033241271973,"Write a short paragraph about the given topic.
+The importance of using renewable"," sources
+Renewable energy sources, such as solar, wind, and hydroelectric power,"
+18,9,3,37.65273094177246,94.91920471191406,Explain the concept of cogging torque.," Also,"
+19,9,2,37.55688667297363,66.925048828125,Render a 3D model of a house,"
+"
+20,7,8,38.04898262023926,236.10615730285645,What is the capital of France?, The capital of France is Paris.
+21,9,1,37.51969337463379,37.7197265625,Who is the world's most famous painter?,
+22,18,128,34.15083885192871,3474.240303039551,"Explain why the following fraction is equivalent to 1/4
+4/16","
+Answer: We need to explain why the fraction $\frac{4}{16}$ is equivalent to $\f"
+23,17,1,34.478187561035156,31.97503089904785,Calculate the total surface area of a cube with a side length of 5 cm.,
+24,21,10,35.1254940032959,293.96653175354004,Arrange the words in the given sentence to form a grammatically correct sentence,"
+Answer: The brown fox jumped quickly."
+25,12,1,36.11493110656738,35.48288345336914,Compare and contrast the Cuban Missile Crisis and the Vietnam War.,
+26,11,1,37.796974182128906,35.66455841064453,Develop a plan to reduce electricity usage in a home.,
+27,19,34,34.35683250427246,926.2144565582275,"Classify the following into animals, plants, and minerals
+Oak tree, copper ore, ",", gold, fern, silver, human
+Animals: Elephant, Human
+Plants: Oak tree, Fern
+Mine"
+28,20,1,36.17358207702637,32.343149185180664,Write a short story in third person narration about a protagonist who has to mak,
+29,16,128,37.42551803588867,3464.395761489868,What is the force on a 1 kg mass due to the gravitational force?," Additionally, if the mass is on a horizontal surface, what is the force on the "

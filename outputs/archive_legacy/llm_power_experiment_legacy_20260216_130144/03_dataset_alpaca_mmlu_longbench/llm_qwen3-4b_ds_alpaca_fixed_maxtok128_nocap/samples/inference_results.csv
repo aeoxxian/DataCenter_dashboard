@@ -1,0 +1,50 @@
+request_idx,input_tokens,output_tokens,prefill_time_ms,decode_time_ms,prompt_preview,output_preview
+0,11,75,33.761024475097656,2071.3846683502197,Explain the use of word embeddings in Natural Language Processing,".
+
+Word embeddings are a type of representation used in Natural Language Process"
+1,15,78,33.978939056396484,2062.654972076416,"Write a short paragraph about the given topic.
+The importance of using renewable"," sources
+Using renewable energy sources is essential for reducing greenhouse gas"
+2,18,1,34.61122512817383,31.696081161499023,"Rewrite the following sentence using active voice.
+The news report was read by t",
+3,11,2,32.114505767822266,56.55717849731445,Propose an ethical solution to the problem of data privacy,.
+4,7,1,31.012535095214844,30.35879135131836,What is the capital of France?,
+5,8,1,31.99481964111328,29.239654541015625,Design an app for a delivery company.,
+6,6,13,33.65659713745117,355.12685775756836,How did Julius Caesar die?," Julius Caesar was assassinated on March 15, "
+7,19,29,34.72638130187988,769.819974899292,"Classify the following into animals, plants, and minerals
+Oak tree, copper ore, ",", gold, pine tree, coral, quartz, dog, lichen, salt, fern, marble, cat, algae, i"
+8,9,9,34.04951095581055,254.0750503540039,Render a 3D model of a house," with a red roof and blue windows.
+"
+9,7,1,33.951759338378906,29.74104881286621,Give three tips for staying healthy.,
+10,39,1,34.02400016784668,30.851364135742188,"Reverse engineer this code to create a new version
+def factorialize(num):
+  fact",
+11,12,1,34.56616401672363,29.14738655090332,"Generate three verbs that mean the same as ""to apologize""",
+12,23,1,39.75534439086914,31.255483627319336,Variable x is defined as “4x + 2y = 10”. Find the value of x.,
+13,31,1,34.90090370178223,31.78572654724121,"Given a set of numbers, find the maximum value.
+Set: {10, 3, 25, 6, 16}",
+14,10,1,30.659198760986328,28.366804122924805,Describe the life and reign of King Charles II.,
+15,21,2,36.82518005371094,62.001943588256836,"Evaluate this sentence for spelling and grammar mistakes
+He finnished his meal a",.
+16,71,1,56.78272247314453,34.58428382873535,"Summarize the given passage.
+A recent study showed that global climate change is",
+17,30,1,32.38415718078613,31.28671646118164,"Analyze the given text for its tone.
+The world has been greatly impacted by the ",
+18,7,1,34.734249114990234,30.425310134887695,What are the three primary colors?,
+19,11,1,36.951303482055664,33.56528282165527,Develop a plan to reduce electricity usage in a home.,
+20,7,1,32.766103744506836,28.81479263305664,Give two examples of a liquid.,
+21,7,1,33.74123573303223,30.229806900024414,How can we reduce air pollution?,
+22,7,1,31.47602081298828,29.12163734436035,Outline the consequences of deforestation.,
+23,7,1,31.575918197631836,29.551267623901367,Describe the structure of an atom.,
+24,11,128,31.068086624145508,3384.4656944274902,What is the product of 6 and 2?," Also, what is the product of 11 and 3? Can you explain how to multiply two numb"
+25,12,16,32.60326385498047,430.6645393371582,Compare and contrast the Cuban Missile Crisis and the Vietnam War., What were the similarities and differences? What lessons can we learn from both
+26,21,74,33.9202880859375,1961.6267681121826,"Arrange the given numbers in ascending order.
+2, 4, 0, 8, 3",", 7, 1, 6, 5, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, "
+27,8,12,30.97057342529297,338.2413387298584,Look up the boiling point of water., What is the boiling point of water in degrees Fahrenheit?
+28,13,15,33.49161148071289,406.7034721374512,"Transcribe the recording into text.
+Recording about the history of Waterloo",":
+The Battle of Waterloo was fought on June 18, "
+29,17,62,34.60979461669922,1648.1752395629883,Calculate the total surface area of a cube with a side length of 5 cm.," To calculate the total surface area of a cube, you can use the formula:
+
+\[
+\te"

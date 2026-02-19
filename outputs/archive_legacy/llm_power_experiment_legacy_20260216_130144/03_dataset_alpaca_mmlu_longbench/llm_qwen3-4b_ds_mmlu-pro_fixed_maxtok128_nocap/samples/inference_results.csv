@@ -1,0 +1,40 @@
+request_idx,input_tokens,output_tokens,prefill_time_ms,decode_time_ms,prompt_preview,output_preview
+0,127,1,31.985998153686523,77.93283462524414,The list price of a book is $4.95. It sells in a bookstore at a net price of $2.,
+1,414,1,37.88614273071289,34.117937088012695,Boy Alcott and Jon Buxton are partners in a steel company. They share the net in,
+2,95,1,34.22427177429199,31.909704208374023,_______ locate morality beyond the sphere of rationality in an emotional 'moral ,
+3,195,128,31.30960464477539,3458.327531814575,"TheAlforsCompany had a beginning inventory of $30,000, Jan 1, 1974. During the y"," The correct answer is (E) $58,800.
+Explanation: The gross profit rate is 40% of"
+4,152,1,34.3165397644043,32.48095512390137,Mr. Torres owns 350 shares of Krescostock paying a quarterly dividend of $1.20 p,
+5,394,1,36.38195991516113,33.486366271972656,Where in the balance sheet does each of the following belong? (A) Taxes payable ,
+6,208,128,33.92505645751953,3455.1539421081543,"Tom bought a new bicycle for $80. After 4 years of use, he sold it to a second-h"," The correct answer is (A) $13 per year and 16.25%. 
+
+To calculate the annual de"
+7,154,1,36.5142822265625,32.99355506896973,HarryHyppeis paid a straight wage of $2.89 (1/2) per hour. If he works 9 hours a,
+8,123,94,35.45260429382324,2580.2786350250244,A manufacturer can produce a saw for $13 in direct costs and $10 in overhead or , The answer is (B) $25. The manufacturer must sell his saw for a minimum price o
+9,176,48,34.13581848144531,1333.0552577972412,Managers are entrusted to run the company in the best interest of ________. Spec, The correct answer is (F). Managers are entrusted to run the company in the bes
+10,138,128,58.190107345581055,3461.1923694610596,"The Five Star Hotel put down $3,000 worth of carpeting. The carpeting is made to", The answer is (E). The declining-balance method is a type of accelerated deprec
+11,87,1,35.956382751464844,31.119823455810547,"What is the term for the 'rule of thumb' type of bias in decision making?
+
+(A) F",
+12,87,1,34.85417366027832,31.68773651123047,What theory is built around the principle that 'people make choices regarding ho,
+13,377,115,34.12342071533203,3101.3998985290527,Find the break-even point for the cost of production C and the revenue R receive, (G) is the correct answer. The break-even point is the point where the cost of 
+14,194,128,36.22126579284668,3538.2094383239746,"In a business to business context, conflicts of interest can arise in two main w"," Answer: (A) Individual, Professional, Organizational, Personal. Explanation: Th"
+15,169,1,34.082651138305664,32.23133087158203,"Paul Murphy wants to have $10,000 in his account after 10 years. If interest is ",
+16,159,1,33.8139533996582,32.91511535644531,"Typical advertising regulatory bodies suggest, for example that adverts must not",
+17,274,1,33.62751007080078,31.551361083984375,A man sells novelty items for $1.25 each. His cost is $.75 apiece plus a fixed c,
+18,192,1,35.086631774902344,31.00275993347168,_______ such as bitcoin are becoming increasingly mainstream and have a whole ho,
+19,117,85,32.76824951171875,2265.094757080078," Pine and Gilmore (1999) derive four distinct realms of experience, based on two", The correct answer is (D). The two dimensions are customer participation and en
+20,354,1,36.56196594238281,32.73582458496094,"(a) Given the two discount series of 30-10-2(1/2) % and 25-15-2%, which is bette",
+21,203,1,34.264326095581055,35.53128242492676,Assume the following model (from the preceding problem). Y = C + I + G C = 100 +,
+22,168,1,37.1088981628418,34.39664840698242,"The tax rate in the town of Centerville is 11(1 / 2)%. If a tax of $1,794 was pa",
+23,146,1,35.31241416931152,31.79025650024414,Janet Firestone purchased an option on a stock for $175 giving her the right to ,
+24,233,1,35.16507148742676,31.51559829711914,Mr. Castle will buy one of two 10-HP motors offered to him. Motor A sells for $1,
+25,84,79,36.77821159362793,2112.011432647705,This is a hierarchy of effects or sequential model used to explain how advertisi," The correct answer is (D) AIDA.
+
+AIDA is a hierarchy of effects model used to e"
+26,147,1,36.02862358093262,32.82475471496582,"During a riot, Mr. Winter's car was overturned causing $346.50 in damage.Mr. Win",
+27,199,118,34.21306610107422,3188.4684562683105,There are two main issues associated with _____ sizing. _______ is a key issue a," The answer is (J). 
+
+The first blank should be filled with ""Down"" as this is th"
+28,323,1,37.42790222167969,32.12881088256836,"A business started last year with an inventory of 90,000 items which cost $60,00",
+29,149,123,35.562992095947266,3362.816095352173, Which of the following are the three broad groups of organizational characteris, The correct answer is (A). Organizational characteristics segmentation criteria

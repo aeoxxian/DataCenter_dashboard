@@ -1,0 +1,84 @@
+request_idx,input_tokens,output_tokens,prefill_time_ms,decode_time_ms,prompt_preview,output_preview
+0,9,128,315.82140922546387,3244.415760040283,Render a 3D model of a house," with a red roof and a blue door.
+
+We are going to create a simple 3D model of a"
+1,14,128,39.14809226989746,3093.5473442077637,Generate a list of ten items a person might need for a camping trip,".
+1. Tent  
+2. Sleeping bag  
+3. Sleeping pad  
+4. Headlamp or flashlight  
+5. F"
+2,7,128,41.544198989868164,3099.8873710632324,Give two examples of a liquid.," Also, give two examples of a solid. Additionally, provide two examples of a gas"
+3,7,128,38.202762603759766,3112.4207973480225,Generate a list of random words.," Here is a list of 10 random words: 
+
+1. Quasar  
+2. Glimmer  
+3. Zephyr  
+4. Ni"
+4,9,128,38.06257247924805,3134.0417861938477,Generate a poem with 10 lines.," Each line must contain the word ""moon"" exactly twice. Each line must contain ex"
+5,66,128,70.69230079650879,3131.103992462158,"Rewrite the given paragraph in a shorter, easier to understand form.
+Although it"," As a result, many individuals still find it difficult to use the internet effec"
+6,17,128,44.03567314147949,3065.2191638946533,Calculate the total surface area of a cube with a side length of 5 cm.," To calculate the **total surface area** of a cube, we use the formula:
+
+$$
+\tex"
+7,21,128,42.809486389160156,3074.9008655548096,"Arrange the given numbers in ascending order.
+2, 4, 0, 8, 3",", 1, 5, 7, 6
+
+To arrange the given numbers in **ascending order** (from smallest"
+8,8,128,39.4437313079834,3083.906650543213,Design an app for a delivery company., The app should have a simple and intuitive interface with features such as real
+9,7,128,37.806034088134766,3106.08172416687,Describe the structure of an atom.," Include the subatomic particles and their charges and locations.
+
+Okay, the use"
+10,21,128,41.12386703491211,3088.989019393921,Arrange the words in the given sentence to form a grammatically correct sentence,"
+
+We are given the words: ""quickly"", ""the"", ""brown"", ""fox"", ""jumped""
+
+We need to"
+11,6,128,38.26284408569336,3080.561876296997,What does DNA stand for?," What is its structure, and how does it function in the body?
+
+DNA stands for De"
+12,31,128,42.64354705810547,3094.5920944213867,"Edit the following sentence to make it more concise.
+He ran to the bus stop in o"," He rushed to the bus stop to catch the bus arriving in five minutes. 
+
+(Note: T"
+13,19,128,41.78953170776367,3118.220329284668,"Classify the following into animals, plants, and minerals
+Oak tree, copper ore, ",", rose bush, gold, dog, cactus, salt, snake, fern, iron, human, coral, sulfur
+
+A"
+14,12,128,40.02976417541504,3134.8795890808105,Compare and contrast the Cuban Missile Crisis and the Vietnam War.," Include at least three similarities and three differences. Also, include at lea"
+15,25,128,40.06695747375488,3092.254638671875,"Use the given data to calculate the median.
+[2, 3, 7, 8, 10]"," To calculate the **median** of a data set, follow these steps:
+
+### Step 1: Arr"
+16,71,116,38.86151313781738,2832.818031311035,"Summarize the given passage.
+A recent study showed that global climate change is", The study emphasizes the need for immediate and coordinated action to reduce gr
+17,17,121,42.3121452331543,2931.1435222625732,"Convert the given equation into an algebraic expression.
+3x+5y=9"," - Brainly.com
+04/14/2020
+Mathematics
+High School
+answered • expert verified
+Con"
+18,7,128,40.35067558288574,3101.358652114868,What are the three primary colors?," What are the three secondary colors? What are the three tertiary colors?
+
+The t"
+19,30,128,42.04726219177246,3117.9890632629395,"Analyze the given text for its tone.
+The world has been greatly impacted by the ", It is important to remember that we are not alone in this struggle. We have eac
+20,7,128,41.05734825134277,3113.3625507354736,Generate a poem that expresses joy.," Let the poem be exactly 10 lines long, with each line containing exactly 8 word"
+21,7,128,38.38825225830078,3143.5110569000244,Give three tips for staying healthy.," 1. Eat a balanced diet rich in fruits, vegetables, whole grains, lean proteins,"
+22,20,128,40.778160095214844,3111.499309539795,Write a short story in third person narration about a protagonist who has to mak," The story should be set in a small coastal town, and the opportunity should com"
+23,9,128,39.602041244506836,3126.171112060547,Design a logo for a website about recycling.," The logo should feature a circular design with a green color scheme, and includ"
+24,7,128,39.6420955657959,3127.767324447632,Outline the consequences of deforestation.," Deforestation, the large-scale removal of forests, has numerous environmental, "
+25,14,128,39.02888298034668,3089.6689891815186,"Find the area of a circle given its radius.
+Radius = 4",".5 cm
+
+To find the area of a circle given its radius, we use the formula:
+
+$$
+A "
+26,12,128,39.140939712524414,3075.1125812530518,"Generate three verbs that mean the same as ""to apologize""", and can be used in the present tense. Each verb should be followed by a simple 
+27,11,128,37.65606880187988,3092.924118041992,Explain the process of cellular respiration in plants., Cellular respiration is a fundamental biological process that occurs in all liv
+28,9,128,35.40802001953125,3090.777635574341,Who is the world's most famous painter?," The world's most famous painter can vary depending on cultural context, histori"
+29,31,128,39.30354118347168,3081.9408893585205,"Given a set of numbers, find the maximum value.
+Set: {10, 3, 25, 6, 16}"," To find the maximum value in the set {10, 3, 25, 6, 16}, we compare all the num"

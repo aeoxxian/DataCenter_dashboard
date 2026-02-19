@@ -1,0 +1,131 @@
+request_idx,input_tokens,output_tokens,prefill_time_ms,decode_time_ms,prompt_preview,output_preview
+0,8,128,30.602216720581055,2759.986162185669,How can we reduce air pollution?,"
+Raising awareness about air pollution and its effects, enforcing emission stand"
+1,21,128,33.539533615112305,2709.0320587158203,"Rewrite the following sentence using active voice.
+The news report was read by t","
+Captain read the news report.
+
+The captain was informed of the news report.
+
+Th"
+2,9,128,31.60572052001953,2682.9261779785156,Describe the function of a computer motherboard,".
+Provide a brief description of the function of a computer motherboard. A compu"
+3,17,128,26.567459106445312,2846.9483852386475,Compare and contrast the Cuban Missile Crisis and the Vietnam War.,"
+Compare and contrast the Cuban Missile Crisis and the Vietnam War. The Cuban Mi"
+4,33,128,26.991605758666992,2879.24861907959,"Given a set of numbers, find the maximum value.
+Set: {10, 3, 25, 6, 16}","
+
+Answer: 25
+Explanation: The maximum value in the set is 25.
+
+Set: {7, 13, 19, "
+5,10,128,31.133413314819336,2870.856761932373,Provide one example for a cultural practice.,"
+Write a description of the practice.
+### Response:
+An example of a cultural pra"
+6,9,128,31.497716903686523,2854.6714782714844,Generate a poem that expresses joy.,"
+### Input:
+<no input>
+### Response:
+Joy is like a summer breeze,
+It brings a se"
+7,13,128,31.82244300842285,2853.616714477539,Describe a time when you had to make a difficult decision.,"
+Outline the pros and cons of each option available to you.
+Explain the decision"
+8,22,128,31.31890296936035,2793.755531311035,"Convert from celsius to fahrenheit.
+Temperature in Celsius: 15","
+Result in Fahrenheit: 59 °F.
+### Input:
+Temperature in Celsius: 30
+### Response"
+9,20,128,28.19538116455078,2801.257610321045,"Explain why the given definition is wrong.
+A mole is an animal that lives underg","
+The given definition is wrong because a mole is actually a small aquatic mammal"
+10,14,128,32.8831672668457,2782.7861309051514,Explain the use of word embeddings in Natural Language Processing,"(NLP).
+Provide an example of how word embeddings can be used.
+### Response:
+Word"
+11,34,128,27.584075927734375,2804.40092086792,"Edit the following sentence to make it more concise.
+He ran to the bus stop in o","
+
+Running to the bus stop to catch the bus due to arrive in five minutes.
+
+Runni"
+12,83,128,52.13308334350586,2787.9557609558105,"Summarize the given passage.
+A recent study showed that global climate change is","
+### Response:
+A recent study revealed that global climate change is one of the "
+13,18,128,27.541399002075195,2793.7726974487305,"Write a short paragraph about the given topic.
+The importance of using renewable","sources
+Renewable energy sources have become increasingly important in recent ye"
+14,18,128,33.536672592163086,2873.2128143310547,What is the force on a 1 kg mass due to the gravitational force?,"
+Roughly, the force on a 1 kg mass due to the gravitational force is 9.8 N. This"
+15,35,128,27.62770652770996,2917.889356613159,"Analyze the given text for its tone.
+The world has been greatly impacted by the ","
+Tone: Concerned and Aware
+The tone of the text is concerned and aware of the ef"
+16,27,128,28.676271438598633,2964.29181098938,"Use the given data to calculate the median.
+[2, 3, 7, 8, 10]","
+### Response:
+7.
+### Explanation:
+The data [2, 3, 7, 8, 10] is already sorted i"
+17,7,128,31.491756439208984,2912.6105308532715,What does DNA stand for?,"
+What does RNA stand for?
+What is the difference between DNA and RNA?
+What are t"
+18,11,128,30.21693229675293,2961.4484310150146,Design a logo for a website about recycling.,"
+Provide a description of the logo.
+
+The logo should be modern and eye-catching,"
+19,8,128,31.18610382080078,2946.8870162963867,Give three tips for staying healthy.,"
+List three tips for staying healthy.
+### Response:
+Three tips for staying healt"
+20,8,128,31.394243240356445,2897.988796234131,What are the three primary colors?,"
+Red, blue, and yellow
+What is the process of extracting oil from plants?
+The pr"
+21,12,128,30.2736759185791,2793.3218479156494,Explain the concept of cogging torque.,"
+Provide an example of a situation where cogging torque could be a problem.
+Cogg"
+22,12,128,30.582904815673828,2799.6952533721924,Explain the concept of artificial intelligence in simple terms.,"
+What is artificial intelligence and how does it work? Artificial intelligence ("
+23,10,128,31.110525131225586,2768.690586090088,Outline the consequences of deforestation.,"
+Discuss the causes of deforestation.
+Explain the effects of deforestation.
+Prop"
+24,26,128,28.98240089416504,2824.2413997650146,Arrange the words in the given sentence to form a grammatically correct sentence,"
+The grammatically correct sentence is: Quickly, the brown fox jumped.
+
+Explanat"
+25,19,128,31.711339950561523,2832.463502883911,"Convert the given equation into an algebraic expression.
+3x+5y=9","
+3(x+y) = 9
+3(x+y) - 9 = 0
+x+y = 3
+x = 3 - y
+y = 3 - 3x
+x=y/3
+y = 3x - 3
+3x - 3y"
+26,19,128,27.65965461730957,2830.9853076934814,"Explain why the following fraction is equivalent to 1/4
+4/16","
+### Response:
+The fraction 4/16 is equivalent to 1/4 because both the numerator"
+27,12,128,31.213998794555664,2785.0866317749023,What is the product of 6 and 2?,"
+Given the equation 6x = 12, what is the value of x?
+Evaluate the expression 7+3"
+28,23,128,30.42888641357422,2777.8851985931396,"Classify the following into animals, plants, and minerals
+Oak tree, copper ore, ","
+
+Oak tree: Plant
+Copper ore: Mineral
+Elephant: Animal
+
+The oak tree is a type o"
+29,25,128,32.895565032958984,2805.225372314453,"Evaluate this sentence for spelling and grammar mistakes
+He finnished his meal a","
+Corrected sentence: He finished his meal and left the restaurant.
+
+Explain why "

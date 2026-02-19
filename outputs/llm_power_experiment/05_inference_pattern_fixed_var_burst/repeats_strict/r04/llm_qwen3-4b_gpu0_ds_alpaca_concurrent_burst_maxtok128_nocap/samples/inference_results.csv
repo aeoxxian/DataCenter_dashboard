@@ -1,0 +1,89 @@
+request_idx,batch_id,batch_size,arrival_rel_s,dispatch_rel_s,finish_rel_s,queue_wait_ms,e2e_latency_ms,input_tokens,output_tokens,prefill_time_ms,decode_time_ms,prompt_preview,output_preview
+0,1,1,10.958264,10.959243,12.713544,0.9791851043701172,1755.2800178527832,7,101,297.39952087402344,1408.5278511047363,Give three tips for staying healthy.," 1. Eat a balanced diet rich in fruits, vegetables, whole grains, lean proteins,"
+1,2,1,13.512346,13.51406,15.29247,1.7142295837402344,1780.1239490509033,7,128,16.76034927368164,1759.7415447235107,What are the three primary colors?," What are the three secondary colors? What are the three tertiary colors?
+
+The t"
+2,3,1,17.953537,17.957433,19.725981,3.895282745361328,1772.444248199463,7,128,17.321109771728516,1749.1965293884277,Describe the structure of an atom.," Include the subatomic particles, their charges, and their locations within the "
+3,4,1,20.08649,20.090882,21.865906,4.392385482788086,1779.4156074523926,7,128,16.56794548034668,1756.683588027954,How can we reduce air pollution?, What are the main sources of air pollution? What are the health effects of air 
+4,5,1,20.328185,21.865948,23.634092,1537.7624034881592,3305.9070110321045,12,128,14.299154281616211,1753.166675567627,Describe a time when you had to make a difficult decision.," What was the decision, and what factors influenced your choice? How did you han"
+5,6,1,20.620326,23.634134,25.400728,3013.807535171509,4780.401706695557,12,128,13.995170593261719,1751.9073486328125,"Identify the odd one out.
+Twitter, Instagram, Telegram",", WhatsApp
+
+The odd one out is **Telegram**.
+
+**Reasoning:**
+- **Twitter**, **In"
+6,7,1,21.600738,25.400775,27.15186,3800.037145614624,5551.122426986694,18,128,16.355037689208984,1733.9959144592285,"Explain why the following fraction is equivalent to 1/4
+4/16","
+
+To determine why the fraction \( \frac{4}{16} \) is equivalent to \( \frac{1}{"
+7,8,1,21.611641,27.151901,28.908071,5540.25936126709,7296.429634094238,20,128,14.592409133911133,1740.9536838531494,Write a short story in third person narration about a protagonist who has to mak, The story should include a detailed description of the protagonist's surroundin
+8,9,1,21.635453,28.908118,30.660555,7272.664308547974,9025.10142326355,9,128,14.682292938232422,1737.175464630127,Render a 3D model of a house," with a red roof and a blue door.
+
+We are going to create a simple 3D model of a"
+9,10,1,21.764049,30.660596,32.413902,8896.547555923462,10649.853229522705,21,128,14.619588851928711,1737.9930019378662,"Evaluate this sentence for spelling and grammar mistakes
+He finnished his meal a",".
+
+The sentence contains several spelling and grammar errors. Here is the correc"
+10,11,1,22.345214,32.413941,34.166934,10068.727254867554,11821.719884872437,6,128,14.180898666381836,1738.274097442627,How did Julius Caesar die?," Julius Caesar died by **assassination**. On the Ides of March (March 15), 44 BC"
+11,12,1,22.962701,34.166971,35.914338,11204.270124435425,12951.636552810669,7,128,14.107704162597656,1732.7134609222412,What is the capital of France?," The capital of France is Paris. It is a major cultural, economic, and political"
+12,13,1,23.011194,35.91438,37.668048,12903.186321258545,14656.854391098022,14,128,14.180183410644531,1738.9070987701416,Generate a list of ten items a person might need for a camping trip,".
+
+1. Tent  
+2. Sleeping bag  
+3. Sleeping pad or air mattress  
+4. Headlamp or "
+13,14,1,23.851192,37.668087,39.421165,13816.895246505737,15569.972515106201,7,128,13.997077941894531,1738.5313510894775,Discuss the causes of the Great Depression,", and how it affected the global economy.
+
+The Great Depression was a severe wor"
+14,15,1,24.101288,39.421208,41.18042,15319.920063018799,17079.131841659546,19,128,15.035629272460938,1743.5295581817627,"Classify the following into animals, plants, and minerals
+Oak tree, copper ore, ",", gold, rose, iron ore, human, coral, salt, fern
+
+Here is the classification of "
+15,16,1,25.247553,41.180468,42.94099,15932.914972305298,17693.437337875366,11,128,15.477895736694336,1744.3692684173584,Explain the use of word embeddings in Natural Language Processing," (NLP), and how they help in representing text data.
+
+Word embeddings are a type"
+16,17,1,26.156219,42.941029,44.68035,16784.809112548828,18524.13010597229,7,128,14.108419418334961,1724.6499061584473,Describe the function of a computer motherboard,".
+
+The **motherboard** is the central component of a computer system that connec"
+17,18,1,26.188728,44.680393,46.445247,18491.66512489319,20256.519317626953,39,128,14.70184326171875,1749.4230270385742,"Reverse engineer this code to create a new version
+def factorialize(num):
+  fact","
+
+# This function is broken. Fix it.
+
+# The function is broken because it only i"
+18,19,1,27.409979,46.445287,48.199956,19035.30716896057,20789.977073669434,11,128,14.066219329833984,1740.0193214416504,Propose an ethical solution to the problem of data privacy," in the digital age.
+
+An ethical solution to the problem of data privacy in the "
+19,20,1,27.627151,48.199996,49.955226,20572.845697402954,22328.075647354126,12,128,14.166116714477539,1740.5121326446533,"Generate three verbs that mean the same as ""to apologize"""," and provide a synonym for each.
+
+Certainly! Here are three verbs that mean the "
+20,21,1,27.683729,49.955271,51.703227,22271.5425491333,24019.498109817505,6,128,14.953851699829102,1732.4707508087158,What does DNA stand for?, What is the structure of DNA? What are the four nitrogenous bases in DNA? How d
+21,22,1,27.892605,51.703264,53.453569,23810.659646987915,25560.964107513428,12,128,14.061450958251953,1735.666036605835,Compare and contrast the Cuban Missile Crisis and the Vietnam War.," What were the key differences and similarities between these two events?
+
+The C"
+22,23,1,27.918347,53.453607,55.19162,25535.26020050049,27273.273468017578,7,128,14.126300811767578,1723.3450412750244,Generate a list of random words.," Here is a list of 10 random words: 
+
+1. Quibble  
+2. Glimmer  
+3. Mirth  
+4. Ze"
+23,24,1,28.378948,55.191657,56.947686,26812.70980834961,28568.73869895935,13,128,14.095306396484375,1741.3525581359863,"Transcribe the recording into text.
+Recording about the history of Waterloo",", Belgium, and the Battle of Waterloo.
+
+[00:00:00] Welcome to the history of Wat"
+24,25,1,28.641011,56.947724,58.736384,28306.713342666626,30095.373153686523,9,128,14.082908630371094,1774.0252017974854,Who is the world's most famous painter?," The title of the ""world's most famous painter"" can vary depending on cultural c"
+25,26,1,28.679624,58.736423,60.512861,30056.799173355103,31833.237648010254,9,128,14.083385467529297,1761.8064880371094,Explain the concept of cogging torque.," Cogging torque is a phenomenon observed in electric motors, particularly in per"
+26,27,1,28.765173,60.512904,62.288329,31747.73120880127,33523.15592765808,8,128,14.364480972290039,1760.4730129241943,Look up the boiling point of water.," What is the boiling point of water in degrees Celsius and degrees Fahrenheit?
+
+"
+27,28,1,29.000633,62.28837,64.027466,33287.73760795593,35026.8337726593,10,128,15.55180549621582,1722.9573726654053,Describe the life and reign of King Charles II.," King Charles II of England (1630–1685) was the monarch of England, Scotland, an"
+28,29,1,29.50307,64.027504,65.781445,34524.433851242065,36278.37538719177,14,128,14.207839965820312,1739.171028137207,"Find the area of a circle given its radius.
+Radius = 4"," cm
+
+To find the area of a circle given its radius, we use the formula:
+
+$$
+A = "
+29,30,1,29.610297,65.781484,67.53205,36171.18763923645,37921.75340652466,13,128,14.38450813293457,1735.6312274932861,Identify the lines of longitude that divides North and South America.," Also, identify the lines of longitude that divide the Eastern and Western Hemis"

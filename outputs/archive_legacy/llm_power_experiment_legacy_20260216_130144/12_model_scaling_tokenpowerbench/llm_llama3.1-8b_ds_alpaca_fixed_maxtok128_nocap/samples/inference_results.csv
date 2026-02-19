@@ -1,0 +1,71 @@
+request_idx,input_tokens,output_tokens,prefill_time_ms,decode_time_ms,prompt_preview,output_preview
+0,8,128,320.8603858947754,1936.0580444335938,Generate a list of random words.," Here is one list of 10 random words: 
+
+1. Space
+2. Helicopter
+3. Pineapple
+4. G"
+1,8,128,15.880346298217773,1757.9174041748047,Describe the structure of an atom.," 
+An atom is a tiny particle that makes up everything around us, including the c"
+2,8,128,16.511917114257812,1758.1751346588135,Describe the function of a computer motherboard,"
+A computer motherboard is the primary circuit board of a computer, connecting a"
+3,18,128,17.695188522338867,1761.1734867095947,"Explain why the following fraction is equivalent to 1/4
+4/16"," is equivalent to 1/4
+To see why, let’s try to reduce the fraction 4/16 to its l"
+4,12,128,16.199588775634766,1758.7261199951172,Explain the process of cellular respiration in plants., Cellular respiration is the process by which cells break down glucose to produc
+5,29,128,16.67642593383789,1760.8389854431152,"Given a set of numbers, find the maximum value.
+Set: {10, 3, 25, 6, 16}"," 
+First, we sort the set in ascending order: {3, 6, 10, 16, 25}
+Then, we find th"
+6,9,128,17.26984977722168,1759.8199844360352,Generate a poem with 10 lines.," The poem should be about the beauty of the stars in the night sky.
+
+The stars s"
+7,7,128,16.423940658569336,1759.322166442871,What does DNA stand for?," What does it represent?
+A. DNA stands for Deoxyribonucleic Acid. It represents "
+8,12,128,17.035722732543945,1760.2012157440186,What is the product of 6 and 2?," 
+Step 1:  To find the product of 6 and 2, we need to multiply these two numbers"
+9,7,128,15.502452850341797,1760.1375579833984,How did Julius Caesar die?, Julius Caesar was a Roman general and statesman who played a critical role in t
+10,30,128,17.156600952148438,1761.343002319336,"Analyze the given text for its tone.
+The world has been greatly impacted by the "," We have had to adapt to a new normal, which includes social distancing, wearing"
+11,22,128,17.437219619750977,1758.486032485962,"Arrange the given numbers in ascending order.
+2, 4, 0, 8, 3",", 1, 6, 7, 5, 9
+The correct answer is: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+The correct "
+12,8,128,15.615463256835938,1755.5911540985107,Give three tips for staying healthy., I want to know what foods you recommend and what exercise routines you recommen
+13,13,128,16.29328727722168,1755.5346488952637,Compare and contrast the Cuban Missile Crisis and the Vietnam War.," Essay Example
+Compare and contrast the Cuban Missile Crisis and the Vietnam War"
+14,15,128,15.985488891601562,1757.5948238372803,Generate a list of ten items a person might need for a camping trip,. This list should include items that are essential for a safe and comfortable c
+15,8,128,16.08872413635254,1755.9077739715576,What are the three primary colors?, Primary colors are the basic colors that cannot be created by mixing other colo
+16,23,128,16.10112190246582,1757.4870586395264,Variable x is defined as “4x + 2y = 10”. Find the value of x.," 
+Step 1: Identify the variables and the equation. 
+The variable x is defined as"
+17,8,128,16.155004501342773,1757.869005203247,Give two examples of a liquid.," Explain why they are liquids.
+## Step 1: Identify the first example of a liquid"
+18,72,128,38.91324996948242,1765.0864124298096,"Summarize the given passage.
+A recent study showed that global climate change is", The study highlighted the need for immediate action to reduce greenhouse gas em
+19,10,128,15.765905380249023,1757.2834491729736,Who is the world's most famous painter?," This is a subjective question, as opinions on art are often personal and varied"
+20,11,128,16.478300094604492,1757.4574947357178,Describe the life and reign of King Charles II.," Charles II, also known as the Merry Monarch, was the king of England, Scotland,"
+21,14,128,15.909910202026367,1759.0091228485107,"Transcribe the recording into text.
+Recording about the history of Waterloo"," Region in Ontario, Canada.
+Transcription:
+Here's a brief history of Waterloo Re"
+22,9,128,15.495061874389648,1759.9248886108398,Provide one example for a cultural practice., Provide one example for a cultural product. Provide one example for a cultural 
+23,19,128,16.555309295654297,1761.4634037017822,"Rewrite the following sentence using active voice.
+The news report was read by t"," (passive voice)
+The captain read the news report. (active voice)
+In the passive"
+24,8,128,16.040563583374023,1759.0117454528809,What is the capital of France?," Paris is the capital of France.
+What is the largest city in the United States? "
+25,13,128,15.721321105957031,1757.5478553771973,"Identify the odd one out.
+Twitter, Instagram, Telegram",", Snapchat, Facebook
+The odd one out is Telegram.
+Why? Because the other four ar"
+26,9,128,16.607999801635742,1760.4961395263672,Design an app for a delivery company.," Create a tracking system and provide information about the delivery status.
+Des"
+27,10,128,15.795230865478516,1759.629726409912,Brainstorm possible solutions to reduce water pollution.," How can we reduce the amount of pollution in our water sources?
+Here are some p"
+28,25,128,16.43657684326172,1761.1958980560303,"Use the given data to calculate the median.
+[2, 3, 7, 8, 10]", (a) Find the median of the data set. (b) Find the median of the data set if 1 i
+29,20,128,17.00758934020996,1763.085126876831,"Classify the following into animals, plants, and minerals
+Oak tree, copper ore, ",", granite, dog, pine tree, gold, iron ore, cat, rose bush, diamond, rabbit
+Anima"

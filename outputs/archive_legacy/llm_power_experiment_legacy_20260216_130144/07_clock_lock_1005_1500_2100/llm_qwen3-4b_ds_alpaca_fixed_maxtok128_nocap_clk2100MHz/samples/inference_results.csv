@@ -1,0 +1,74 @@
+request_idx,input_tokens,output_tokens,prefill_time_ms,decode_time_ms,prompt_preview,output_preview
+0,7,121,34.04498100280762,3365.4065132141113,How can we reduce air pollution?," (Multiple choice)
+A. Plant trees
+B. Use more public transportation
+C. Use fewer"
+1,18,39,36.789655685424805,1089.0402793884277,"Explain why the following fraction is equivalent to 1/4
+4/16","
+Answer: 4/16 is equivalent to 1/4 because both fractions represent the same par"
+2,31,1,34.487247467041016,32.75012969970703,"Given a set of numbers, find the maximum value.
+Set: {10, 3, 25, 6, 16}",
+3,25,1,38.08426856994629,33.97727012634277,"Use the given data to calculate the median.
+[2, 3, 7, 8, 10]",
+4,7,1,34.89875793457031,31.72135353088379,Generate a poem that expresses joy.,
+5,12,19,37.83559799194336,523.4725475311279,Describe a time when you had to make a difficult decision., What was the decision and why was it difficult? What did you do in the end?
+6,9,1,34.34395790100098,32.169342041015625,Brainstorm possible solutions to reduce water pollution.,
+7,14,58,34.945011138916016,1576.828956604004,Generate a list of ten items a person might need for a camping trip,".
+
+1. Tent
+2. Sleeping bag
+3. Sleeping pad
+4. Flashlight
+5. Headlamp
+6. First ai"
+8,10,128,33.57386589050293,3471.6689586639404,Describe the life and reign of King Charles II.," King Charles II (1630–1685) was the King of England, Scotland, and Ireland from"
+9,8,1,33.118486404418945,31.93068504333496,Design an app for a delivery company.,
+10,17,45,35.62474250793457,1223.097801208496,"Convert the given equation into an algebraic expression.
+3x+5y=9","
+Answer: $3x+5y=9$ can be written as $3x+5y-9=0$.
+The algebraic expression is $3"
+11,12,7,35.98427772521973,201.22146606445312,"Identify the odd one out.
+Twitter, Instagram, Telegram",", Snapchat
+Answer:
+Telegram"
+12,9,128,34.13653373718262,3449.0983486175537,Who is the world's most famous painter?," The world's most famous painter can vary depending on the criteria used, such a"
+13,39,17,34.09385681152344,481.88209533691406,"Reverse engineer this code to create a new version
+def factorialize(num):
+  fact","
+
+# Output: 120
+print(factorialize(5))"
+14,6,109,33.7224006652832,2946.0577964782715,How did Julius Caesar die?, Julius Caesar was assassinated on the Ides of March (March 15th) 44 BC. He was 
+15,7,1,32.709360122680664,31.639575958251953,Give three tips for staying healthy.,
+16,11,1,33.84065628051758,31.437397003173828,Explain the process of cellular respiration in plants.,
+17,20,1,35.14528274536133,31.61787986755371,Write a short story in third person narration about a protagonist who has to mak,
+18,66,1,53.87544631958008,32.64498710632324,"Rewrite the given paragraph in a shorter, easier to understand form.
+Although it",
+19,30,1,35.40682792663574,32.785654067993164,"Analyze the given text for its tone.
+The world has been greatly impacted by the ",
+20,11,1,36.284685134887695,31.116008758544922,Explain the concept of artificial intelligence in simple terms.,
+21,8,13,35.9036922454834,365.0672435760498,Look up the boiling point of water.," Then, calculate the boiling point of water in degrees Fahrenheit."
+22,15,78,33.44011306762695,2102.843999862671,"Write a short paragraph about the given topic.
+The importance of using renewable"," sources
+Renewable energy sources are becoming increasingly important in our wor"
+23,14,50,33.66684913635254,1340.2020931243896,"Find the area of a circle given its radius.
+Radius = 4"," cm
+Area = pi * r^2
+Area = pi * 4^2
+Area = 16 pi
+Area = 50.27 cm^2
+Answer: 50.27"
+24,15,11,33.09273719787598,309.1309070587158,"Convert from celsius to fahrenheit.
+Temperature in Celsius: 15","
+Temperature in Fahrenheit: 59.0"
+25,9,15,33.07962417602539,420.44520378112793,Render a 3D model of a house," with a red door, a blue roof, and a white wall."
+26,11,128,32.4704647064209,3441.6165351867676,What is the product of 6 and 2?, What is the product of 10 and 3? What is the product of 4 and 1? What is the pr
+27,9,87,33.96010398864746,2363.7595176696777,Explain the concept of cogging torque., Cogging torque is the periodic variation in the torque that occurs in a motor w
+28,13,128,33.21433067321777,3468.233346939087,"Transcribe the recording into text.
+Recording about the history of Waterloo",".
+Transcript: 
+The Battle of Waterloo, fought on June 18th, 1815, was a decisive"
+29,19,36,36.829233169555664,980.541467666626,"Classify the following into animals, plants, and minerals
+Oak tree, copper ore, ",", gold, rose bush, quartz, human
+Animals: elephant, human
+Plants: oak tree, rose"

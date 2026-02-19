@@ -1,0 +1,6 @@
+request_idx,input_tokens,output_tokens,prefill_time_ms,decode_time_ms,prompt_preview,output_preview
+0,7,16,194.95677947998047,53.414344787597656,Give three tips for staying healthy.,"
+
+1. Don't eat too much.
+
+The best way to"
