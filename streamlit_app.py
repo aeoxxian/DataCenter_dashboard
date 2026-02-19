@@ -380,9 +380,9 @@ def main():
                             relative_path = r["path"].relative_to(OUTPUTS_ROOT).as_posix() 
                             
                             # [UPDATED] Hugging Face Datasets URL (Direct Download)
-                            # User requested direct download link (resolve) instead of viewer (blob).
+                            # Fixed: Added missing 'samples' directory in the path.
                             base_url = "https://huggingface.co/datasets/aeoxxian/Datacenter_train/resolve/main/outputs"
-                            raw_url = f"{base_url}/{relative_path}/gpu_samples.csv"
+                            raw_url = f"{base_url}/{relative_path}/samples/gpu_samples.csv"
                             
                             st.link_button("☁️ Download Raw Data (Direct)", raw_url)
                             
