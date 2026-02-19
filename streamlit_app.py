@@ -363,12 +363,32 @@ def main():
                             # Note: This uses the currently loaded df (could be Lite or Full)
                             if not df.empty:
                                 st.download_button(
-                                    label="Time-series Data (CSV)",
+                                    label="Time-series Data (Displayed)",
                                     data=df.to_csv(index=False).encode('utf-8'),
-                                    file_name=f"{r['name']}_timeseries.csv",
+                                    file_name=f"{r['name']}_timeseries_lite.csv",
                                     mime="text/csv",
                                     key=f"dl_ts_{exp_id}_{i}"
                                 )
+
+                            # 4. Full Raw Data Link (External Storage)
+                            # GitHub cannot host 19GB. We generate a link to external storage (e.g. Hugging Face URL)
+                            # User needs to upload data to HF and set the base URL.
+                            
+                            # 만약 로컬에 원본 파일이 있다면 그 경로를 활용할 수도 있겠지만, 웹 배포 환경을 가정하여 외부 링크 방식을 추천.
+                            # 현재는 예시 URL을 넣어두거나, Config에서 가져오게 할 수 있음.
+                            
+                            relative_path = r["path"].relative_to(OUTPUTS_ROOT).as_posix() 
+                            # [UPDATED] Hugging Face Datasets URL (Uploaded via upload_raw_data_batched.py)
+                            base_url = "https://huggingface.co/datasets/aeoxxian/Datacenter_train/resolve/main/outputs"
+                            raw_url = f"{base_url}/{relative_path}/gpu_samples.csv"
+                            
+                            st.link_button("☁️ Download Full Raw Data (External)", raw_url)
+                            
+                            st.markdown("""
+                            <div style="font-size:0.8rem; color:#64748b; margin-top:5px;">
+                            ℹ️ <b>Full Raw Data</b>: Hosted on Hugging Face Datasets (High-Speed Download).
+                            </div>
+                            """, unsafe_allow_html=True)
 
 if __name__ == "__main__":
     main()
