@@ -1,9 +1,9 @@
-
 import streamlit as st
 import pandas as pd
 import plotly.graph_objects as go
 import json
 import os
+import re
 from pathlib import Path
 
 # Set page config
@@ -94,6 +94,48 @@ PHASE_LABELS = {
     "inference_idle": "Idle",
 }
 
+def parse_run_info(run_name, config):
+    """Parse run directory name to extract Model, Condition, etc."""
+    info = {"Model": run_name, "Condition": "Baseline"}
+    
+    # 1. Model Extraction (Heuristic)
+    # Patters like: llm_MODEL_..., fixed_MODEL_...
+    match = re.search(r'(?:llm|fixed)_(.+?)_', run_name)
+    if match:
+        raw_model = match.group(1)
+        # Cleanup
+        raw_model = raw_model.replace("gpu0", "").replace("ds", "").strip("_")
+        info["Model"] = raw_model
+    
+    # 2. Condition Extraction
+    conditions = []
+    
+    if "nocap" in run_name: conditions.append("No Cap")
+    
+    cap_match = re.search(r'cap(\d+)', run_name)
+    if cap_match: conditions.append(f"Cap {cap_match.group(1)}W")
+    
+    if "fixed" in run_name: conditions.append("Fixed")
+    if "burst" in run_name: conditions.append("Burst")
+    if "ramp" in run_name: conditions.append("Ramp")
+    
+    if "fp16" in run_name: conditions.append("FP16")
+    elif "bf16" in run_name: conditions.append("BF16")
+    elif "fp32" in run_name: conditions.append("FP32")
+    
+    if "bs" in run_name:
+        bs_match = re.search(r'bs(\d+)', run_name)
+        if bs_match: conditions.append(f"BS{bs_match.group(1)}")
+        
+    if conditions:
+        info["Condition"] = ", ".join(conditions)
+        
+    # Config Override
+    if config:
+        if "model_name" in config: info["Model"] = config["model_name"]
+        
+    return info
+
 @st.cache_data
 def load_experiments(base_dir, experiment_meta):
     """Scan experiment directory with strict folder name matching."""
@@ -149,7 +191,9 @@ def load_experiments(base_dir, experiment_meta):
 
                 # Create Label (Full Name)
                 label = run_path.name
-                # if len(label) > 50: label = label[:48] + "..." # Removed Truncation check
+                
+                # Parse Info for Better Table
+                parsed_info = parse_run_info(label, config)
 
                 # Find GPU samples path (Prioritize Lite version for cloud deployment)
                 gpu_samples_path = run_path / "gpu_samples_lite.csv"
@@ -161,6 +205,7 @@ def load_experiments(base_dir, experiment_meta):
                 experiments[exp_id]["runs"].append({
                     "name": run_path.name,
                     "label": label,
+                    "parsed_info": parsed_info,
                     "path": run_path,
                     "metrics": metrics,
                     "infer_metrics": infer_metrics,
@@ -237,6 +282,81 @@ def create_phase_plot(df, label):
     )
     return fig
 
+def create_comparison_chart(runs, category):
+    """Create Inference vs Train Avg Power Comparison Chart."""
+    data = []
+    for r in runs:
+        parsed = r["parsed_info"]
+        model = parsed.get("Model", r["name"])
+        cond = parsed.get("Condition", "")
+        label = f"{model} ({cond})" if cond else model
+        
+        # Train Power
+        train_pwr = 0
+        if "train" in r["metrics"]: train_pwr = r["metrics"]["train"]["power_avg_w"]
+        elif "train_compute" in r["metrics"]: train_pwr = r["metrics"]["train_compute"]["power_avg_w"]
+        # Fallback for LLM
+        if train_pwr == 0 and "prefill" in r["metrics"]: # Maybe separate chart for LLM?
+             # For LLM, 'training' doesn't usually happen unless finetuning.
+             # If category is LLM, let's map 'prefill' to 'Train' slot for visual comparison if needed, 
+             # OR just show Inference phases.
+             # But user specifically asked for "Inference Avg Power and Train Avg Power".
+             # Assuming we have Train phases in some experiments.
+             pass
+        
+        # Inference Power
+        infer_pwr = 0
+        if "inference" in r["metrics"]: infer_pwr = r["metrics"]["inference"]["power_avg_w"]
+        elif "inference_decode" in r["metrics"]: infer_pwr = r["metrics"]["inference_decode"]["power_avg_w"]
+        elif "decode" in r["metrics"]: infer_pwr = r["metrics"]["decode"]["power_avg_w"]
+        
+        data.append({
+            "Label": label,
+            "Model": model,
+            "Condition": cond,
+            "Train Power": train_pwr,
+            "Inference Power": infer_pwr
+        })
+    
+    if not data: return None
+    
+    df = pd.DataFrame(data)
+    
+    # Filter out if all zeros? No, show zeros to indicate missing data.
+    
+    fig = go.Figure()
+    
+    # Train Power (Bar) - Primary
+    fig.add_trace(go.Bar(
+        x=df["Label"],
+        y=df["Train Power"],
+        name="Train Avg Power",
+        marker_color="#1f77b4", # Blue
+        opacity=0.8
+    ))
+    
+    # Inference Power (Line) - Secondary overlay or grouped?
+    fig.add_trace(go.Scatter(
+        x=df["Label"],
+        y=df["Inference Power"],
+        name="Inference Avg Power",
+        mode='lines+markers',
+        line=dict(color="#d62728", width=3), # Red
+        marker=dict(size=10, symbol="circle")
+    ))
+    
+    fig.update_layout(
+        title="<b>Train vs Inference Power Comparison</b>",
+        xaxis_title="Experiment Run",
+        yaxis_title="Avg Power (W)",
+        height=400,
+        margin=dict(l=20, r=20, t=40, b=20),
+        legend=dict(orientation="h", y=1.1, x=0.5, xanchor="center"),
+        template="plotly_white"
+    )
+    
+    return fig
+
 def main():
     st.sidebar.title("⚡ AI Power Analysis")
     category = st.sidebar.radio("Category", ["Vision (GPU)", "LLM"])
@@ -251,7 +371,13 @@ def main():
     experiments = load_experiments(base_dir, meta)
     
     st.title(f"📊 실험 결과 포털 - {category}")
-    st.markdown("모든 실험 결과를 한눈에 비교하고 분석할 수 있습니다. 각 항목을 클릭하여 상세 내용을 확인하세요.")
+    st.markdown("""
+    **AI Workload Power Optimization Experiment Results**
+    
+    이 대시보드는 다양한 AI 모델(Vision, LLM)의 학습 및 추론 단계에서 발생하는 GPU 전력 소비 패턴을 분석합니다.
+    모델 크기, 배치 크기, 정밀도(Precision), 전력 제한(Power Capping) 등 다양한 변인이 전력 효율(Performance/Watt)에 미치는 영향을 실험적으로 검증했습니다.
+    """)
+    st.divider()
     
     for exp_id, exp_meta in meta.items():
         if exp_id not in experiments:
@@ -269,72 +395,106 @@ def main():
                     base_run = r
                     break
         
-        # Expanded by default? Users might want to see overview first.
-        # User asked for "show plots automatically", implying when they open the expander.
-        # So we keep expander collapsed by default (to save space), but once opened, plots are there.
-        with st.expander(f"{exp_meta['title']} ({len(runs)} runs)", expanded=False):
+        with st.expander(f"📌 {exp_meta['title']} ({len(runs)} runs)", expanded=False):
             st.markdown(f"<div class='exp-desc'>{exp_meta['desc']}</div>", unsafe_allow_html=True)
             
-            # --- Metrics Table ---
+            # --- 1. Comparison Chart (Create New) ---
+            st.subheader("📊 Power Comparison")
+            comp_fig = create_comparison_chart(runs, category)
+            if comp_fig:
+                st.plotly_chart(comp_fig, use_container_width=True)
+            
+            st.divider()
+
+            # --- 2. Refactored Metrics Table ---
+            st.subheader("📋 Detailed Metrics")
             table_data = []
             for r in runs:
+                parsed = r["parsed_info"]
                 phases = list(r["metrics"].keys())
                 phase = None
+                
+                # Determine "Main" phase for table summary
                 if category == "LLM":
                     if "inference_decode" in phases: phase = "inference_decode"
                     elif "inference" in phases: phase = "inference"
+                    elif "decode" in phases: phase = "decode"
                 else:
                     if "train" in phases: phase = "train"
                     elif "inference" in phases: phase = "inference"
                 
                 if not phase and phases: phase = phases[0]
                 
-                row = {"Run": r["label"]}
+                # New Row Structure with clean columns
+                row = {
+                    "Model": parsed["Model"],
+                    "Condition": parsed["Condition"],
+                    # "Run ID": r["name"]
+                }
+                
+                # Add Phase Metrics
                 if phase and phase in r["metrics"]:
                     m = r["metrics"][phase]
                     pwr = m.get("power_avg_w", 0)
                     eng = m.get("energy_j", 0)
                     time = m.get("duration_s", 0)
-                    row["Power (W)"] = f"{pwr:.1f}"
+                    row["Avg Power (W)"] = pwr # Keep as number for sorting? No, user wants formatted with delta.
                     row["Energy (J)"] = f"{eng:.1f}"
                     row["Time (s)"] = f"{time:.1f}"
-
+                    
+                    # Format Power with Delta
+                    pwr_str = f"{pwr:.1f}"
                     if base_run and base_run != r and phase in base_run["metrics"]:
                         bm = base_run["metrics"][phase]
                         d_pwr = calculate_delta(pwr, bm.get("power_avg_w", 0))
-                        d_eng = calculate_delta(eng, bm.get("energy_j", 0))
-                        d_time = calculate_delta(time, bm.get("duration_s", 0))
-                        if d_pwr: row["Power (W)"] += f" ({d_pwr:+.1f}%)"
-                        if d_eng: row["Energy (J)"] += f" ({d_eng:+.1f}%)"
-                        if d_time: row["Time (s)"] += f" ({d_time:+.1f}%)"
-                
-                if category == "LLM" and r["infer_metrics"] and phase in r["metrics"]:
-                    calc_duration = r["metrics"][phase].get("duration_s", 0)
-                    calc_energy = r["metrics"][phase].get("energy_j", 0)
+                        if d_pwr: pwr_str += f" ({d_pwr:+.1f}%)"
+                    row["Avg Power (W)"] = pwr_str
+
+                # Additional LLM Metrics
+                if category == "LLM" and r["infer_metrics"]:
                     total_tokens = r["infer_metrics"].get("total_output_tokens", 0)
-                    if calc_duration > 0:
-                        tps = total_tokens / calc_duration
-                        row["Tok/s"] = f"{tps:.1f}"
-                    if total_tokens > 0:
-                        jpt = calc_energy / total_tokens
-                        row["J/Tok"] = f"{jpt:.2f}"
+                    if phase and phase in r["metrics"]:
+                        calc_duration = r["metrics"][phase].get("duration_s", 0)
+                        calc_energy = r["metrics"][phase].get("energy_j", 0)
+                        if calc_duration > 0:
+                            tps = total_tokens / calc_duration
+                            row["Tokens/s"] = f"{tps:.1f}"
+                        if total_tokens > 0:
+                            jpt = calc_energy / total_tokens
+                            row["J/Token"] = f"{jpt:.2f}"
 
                 table_data.append(row)
             
             if table_data:
-                st.dataframe(pd.DataFrame(table_data).set_index("Run"), use_container_width=True)
+                # Custom Column Config
+                st.dataframe(
+                    pd.DataFrame(table_data), 
+                    use_container_width=True,
+                    column_config={
+                        "Avg Power (W)": st.column_config.TextColumn("Avg Power (W)", help="Average Power during active phase"),
+                        "Energy (J)": st.column_config.TextColumn("Energy (J)"),
+                        "Condition": st.column_config.TextColumn("Condition", width="medium"),
+                        "Model": st.column_config.TextColumn("Model", width="medium"),
+                    },
+                    hide_index=True
+                )
             
-            # --- Plots Grid (Always Visible) ---
-            st.markdown("##### 📈 Power Profile")
+            st.divider()
+            
+            # --- 3. Power Profile Grid ---
+            st.subheader("📈 Power Profiles & Raw Data")
             cols = st.columns(2)
             for i, r in enumerate(runs):
                 with cols[i % 2]:
+                    # Use label from parsed info
+                    plot_label = f"{r['parsed_info']['Model']} - {r['parsed_info']['Condition']}"
+                    
                     df = load_gpu_samples(r["gpu_samples"])
                     if not df.empty and "phase" in df.columns:
-                        if len(df) > 3000: # Slightly less aggressive downsampling
+                        if len(df) > 3000:
                             df = df.iloc[::2, :]
                         
-                        fig = create_phase_plot(df, r["label"])
+                        fig = create_phase_plot(df, plot_label)
                         st.plotly_chart(fig, use_container_width=True, key=f"chart_{exp_id}_{i}")
                         
                         # Download Section
@@ -359,8 +519,7 @@ def main():
                                     key=f"dl_met_{exp_id}_{i}"
                                 )
                                 
-                            # 3. Time-series CSV (Load on click logic not easy in cycle, so lazy prep)
-                            # Note: This uses the currently loaded df (could be Lite or Full)
+                            # 3. Time-series CSV
                             if not df.empty:
                                 st.download_button(
                                     label="Time-series Data (Displayed)",
@@ -370,20 +529,10 @@ def main():
                                     key=f"dl_ts_{exp_id}_{i}"
                                 )
 
-                            # 4. Full Raw Data Link (External Storage)
-                            # GitHub cannot host 19GB. We generate a link to external storage (e.g. Hugging Face URL)
-                            # User needs to upload data to HF and set the base URL.
-                            
-                            # 만약 로컬에 원본 파일이 있다면 그 경로를 활용할 수도 있겠지만, 웹 배포 환경을 가정하여 외부 링크 방식을 추천.
-                            # 현재는 예시 URL을 넣어두거나, Config에서 가져오게 할 수 있음.
-                            
+                            # 4. Hugging Face Link
                             relative_path = r["path"].relative_to(OUTPUTS_ROOT).as_posix() 
-                            
-                            # [UPDATED] Hugging Face Datasets URL (Direct Download)
-                            # Fixed: Added missing 'samples' directory in the path.
                             base_url = "https://huggingface.co/datasets/aeoxxian/Datacenter_train/resolve/main/outputs"
                             raw_url = f"{base_url}/{relative_path}/samples/gpu_samples.csv"
-                            
                             st.link_button("☁️ Download Raw Data (Direct)", raw_url)
                             
                             st.markdown("""
